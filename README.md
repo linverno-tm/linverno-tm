@@ -1,3 +1,77 @@
+<h1 align="center">Mukhammadabdulloh Tojiddinov</h1>
+
+<p align="center">
+  <b>Mobile &amp; Web Developer</b> · Flutter on mobile, Next.js on web
+</p>
+
+<p align="center">
+  <a href="mailto:tojiddinov.sft@gmail.com"><img src="https://img.shields.io/badge/Email-tojiddinov.sft%40gmail.com-0468D7?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/mukhammadabdulloh-tojiddinov"><img src="https://img.shields.io/badge/LinkedIn-Mukhammadabdulloh%20Tojiddinov-0468D7?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://t.me/m_tojiddinov7"><img src="https://img.shields.io/badge/Telegram-%40m__tojiddinov7-0468D7?style=flat-square&logo=telegram&logoColor=white" /></a>
+</p>
+
+---
+
+### About Me
+
+I build production-ready apps on two fronts: **Flutter** for mobile, **Next.js** for web. Different tools, same standard — architecture before features, real security rules instead of "test mode", and CI running on every push.
+
+The repositories here are the mobile half. The web half — client sites and Telegram bots — is described on [LinkedIn](https://www.linkedin.com/in/mukhammadabdulloh-tojiddinov).
+
+Currently exploring: real-time systems, native platform channels, and performance-focused UI.
+
+### Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+</p>
+
+### Featured Projects
+
+**💬 [ChatForge](https://github.com/linverno-tm/chat)**
+Production-oriented 1-to-1 messenger. Feature-first architecture with repository/provider separation, strict Firestore security rules, and Cloud Functions for targeted push + username uniqueness + anti-spam guards. CI workflow runs analyze, tests, and web/Android builds.
+`Flutter` `Riverpod` `Firestore` `Cloud Functions` `FCM`
+
+**✅ [Flutter Task Manager](https://github.com/linverno-tm/flutter-task-manager)**
+Cupertino-styled task manager with a real offline story: Cloud Firestore + SQLite with an auto-sync service that reconciles on connectivity change. Connectivity is confirmed by DNS resolution rather than interface state. Scheduled local notifications with exact-alarm handling and reschedule-on-edit.
+`Flutter` `Firebase` `SQLite` `Notifications` `Provider`
+
+**🎮 [Deep Purple Runner](https://github.com/linverno-tm/runner)**
+Neon glassmorphism endless runner on Flutter + Flame. Component-based game loop, asymmetric jump gravity, hitbox collision with particle burst, and a responsive glass HUD that scales across web and mobile. 24 tests cover physics, progression and persistence.
+`Flutter` `Flame` `Game Loop` `Physics`
+
+**📲 [SMS Bulk Sender](https://github.com/linverno-tm/sms-sender)**
+Android bulk SMS tool. Imports numbers from xlsx/csv/txt with a two-stage parser and ZIP/XML fallback, normalizes and dedupes them, then sends via a native Kotlin foreground service backed by SQLite — with live progress and reboot recovery.
+`Flutter` `Kotlin` `MethodChannel` `Foreground Service`
+
+### How I Work
+
+- **Architecture first** — feature-first folders, repositories separated from UI, providers wired explicitly.
+- **Offline is a requirement, not a feature** — local persistence plus a sync layer that survives bad networks.
+- **Security at the backend, not the client** — ownership-scoped rules, server-side validation, no insecure defaults.
+- **No invented data** — if a client hasn't confirmed a value, the field stays null and the UI says so. A made-up number turns into a real promise.
+- **Native when it matters** — MethodChannel + foreground services when Dart alone can't do the job.
+- **Ship-ready** — CI on every push, static analysis clean, no warnings left behind.
+
+---
+
+<p align="center">
+  <a href="mailto:tojiddinov.sft@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/mukhammadabdulloh-tojiddinov">LinkedIn</a> ·
+  <a href="https://t.me/m_tojiddinov7">Telegram</a>
+</p>
+
+<p align="center">Open to remote roles — feel free to reach out.</p>
 <h1 align="center">Hi, I'm Mukhammadabdulloh 👋</h1>
 
 <p align="center">
