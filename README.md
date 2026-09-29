@@ -66,6 +66,19 @@ Android bulk SMS tool. Imports numbers from xlsx/csv/txt with a two-stage parser
 ### ⏱️ Coding Activity (WakaTime)
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 21 September 2026 - To: 28 September 2026
+
+Total Time: 44 hrs 23 mins
+
+Other          17 hrs 15 mins        ███████░░░░░░░░░░░░░░░░░░   27.99 %
+Python         10 hrs 32 mins        ████▒░░░░░░░░░░░░░░░░░░░░   17.09 %
+TypeScript     9 hrs 56 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.14 %
+Markdown       7 hrs 10 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.64 %
+PowerShell     3 hrs 51 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.25 %
+```
+
 <!--END_SECTION:waka-->
 
 ---
