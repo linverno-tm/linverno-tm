@@ -63,23 +63,10 @@ Android bulk SMS tool. Imports numbers from xlsx/csv/txt with a two-stage parser
 - **Native when it matters** — MethodChannel + foreground services when Dart alone can't do the job.
 - **Ship-ready** — CI on every push, static analysis clean, no warnings left behind.
 
-### ⏱️ Coding Activity (WakaTime)
+### Coding Activity
 
-<!--START_SECTION:waka-->
-
-```txt
-From: 21 September 2026 - To: 28 September 2026
-
-Total Time: 44 hrs 23 mins
-
-Other          17 hrs 15 mins        ███████░░░░░░░░░░░░░░░░░░   27.99 %
-Python         10 hrs 32 mins        ████▒░░░░░░░░░░░░░░░░░░░░   17.09 %
-TypeScript     9 hrs 56 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.14 %
-Markdown       7 hrs 10 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.64 %
-PowerShell     3 hrs 51 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.25 %
-```
-
-<!--END_SECTION:waka-->
+<!-- Generated daily by .github/workflows/wakatime.yml from the WakaTime API (scripts/generate_wakatime.js) -->
+<img src="https://raw.githubusercontent.com/linverno-tm/linverno-tm/main/assets/wakatime.svg" alt="WakaTime coding activity dashboard — last 7 days" width="100%">
 
 ---
 
