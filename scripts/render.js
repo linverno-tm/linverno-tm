@@ -622,7 +622,7 @@ function renderWhatIBuild(parts, y, blocks) {
   parts.push(card(PAD, y, INNER, h));
   blocks.forEach((b, i) => {
     const x = PAD + 20 + (i % perRow) * (colW + 24), by = y + 30 + Math.floor(i / perRow) * rowH;
-    parts.push(text(x, by, fitText(b.title, 11, colW - 10), 'label'));
+    parts.push(text(x, by, fitText(b.title, 11, colW - 18), 'label'));
     // Prefer fewer technologies over a truncated sentence.
     let lines = null;
     for (let n = b.techs.length; n >= 0; n--) {
