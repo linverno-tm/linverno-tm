@@ -63,10 +63,10 @@ Android bulk SMS tool. Imports numbers from xlsx/csv/txt with a two-stage parser
 - **Native when it matters** — MethodChannel + foreground services when Dart alone can't do the job.
 - **Ship-ready** — CI on every push, static analysis clean, no warnings left behind.
 
-### Coding Activity
+### Developer Activity
 
-<!-- Generated daily by .github/workflows/wakatime.yml from the WakaTime API (scripts/generate_wakatime.js) -->
-<img src="https://raw.githubusercontent.com/linverno-tm/linverno-tm/main/assets/wakatime.svg" alt="WakaTime coding activity dashboard — last 7 days" width="100%">
+<!-- Generated daily by .github/workflows/developer-profile.yml: WakaTime coding activity + GitHub repository intelligence (scripts/generate_profile.js). Private repositories are analyzed but anonymized. -->
+<img src="https://raw.githubusercontent.com/linverno-tm/linverno-tm/main/assets/profile.svg" alt="Developer activity — WakaTime coding statistics and GitHub project intelligence, updated daily" width="100%">
 
 ---
 
