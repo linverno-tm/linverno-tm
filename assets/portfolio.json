@@ -18,7 +18,7 @@
    "url": "https://github.com/linverno-tm/hamkor-savdo-site",
    "stars": 0,
    "forks": 0,
-   "category": "Business Software",
+   "category": "Web Applications",
    "platform": "Web",
    "technologies": [
     "TypeScript",
@@ -40,14 +40,13 @@
     "Reporting & analytics",
     "Excel & PDF processing",
     "Payments integration",
-    "Telegram bot automation",
     "SMS & messaging",
     "File import/export",
     "CI/CD pipelines",
     "Static site generation"
    ],
    "maturity": "Active",
-   "rank": 8.4
+   "rank": 8.2
   },
   {
    "kind": "public",
@@ -173,14 +172,13 @@
     "Reporting & analytics",
     "Excel & PDF processing",
     "Accounting & invoicing",
-    "Telegram bot automation",
     "Data processing",
     "File import/export",
     "Desktop packaging",
     "Desktop UI"
    ],
    "maturity": "Active",
-   "rank": 5.800000000000001
+   "rank": 5.6
   },
   {
    "kind": "public",
@@ -305,47 +303,24 @@
   {
    "name": "Business Software",
    "domain": true,
-   "count": 6,
-   "public": 6,
-   "private": 0,
-   "technologies": [
-    "Python",
-    "SQLite",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "JavaScript"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Sales & POS",
-    "CI/CD pipelines",
-    "File import/export",
-    "Local database"
-   ]
-  },
-  {
-   "name": "Web Applications",
-   "domain": false,
    "count": 5,
    "public": 5,
    "private": 0,
    "technologies": [
-    "TypeScript",
-    "Flutter",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Dart"
+    "SQLite",
+    "Python",
+    "Cloud Firestore",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Firebase"
    ],
    "capabilities": [
-    "CI/CD pipelines",
+    "Excel & PDF processing",
+    "Local database",
     "Reporting & analytics",
-    "Static site generation",
-    "Authentication",
     "Sales & POS",
-    "SMS & messaging"
+    "Accounting & invoicing",
+    "Authentication"
    ]
   },
   {
@@ -372,79 +347,33 @@
    ]
   },
   {
-   "name": "Desktop Applications",
+   "name": "Web Applications",
    "domain": false,
-   "count": 4,
-   "public": 4,
+   "count": 3,
+   "public": 3,
    "private": 0,
    "technologies": [
-    "Python",
-    "Flame",
-    "Flutter",
     "Next.js",
     "React",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Accounting & invoicing",
-    "CI/CD pipelines",
-    "Desktop packaging",
-    "Desktop UI"
-   ]
-  },
-  {
-   "name": "Developer Tools",
-   "domain": true,
-   "count": 3,
-   "public": 3,
-   "private": 0,
-   "technologies": [
-    "Cloud Firestore",
-    "Firebase",
-    "Flutter",
-    "Dart",
+    "Tailwind CSS",
     "TypeScript",
-    "Cloud Functions"
+    "Cloudflare D1",
+    "Cloudflare Workers"
    ],
    "capabilities": [
-    "CI/CD pipelines",
     "Reporting & analytics",
+    "Sales & POS",
+    "Static site generation",
     "Authentication",
-    "Cloud synchronization",
-    "File import/export",
-    "Offline-first sync"
+    "CI/CD pipelines",
+    "Customer management"
    ]
   },
   {
-   "name": "Backend Systems",
+   "name": "Desktop Applications",
    "domain": false,
    "count": 3,
    "public": 3,
-   "private": 0,
-   "technologies": [
-    "Cloud Firestore",
-    "Firebase",
-    "Flutter",
-    "SQLite",
-    "Dart",
-    "TypeScript"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Reporting & analytics",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "Local database",
-    "Offline-first sync"
-   ]
-  },
-  {
-   "name": "AI & Automation",
-   "domain": true,
-   "count": 2,
-   "public": 2,
    "private": 0,
    "technologies": [
     "Python",
@@ -456,11 +385,11 @@
    ],
    "capabilities": [
     "Excel & PDF processing",
-    "File import/export",
-    "Inventory management",
-    "Reporting & analytics",
     "Sales & POS",
-    "Telegram bot automation"
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI",
+    "File import/export"
    ]
   },
   {
@@ -484,6 +413,29 @@
     "Push notifications",
     "Real-time updates",
     "Reporting & analytics"
+   ]
+  },
+  {
+   "name": "Backend Systems",
+   "domain": false,
+   "count": 2,
+   "public": 2,
+   "private": 0,
+   "technologies": [
+    "TypeScript",
+    "Cloud Firestore",
+    "Cloud Functions",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Firebase"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Reporting & analytics",
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "Employee & HR workflows",
+    "Local database"
    ]
   },
   {
