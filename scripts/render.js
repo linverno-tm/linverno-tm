@@ -51,7 +51,9 @@ function orderStack(techs, p) {
     if (m.language) return 5;
     return { mobile: 0, web: 1, backend: 2, database: 3, ai: 4, tools: 6 }[m.group] ?? 6;
   };
-  return techs.filter((t) => !NOISE.has(t) && !(t === 'Node.js' && hasFramework)).sort((a, b) => rank(a) - rank(b) || (meta.get(b)?.count || 0) - (meta.get(a)?.count || 0));
+  const ordered = techs.filter((t) => !NOISE.has(t) && !(t === 'Node.js' && hasFramework)).sort((a, b) => rank(a) - rank(b) || (meta.get(b)?.count || 0) - (meta.get(a)?.count || 0));
+  // A plain HTML/CSS site has nothing but "noise" — show it rather than nothing.
+  return ordered.length ? ordered : techs.filter((t) => t !== 'GitHub Actions').sort((a, b) => rank(a) - rank(b));
 }
 
 function arcPath(cx, cy, r, startDeg, endDeg) {

@@ -297,6 +297,7 @@ function detectCapabilities(ctx) {
     if (!hit && c.deps && c.deps.some((d) => deps.has(d))) hit = true;
     if (!hit && c.files && paths.some((p) => c.files.some((re) => re.test(p)))) hit = true;
     if (!hit && c.keywords && c.keywords.some(has)) hit = true;
+    if (!hit && c.nameKeywords && c.nameKeywords.some(ctx.hasName)) hit = true;
     if (hit) found.add(c.name);
   }
   return [...found];
@@ -304,7 +305,7 @@ function detectCapabilities(ctx) {
 
 function scoreCategories(ctx, techs, caps) {
   const techSet = new Set(techs), capSet = new Set(caps);
-  const { has, flags, paths } = ctx;
+  const { has, hasName, flags, paths } = ctx;
   const fileSignals = {
     action: paths.some((p) => /^action\.ya?ml$/.test(p)),
     terraform: paths.some((p) => /\.tf$/.test(p)),
@@ -317,14 +318,21 @@ function scoreCategories(ctx, techs, caps) {
     for (const [t, w] of Object.entries(cat.techs || {})) if (techSet.has(t)) s += w;
     for (const [c, w] of Object.entries(cat.caps || {})) if (capSet.has(c)) s += w;
     for (const [k, w] of Object.entries(cat.keywords || {})) if (has(k)) s += w;
+    for (const [k, w] of Object.entries(cat.nameKeywords || {})) if (hasName(k)) s += w;
     for (const [f, w] of Object.entries(cat.flags || {})) if (flags[f]) s += w;
     for (const [f, w] of Object.entries(cat.files || {})) if (fileSignals[f]) s += w;
     scores[cat.name] = s;
   }
-  // A marketing/landing site that merely mentions a business is not business software.
-  if (capSet.has('Static site generation') && !techSet.has('PostgreSQL') && !techSet.has('Prisma') && !techSet.has('Supabase') && !techSet.has('Firebase')) {
-    scores['Business Software'] = Math.max(0, scores['Business Software'] - 4);
-    scores['E-commerce'] = Math.max(0, scores['E-commerce'] - 4);
+  // A marketing/landing site that merely describes a business is not business software.
+  const hasDataLayer = ['PostgreSQL', 'MySQL', 'MongoDB', 'Prisma', 'Drizzle ORM', 'Supabase', 'Firebase', 'Cloud Firestore', 'SQLite', 'Cloudflare D1', 'Redis'].some((t) => techSet.has(t));
+  if (capSet.has('Static site generation') && !hasDataLayer) {
+    scores['Business Software'] = Math.min(scores['Business Software'], 1);
+    scores['E-commerce'] = Math.min(scores['E-commerce'], 1);
+  }
+  // Flutter projects ship web/ and desktop/ folders by default; only explicit signals count.
+  if (flags.flutter && flags.flutterMobile) {
+    if (!flags.flutterWebOnly) scores['Web Applications'] = Math.max(0, scores['Web Applications'] - 3);
+    if (!flags.flutterDesktopOnly) scores['Desktop Applications'] = Math.max(0, scores['Desktop Applications'] - 3);
   }
   return scores;
 }
@@ -389,7 +397,8 @@ function analyzeRepo(raw, login, now) {
   const nameWords = meta.name.replace(/[-_.]+/g, ' ');
   const text = `${nameWords} ${meta.description || ''} ${(meta.topics || []).join(' ')} ${(raw.readme || '').slice(0, 20000)}`.toLowerCase();
   const has = keywordMatcher(text);
-  const ctx = { langBytes, totalBytes, deps, paths, has, flags };
+  const hasName = keywordMatcher(nameWords.toLowerCase());
+  const ctx = { langBytes, totalBytes, deps, paths, has, hasName, flags };
 
   const techs = detectTechnologies(ctx);
   const caps = detectCapabilities(ctx);
