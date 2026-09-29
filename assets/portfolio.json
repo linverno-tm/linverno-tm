@@ -515,29 +515,6 @@
    ]
   },
   {
-   "name": "Desktop Applications",
-   "domain": false,
-   "count": 3,
-   "public": 2,
-   "private": 1,
-   "technologies": [
-    "Tkinter",
-    "Python",
-    "Next.js",
-    "PostgreSQL",
-    "React",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Data processing",
-    "Desktop UI"
-   ]
-  },
-  {
    "name": "AI & Automation",
    "domain": true,
    "count": 2,
@@ -558,6 +535,26 @@
     "Authentication",
     "CI/CD pipelines",
     "ERP integration"
+   ]
+  },
+  {
+   "name": "Desktop Applications",
+   "domain": false,
+   "count": 2,
+   "public": 2,
+   "private": 0,
+   "technologies": [
+    "Tkinter",
+    "Python",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "Data processing"
    ]
   },
   {

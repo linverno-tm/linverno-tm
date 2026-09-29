@@ -260,14 +260,14 @@
 <text x="44" y="969" class="sub">Cloud Firestore</text>
 <rect x="241.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="265" cy="919" r="4" fill="#9AA4B2"/>
-<text x="275" y="923" class="label">DESKTOP</text>
-<text x="261" y="951" class="big">3<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="261" y="969" class="sub">Tkinter · Python · Next.js</text>
+<text x="275" y="923" class="label">AI &amp; AUTOMATION</text>
+<text x="261" y="951" class="big">2<tspan class="big-suffix" dx="5">projects</tspan></text>
+<text x="261" y="969" class="sub">Telegram Bot API</text>
 <rect x="458.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="919" r="4" fill="#8B7CF6"/>
-<text x="492" y="923" class="label">AI &amp; AUTOMATION</text>
+<text x="492" y="923" class="label">DESKTOP</text>
 <text x="478" y="951" class="big">2<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="478" y="969" class="sub">Telegram Bot API</text>
+<text x="478" y="969" class="sub">Tkinter · Python · SQLite</text>
 <rect x="675.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="699" cy="919" r="4" fill="#5FA8F5"/>
 <text x="709" y="923" class="label">GAMES</text>
