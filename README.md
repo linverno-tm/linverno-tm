@@ -63,6 +63,11 @@ Android bulk SMS tool. Imports numbers from xlsx/csv/txt with a two-stage parser
 - **Native when it matters** — MethodChannel + foreground services when Dart alone can't do the job.
 - **Ship-ready** — CI on every push, static analysis clean, no warnings left behind.
 
+### ⏱️ Coding Activity (WakaTime)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ---
 
 <p align="center">
