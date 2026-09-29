@@ -1,0 +1,57 @@
+name: Developer Profile
+
+# Regenerates assets/profile.svg — WakaTime coding activity + GitHub repository intelligence —
+# and commits it when it changes.
+#
+# Secrets
+#   WAKATIME_API_KEY     WakaTime API key (required).
+#   GH_PORTFOLIO_TOKEN   Fine-grained personal access token, read-only "Contents" + "Metadata" on all
+#                        repositories. Enables private-repository analysis (output is anonymized).
+#                        Optional: without it only public repositories are analyzed.
+# Secrets reach the generator only as environment variables. They are never printed or rendered,
+# and the generator aborts (nothing is committed) if any private identifier or token-like string
+# would appear in the output.
+
+on:
+  schedule:
+    - cron: '30 22 * * *'   # 03:30 Asia/Tashkent — previous day is complete
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: developer-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Generate profile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch WakaTime + GitHub data and render SVG
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_PORTFOLIO_TOKEN: ${{ secrets.GH_PORTFOLIO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate_profile.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets/
+          if git diff --cached --quiet; then
+            echo "Profile unchanged — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: update developer profile"
+          git push
