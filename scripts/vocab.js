@@ -100,13 +100,13 @@ const TECHNOLOGIES = [
   // ── Tools / desktop ──
   { name: 'Docker', group: 'tools', files: [/(^|\/)Dockerfile$/, /^docker-compose\.ya?ml$/, /^compose\.ya?ml$/] },
   { name: 'GitHub Actions', group: 'tools', files: [/^\.github\/workflows\/.+\.ya?ml$/] },
-  { name: 'Electron', group: 'tools', deps: ['npm:electron'] },
-  { name: 'Tauri', group: 'tools', deps: ['npm:@tauri-apps/api'], files: [/^src-tauri\//] },
-  { name: 'PyInstaller', group: 'tools', deps: ['py:pyinstaller'], files: [/^[^/]+\.spec$/] },
-  { name: 'CustomTkinter', group: 'tools', deps: ['py:customtkinter'] },
-  { name: 'Tkinter', group: 'tools', keywords: ['tkinter'] },
-  { name: 'PyQt', group: 'tools', deps: ['py:pyqt5', 'py:pyqt6', 'py:pyside6'] },
-  { name: 'Flet', group: 'tools', deps: ['py:flet'] },
+  { name: 'Electron', group: 'desktop', deps: ['npm:electron'] },
+  { name: 'Tauri', group: 'desktop', deps: ['npm:@tauri-apps/api'], files: [/^src-tauri\//] },
+  { name: 'PyInstaller', group: 'desktop', deps: ['py:pyinstaller'], files: [/^[^/]+\.spec$/] },
+  { name: 'CustomTkinter', group: 'desktop', deps: ['py:customtkinter'] },
+  { name: 'Tkinter', group: 'desktop', keywords: ['tkinter'] },
+  { name: 'PyQt', group: 'desktop', deps: ['py:pyqt5', 'py:pyqt6', 'py:pyside6'] },
+  { name: 'Flet', group: 'desktop', deps: ['py:flet'] },
 ];
 
 const CAPABILITIES = [
@@ -167,7 +167,7 @@ const CATEGORIES = [
   { name: 'Mobile Applications', platform: true, techs: { Flutter: 3, 'React Native': 3, Kotlin: 1, Swift: 1 }, flags: { flutterMobile: 1, androidNative: 3, iosNative: 3 }, keywords: { 'mobile app': 2, android: 1, ios: 1, 'mobil ilova': 2 } },
   { name: 'Web Applications', platform: true, techs: { 'Next.js': 3, React: 2, 'Vue.js': 3, Nuxt: 3, Angular: 3, Svelte: 3, 'Tailwind CSS': 1, HTML: 1, CSS: 1, WordPress: 3, Laravel: 2 }, flags: { flutterWebOnly: 3, staticSite: 2 }, keywords: { website: 2, 'landing page': 3, landing: 2, 'web app': 2, 'web application': 2, frontend: 2, sayt: 2, сайт: 2, dashboard: 1 } },
   { name: 'Backend Systems', platform: true, minScore: 3, techs: { Express: 3, NestJS: 3, Fastify: 3, Hono: 3, FastAPI: 3, Django: 3, Flask: 3, 'Cloud Functions': 2, 'Cloudflare Workers': 2, PostgreSQL: 1, MongoDB: 1, Redis: 1, Prisma: 1, Docker: 1, GraphQL: 1 }, keywords: { backend: 2, 'rest api': 1, server: 1, microservice: 2, 'api service': 2 } },
-  { name: 'Desktop Applications', platform: true, minScore: 3, techs: { Electron: 3, Tauri: 3, PyInstaller: 2, CustomTkinter: 3, Tkinter: 3, PyQt: 3, Flet: 2 }, caps: { 'Desktop UI': 2, 'Desktop packaging': 2 }, flags: { flutterDesktopOnly: 3 }, keywords: { 'desktop app': 3, 'desktop application': 3, 'desktop dastur': 3, 'windows app': 3, 'windows dasturi': 3, 'windows desktop': 3, desktop: 1, windows: 1, '.exe': 2 } },
+  { name: 'Desktop Applications', platform: true, minScore: 4, techs: { Electron: 4, Tauri: 4, PyInstaller: 2, CustomTkinter: 4, Tkinter: 4, PyQt: 4, Flet: 3 }, caps: { 'Desktop UI': 2, 'Desktop packaging': 2 }, flags: { flutterDesktopOnly: 4 }, keywords: { 'desktop app': 3, 'desktop application': 3, 'desktop dastur': 3, 'windows app': 3, 'windows dasturi': 3, 'windows desktop': 3, '.exe': 2 } },
   { name: 'Experimental', domain: true, minScore: 3, keywords: { experiment: 3, experimental: 3, prototype: 3, playground: 3, sandbox: 3, poc: 3, 'proof of concept': 3, demo: 2, learning: 2, tutorial: 2, practice: 2, 'test project': 3, example: 1, sinov: 3, tajriba: 3 }, flags: { tiny: 1 } },
 ];
 

@@ -22,7 +22,22 @@
 const U = require('./util');
 const V = require('./vocab');
 
-const AREA_LABELS = { mobile: 'Mobile', web: 'Web', backend: 'Backend', database: 'Database', tools: 'Tools', ai: 'AI & Automation' };
+const AREA_LABELS = { mobile: 'Mobile', web: 'Web', backend: 'Backend', database: 'Database', desktop: 'Desktop', ai: 'AI & Automation', tools: 'Tools' };
+
+/**
+ * Technology groups that characterize a category. A project can belong to several
+ * categories, so a category's technology list is ordered by relevance to THAT
+ * category first — otherwise a web app that also counts as, say, a desktop project
+ * would put its web stack on the desktop tile.
+ */
+const CATEGORY_GROUPS = {
+  'Mobile Applications': ['mobile'],
+  'Web Applications': ['web'],
+  'Backend Systems': ['backend', 'database'],
+  'Desktop Applications': ['desktop'],
+  'AI & Automation': ['ai'],
+  Games: ['mobile'],
+};
 const ROMAN = ['', ' II', ' III', ' IV', ' V', ' VI', ' VII', ' VIII', ' IX', ' X'];
 const IMPLIED_PAIRS = [['Flutter', 'Dart'], ['Next.js', 'React'], ['Cloud Firestore', 'Firebase'], ['Node.js', 'JavaScript'], ['Node.js', 'TypeScript'], ['Nuxt', 'Vue.js'], ['Cloud Functions', 'Firebase'], ['Cloud Functions', 'Node.js'], ['Cloudflare D1', 'Cloudflare Workers'], ['Riverpod', 'Dart'], ['Provider', 'Dart'], ['Flame', 'Dart'], ['Bloc', 'Dart'], ['GetX', 'Dart'], ['React', 'TypeScript'], ['Next.js', 'TypeScript'], ['Next.js', 'Node.js'], ['React', 'Node.js'], ['Tailwind CSS', 'Next.js'], ['Tailwind CSS', 'React'], ['Riverpod', 'Flutter'], ['Provider', 'Flutter'], ['Flame', 'Flutter'], ['Bloc', 'Flutter'], ['GetX', 'Flutter'], ['pandas', 'Python'], ['FastAPI', 'Python'], ['Django', 'Python'], ['Flask', 'Python'], ['CustomTkinter', 'Python'], ['PyInstaller', 'Python'], ['Tkinter', 'Python'], ['Express', 'Node.js'], ['Hono', 'Cloudflare Workers'], ['Cloud Firestore', 'Flutter'], ['Firebase', 'Flutter'], ['Firebase', 'Dart'], ['Cloud Firestore', 'Dart'], ['SQLite', 'Dart'], ['REST APIs', 'Dart'], ['REST APIs', 'Flutter'], ['REST APIs', 'Python'], ['Kotlin', 'Dart'], ['Kotlin', 'Flutter'], ['CSS', 'HTML'], ['JavaScript', 'HTML'], ['JavaScript', 'CSS'], ['GitHub Actions', 'Dart'], ['GitHub Actions', 'Flutter']];
 
@@ -144,8 +159,12 @@ function buildPortfolio(analysis, now = new Date()) {
   const categories = V.CATEGORIES.filter((c) => catCount.get(c.name)).map((c) => {
     const members = projects.filter((r) => r.categories.includes(c.name));
     const tc = countBy(members, (r) => r.techs.filter((t) => !NOISE_TECHS.has(t)));
-    // frameworks/services first, then languages — the things that characterize the category
-    const top = [...tc.entries()].sort((x, y) => y[1] - x[1] || (LANGUAGE_TECHS.has(x[0]) - LANGUAGE_TECHS.has(y[0])) || x[0].localeCompare(y[0])).slice(0, 6).map((x) => x[0]);
+    const relevant = CATEGORY_GROUPS[c.name] || null;
+    const onTopic = (t) => (relevant ? (relevant.includes(techGroup.get(t)) ? 0 : 1) : 0);
+    // category-relevant first, then frequency, then frameworks/services before languages
+    const top = [...tc.entries()]
+      .sort((x, y) => onTopic(x[0]) - onTopic(y[0]) || y[1] - x[1] || (LANGUAGE_TECHS.has(x[0]) - LANGUAGE_TECHS.has(y[0])) || x[0].localeCompare(y[0]))
+      .slice(0, 6).map((x) => x[0]);
     const cc = countBy(members, (r) => r.caps);
     const caps = [...cc.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0])).slice(0, 6).map((x) => x[0]);
     return { name: c.name, domain: !!c.domain, count: members.length, public: members.filter((r) => !r.private).length, private: members.filter((r) => r.private).length, technologies: top, capabilities: caps };

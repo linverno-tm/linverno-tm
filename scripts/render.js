@@ -30,9 +30,9 @@ const dot = (x, y, color, r = 4.5) => `<circle cx="${round(x)}" cy="${round(y)}"
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 
 const NOISE = new Set(['GitHub Actions', 'CSS', 'HTML', 'Shell', 'PowerShell', 'Docker']);
-const FRAMEWORK_GROUPS = new Set(['mobile', 'web', 'backend']);
+const FRAMEWORK_GROUPS = new Set(['mobile', 'web', 'backend', 'desktop']);
 const SHORT_CATEGORY = { 'Mobile Applications': 'MOBILE', 'Web Applications': 'WEB', 'Backend Systems': 'BACKEND', 'Desktop Applications': 'DESKTOP', 'Business Software': 'BUSINESS SOFTWARE', 'AI & Automation': 'AI & AUTOMATION', 'Developer Tools': 'DEVELOPER TOOLS', 'Productivity': 'PRODUCTIVITY', 'E-commerce': 'E-COMMERCE', 'Games': 'GAMES', 'Infrastructure': 'INFRASTRUCTURE', 'Experimental': 'EXPERIMENTAL' };
-const GROUP_COLOR = { mobile: C.palette[0], web: C.palette[1], backend: C.palette[2], database: C.palette[3], ai: C.palette[4], tools: C.palette[5] };
+const GROUP_COLOR = { mobile: C.palette[0], web: C.palette[1], backend: C.palette[2], database: C.palette[3], desktop: C.palette[4], ai: C.palette[4], tools: C.palette[5] };
 
 /** Join items with a separator, dropping trailing items until the line fits (never cuts a name in half). */
 function fitList(items, size, maxWidth, sep = ' · ', min = 1) {
@@ -49,7 +49,7 @@ function orderStack(techs, p) {
   const rank = (t) => {
     const m = meta.get(t) || { group: 'tools', language: false };
     if (m.language) return 5;
-    return { mobile: 0, web: 1, backend: 2, database: 3, ai: 4, tools: 6 }[m.group] ?? 6;
+    return { mobile: 0, web: 1, desktop: 1, backend: 2, database: 3, ai: 4, tools: 6 }[m.group] ?? 6;
   };
   const ordered = techs.filter((t) => !NOISE.has(t) && !(t === 'Node.js' && hasFramework)).sort((a, b) => rank(a) - rank(b) || (meta.get(b)?.count || 0) - (meta.get(a)?.count || 0));
   // A plain HTML/CSS site has nothing but "noise" — show it rather than nothing.
