@@ -1,14 +1,14 @@
 {
  "login": "linverno-tm",
- "mode": "public",
+ "mode": "private",
  "partial": false,
  "generatedAt": "2026-09-29",
  "counts": {
-  "repositories": 11,
-  "projects": 10,
+  "repositories": 16,
+  "projects": 14,
   "public": 10,
-  "private": 0,
-  "excluded": 1
+  "private": 4,
+  "excluded": 2
  },
  "projects": [
   {
@@ -84,6 +84,35 @@
    ],
    "maturity": "Active",
    "rank": 8.2
+  },
+  {
+   "kind": "private",
+   "title": "Retail Operations Platform",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "SQL",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "PostgreSQL"
+   ],
+   "capabilities": [
+    "Sales & POS",
+    "Installment & credit tracking",
+    "Customer management",
+    "ERP integration",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Payments integration",
+    "Data processing",
+    "File import/export",
+    "Desktop packaging"
+   ],
+   "maturity": "Active",
+   "rank": 7.4
   },
   {
    "kind": "public",
@@ -257,6 +286,52 @@
    "rank": 5.4
   },
   {
+   "kind": "private",
+   "title": "Telegram Automation Bot",
+   "category": "AI & Automation",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Node.js",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Telegram Bot API"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "Scheduled jobs",
+    "Task & schedule management"
+   ],
+   "maturity": "Active",
+   "rank": 5.2
+  },
+  {
+   "kind": "private",
+   "title": "Telegram Automation Bot II",
+   "category": "AI & Automation",
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Node.js",
+    "REST APIs",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "ERP integration",
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "API integration",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 5.2
+  },
+  {
    "kind": "public",
    "name": "invoice-to-smartpos",
    "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
@@ -297,61 +372,85 @@
    ],
    "maturity": "Active",
    "rank": 3.6
+  },
+  {
+   "kind": "private",
+   "title": "Mobile Productivity App",
+   "category": "Productivity",
+   "platform": "Mobile",
+   "technologies": [
+    "Dart",
+    "Flutter",
+    "Provider",
+    "Firebase",
+    "Cloud Firestore"
+   ],
+   "capabilities": [
+    "Offline-first sync",
+    "Push notifications",
+    "Real-time updates",
+    "Cloud synchronization",
+    "State management",
+    "Role-based access",
+    "Task & schedule management"
+   ],
+   "maturity": "Maintained",
+   "rank": 3.4000000000000004
   }
  ],
  "categories": [
   {
    "name": "Business Software",
    "domain": true,
-   "count": 5,
+   "count": 7,
    "public": 5,
-   "private": 0,
+   "private": 2,
    "technologies": [
-    "SQLite",
     "Python",
-    "Cloud Firestore",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Firebase"
+    "SQLite",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "JavaScript"
    ],
    "capabilities": [
     "Excel & PDF processing",
-    "Local database",
-    "Reporting & analytics",
     "Sales & POS",
     "Accounting & invoicing",
-    "Authentication"
+    "CI/CD pipelines",
+    "Desktop packaging",
+    "ERP integration"
    ]
   },
   {
    "name": "Mobile Applications",
    "domain": false,
-   "count": 4,
+   "count": 5,
    "public": 4,
-   "private": 0,
+   "private": 1,
    "technologies": [
     "Flutter",
     "Dart",
     "Cloud Firestore",
     "Firebase",
-    "SQLite",
-    "Cloud Functions"
+    "Provider",
+    "SQLite"
    ],
    "capabilities": [
-    "CI/CD pipelines",
-    "Native platform integration",
     "Push notifications",
     "Real-time updates",
-    "Reporting & analytics",
-    "Authentication"
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "Native platform integration",
+    "Offline-first sync"
    ]
   },
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 3,
+   "count": 5,
    "public": 3,
-   "private": 0,
+   "private": 2,
    "technologies": [
     "Next.js",
     "React",
@@ -361,81 +460,104 @@
     "Cloudflare Workers"
    ],
    "capabilities": [
+    "Excel & PDF processing",
     "Reporting & analytics",
     "Sales & POS",
-    "Static site generation",
     "Authentication",
-    "CI/CD pipelines",
-    "Customer management"
-   ]
-  },
-  {
-   "name": "Desktop Applications",
-   "domain": false,
-   "count": 3,
-   "public": 3,
-   "private": 0,
-   "technologies": [
-    "Python",
-    "Next.js",
-    "React",
-    "SQLite",
-    "Tailwind CSS",
-    "Tkinter"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Desktop UI",
+    "Customer management",
     "File import/export"
    ]
   },
   {
    "name": "Productivity",
    "domain": true,
-   "count": 2,
+   "count": 4,
    "public": 2,
-   "private": 0,
+   "private": 2,
    "technologies": [
     "Flutter",
-    "SQLite",
     "Dart",
     "Cloud Firestore",
     "Firebase",
-    "Provider"
+    "Provider",
+    "SQLite"
    ],
    "capabilities": [
-    "File import/export",
-    "Local database",
-    "Native platform integration",
+    "Task & schedule management",
     "Push notifications",
     "Real-time updates",
-    "Reporting & analytics"
+    "Reporting & analytics",
+    "Authentication",
+    "Cloud synchronization"
    ]
   },
   {
    "name": "Backend Systems",
    "domain": false,
-   "count": 2,
+   "count": 3,
    "public": 2,
-   "private": 0,
+   "private": 1,
    "technologies": [
     "TypeScript",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
     "Cloud Firestore",
-    "Cloud Functions",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Firebase"
+    "Cloud Functions"
    ],
    "capabilities": [
     "Authentication",
     "Reporting & analytics",
+    "Sales & POS",
+    "Accounting & invoicing",
     "CI/CD pipelines",
-    "Cloud synchronization",
-    "Employee & HR workflows",
-    "Local database"
+    "Cloud synchronization"
+   ]
+  },
+  {
+   "name": "Desktop Applications",
+   "domain": false,
+   "count": 3,
+   "public": 2,
+   "private": 1,
+   "technologies": [
+    "Python",
+    "Next.js",
+    "PostgreSQL",
+    "React",
+    "SQLite",
+    "Tailwind CSS"
+   ],
+   "capabilities": [
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "Data processing",
+    "Desktop UI"
+   ]
+  },
+  {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 2,
+   "public": 0,
+   "private": 2,
+   "technologies": [
+    "JavaScript",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "REST APIs",
+    "Telegram Bot API",
+    "Python"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "API integration",
+    "Authentication",
+    "CI/CD pipelines",
+    "ERP integration"
    ]
   },
   {
@@ -454,6 +576,28 @@
     "Game mechanics",
     "Native platform integration",
     "Static site generation"
+   ]
+  },
+  {
+   "name": "Developer Tools",
+   "domain": true,
+   "count": 1,
+   "public": 0,
+   "private": 1,
+   "technologies": [
+    "Cloud Firestore",
+    "Firebase",
+    "Flutter",
+    "Provider",
+    "Dart"
+   ],
+   "capabilities": [
+    "Cloud synchronization",
+    "Offline-first sync",
+    "Push notifications",
+    "Real-time updates",
+    "Role-based access",
+    "State management"
    ]
   },
   {
@@ -485,182 +629,220 @@
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
-   "count": 5,
-   "percent": 50
+   "count": 6,
+   "percent": 42.857142857142854
+  },
+  {
+   "name": "Node.js",
+   "group": "backend",
+   "language": false,
+   "count": 6,
+   "percent": 42.857142857142854
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
-   "count": 4,
-   "percent": 40
+   "count": 5,
+   "percent": 35.714285714285715
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
-   "count": 4,
-   "percent": 40
+   "count": 5,
+   "percent": 35.714285714285715
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
+   "count": 5,
+   "percent": 35.714285714285715
+  },
+  {
+   "name": "JavaScript",
+   "group": "web",
+   "language": true,
    "count": 4,
-   "percent": 40
+   "percent": 28.57142857142857
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 4,
-   "percent": 40
-  },
-  {
-   "name": "Node.js",
-   "group": "backend",
-   "language": false,
-   "count": 3,
-   "percent": 30
+   "percent": 28.57142857142857
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
-   "count": 3,
-   "percent": 30
+   "count": 4,
+   "percent": 28.57142857142857
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
-   "count": 2,
-   "percent": 20
+   "count": 3,
+   "percent": 21.428571428571427
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
-   "count": 2,
-   "percent": 20
-  },
-  {
-   "name": "JavaScript",
-   "group": "web",
-   "language": true,
-   "count": 2,
-   "percent": 20
+   "count": 3,
+   "percent": 21.428571428571427
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
-   "count": 2,
-   "percent": 20
+   "count": 3,
+   "percent": 21.428571428571427
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
-   "count": 2,
-   "percent": 20
+   "count": 3,
+   "percent": 21.428571428571427
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
+   "count": 3,
+   "percent": 21.428571428571427
+  },
+  {
+   "name": "Cloudflare D1",
+   "group": "database",
+   "language": false,
    "count": 2,
-   "percent": 20
+   "percent": 14.285714285714285
+  },
+  {
+   "name": "Cloudflare Workers",
+   "group": "backend",
+   "language": false,
+   "count": 2,
+   "percent": 14.285714285714285
+  },
+  {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 2,
+   "percent": 14.285714285714285
+  },
+  {
+   "name": "Provider",
+   "group": "mobile",
+   "language": false,
+   "count": 2,
+   "percent": 14.285714285714285
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 10
-  },
-  {
-   "name": "Cloudflare D1",
-   "group": "database",
-   "language": false,
-   "count": 1,
-   "percent": 10
-  },
-  {
-   "name": "Cloudflare Workers",
-   "group": "backend",
-   "language": false,
-   "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 10
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
+  },
+  {
+   "name": "PostgreSQL",
+   "group": "database",
+   "language": false,
+   "count": 1,
+   "percent": 7.142857142857142
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
-   "name": "Provider",
-   "group": "mobile",
+   "name": "REST APIs",
+   "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
+  },
+  {
+   "name": "SQL",
+   "group": "database",
+   "language": true,
+   "count": 1,
+   "percent": 7.142857142857142
+  },
+  {
+   "name": "Telegram Bot API",
+   "group": "ai",
+   "language": false,
+   "count": 1,
+   "percent": 7.142857142857142
   },
   {
    "name": "Tkinter",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 10
+   "percent": 7.142857142857142
   }
  ],
  "pairs": [
   {
    "a": "Flutter",
    "b": "SQLite",
+   "count": 2
+  },
+  {
+   "a": "Cloud Firestore",
+   "b": "Provider",
+   "count": 2
+  },
+  {
+   "a": "Firebase",
+   "b": "Provider",
    "count": 2
   }
  ],
@@ -670,16 +852,16 @@
    "technologies": [
     "Dart",
     "Flutter",
+    "Provider",
     "Flame",
-    "Kotlin",
-    "Provider"
+    "Kotlin"
    ]
   },
   {
    "area": "Web",
    "technologies": [
-    "TypeScript",
     "JavaScript",
+    "TypeScript",
     "Next.js",
     "React",
     "Tailwind CSS"
@@ -688,10 +870,10 @@
   {
    "area": "Backend",
    "technologies": [
-    "Python",
     "Node.js",
-    "Cloud Functions",
+    "Python",
     "Cloudflare Workers",
+    "Cloud Functions",
     "PHP"
    ]
   },
@@ -701,7 +883,8 @@
     "SQLite",
     "Cloud Firestore",
     "Firebase",
-    "Cloudflare D1"
+    "Cloudflare D1",
+    "PostgreSQL"
    ]
   },
   {
@@ -711,12 +894,22 @@
     "PowerShell",
     "Tkinter"
    ]
+  },
+  {
+   "area": "AI & Automation",
+   "technologies": [
+    "Telegram Bot API"
+   ]
   }
  ],
  "maturity": [
   {
    "name": "Active",
-   "count": 10
+   "count": 13
+  },
+  {
+   "name": "Maintained",
+   "count": 1
   }
  ],
  "activity": {
@@ -1389,7 +1582,7 @@
    },
    {
     "date": "2026-09-13",
-    "count": 0
+    "count": 2
    },
    {
     "date": "2026-09-14",
@@ -1456,9 +1649,9 @@
     "count": 0
    }
   ],
-  "total": 151,
-  "last90": 151,
-  "activeProjects30": 4,
+  "total": 153,
+  "last90": 153,
+  "activeProjects30": 5,
   "longestStreak": 4,
   "currentStreak": 0,
   "mostActive": {
