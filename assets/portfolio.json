@@ -431,10 +431,10 @@
    "technologies": [
     "Flutter",
     "Dart",
-    "Cloud Firestore",
-    "Firebase",
     "Provider",
-    "SQLite"
+    "Flame",
+    "Riverpod",
+    "Kotlin"
    ],
    "capabilities": [
     "Push notifications",
@@ -456,8 +456,8 @@
     "React",
     "Tailwind CSS",
     "TypeScript",
-    "Cloudflare D1",
-    "Cloudflare Workers"
+    "JavaScript",
+    "Cloudflare D1"
    ],
    "capabilities": [
     "Excel & PDF processing",
@@ -498,12 +498,12 @@
    "public": 2,
    "private": 1,
    "technologies": [
-    "TypeScript",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
     "Cloud Firestore",
-    "Cloud Functions"
+    "Cloud Functions",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Firebase",
+    "PostgreSQL"
    ],
    "capabilities": [
     "Authentication",
@@ -521,12 +521,12 @@
    "public": 2,
    "private": 1,
    "technologies": [
+    "Tkinter",
     "Python",
     "Next.js",
     "PostgreSQL",
     "React",
-    "SQLite",
-    "Tailwind CSS"
+    "SQLite"
    ],
    "capabilities": [
     "Accounting & invoicing",
@@ -544,11 +544,11 @@
    "public": 0,
    "private": 2,
    "technologies": [
+    "Telegram Bot API",
     "JavaScript",
     "Cloudflare D1",
     "Cloudflare Workers",
     "REST APIs",
-    "Telegram Bot API",
     "Python"
    ],
    "capabilities": [
@@ -823,7 +823,7 @@
   },
   {
    "name": "Tkinter",
-   "group": "tools",
+   "group": "desktop",
    "language": false,
    "count": 1,
    "percent": 7.142857142857142
@@ -888,10 +888,8 @@
    ]
   },
   {
-   "area": "Tools",
+   "area": "Desktop",
    "technologies": [
-    "GitHub Actions",
-    "PowerShell",
     "Tkinter"
    ]
   },
@@ -899,6 +897,13 @@
    "area": "AI & Automation",
    "technologies": [
     "Telegram Bot API"
+   ]
+  },
+  {
+   "area": "Tools",
+   "technologies": [
+    "GitHub Actions",
+    "PowerShell"
    ]
   }
  ],

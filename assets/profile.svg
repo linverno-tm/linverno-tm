@@ -242,7 +242,7 @@
 <circle cx="265" cy="819" r="4" fill="#5FA8F5"/>
 <text x="275" y="823" class="label">MOBILE</text>
 <text x="261" y="851" class="big">5<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="261" y="869" class="sub">Flutter · Dart</text>
+<text x="261" y="869" class="sub">Flutter · Dart · Provider</text>
 <rect x="458.5" y="794.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="819" r="4" fill="#4FC1B2"/>
 <text x="492" y="823" class="label">WEB</text>
@@ -257,17 +257,17 @@
 <circle cx="48" cy="919" r="4" fill="#E27C9A"/>
 <text x="58" y="923" class="label">BACKEND</text>
 <text x="44" y="951" class="big">3<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="44" y="969" class="sub">TypeScript · Next.js</text>
+<text x="44" y="969" class="sub">Cloud Firestore</text>
 <rect x="241.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="265" cy="919" r="4" fill="#9AA4B2"/>
 <text x="275" y="923" class="label">DESKTOP</text>
 <text x="261" y="951" class="big">3<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="261" y="969" class="sub">Python · Next.js</text>
+<text x="261" y="969" class="sub">Tkinter · Python · Next.js</text>
 <rect x="458.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="919" r="4" fill="#8B7CF6"/>
 <text x="492" y="923" class="label">AI &amp; AUTOMATION</text>
 <text x="478" y="951" class="big">2<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="478" y="969" class="sub">JavaScript</text>
+<text x="478" y="969" class="sub">Telegram Bot API</text>
 <rect x="675.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="699" cy="919" r="4" fill="#5FA8F5"/>
 <text x="709" y="923" class="label">GAMES</text>
@@ -336,12 +336,15 @@
 <circle cx="604" cy="1292" r="3.5" fill="#E0B25C"/>
 <text x="614" y="1296" class="tag">DATABASE</text>
 <text x="600" y="1313" class="legend">SQLite · Cloud Firestore · Firebase</text>
-<circle cx="604" cy="1332" r="3.5" fill="#9AA4B2"/>
-<text x="614" y="1336" class="tag">TOOLS</text>
-<text x="600" y="1353" class="legend">GitHub Actions · PowerShell · Tkinter</text>
+<circle cx="604" cy="1332" r="3.5" fill="#E27C9A"/>
+<text x="614" y="1336" class="tag">DESKTOP</text>
+<text x="600" y="1353" class="legend">Tkinter</text>
 <circle cx="604" cy="1372" r="3.5" fill="#E27C9A"/>
 <text x="614" y="1376" class="tag">AI &amp; AUTOMATION</text>
 <text x="600" y="1393" class="legend">Telegram Bot API</text>
+<circle cx="604" cy="1412" r="3.5" fill="#9AA4B2"/>
+<text x="614" y="1416" class="tag">TOOLS</text>
+<text x="600" y="1433" class="legend">GitHub Actions · PowerShell</text>
 <text x="24" y="1508" class="sec">PROJECT PORTFOLIO</text>
 <line x1="201.53" y1="1504" x2="592.34" y2="1504" stroke="#30363D" stroke-width="1"/>
 <text x="876" y="1508" class="label" text-anchor="end">PRIVATE PROJECTS ARE ANONYMIZED</text>
@@ -357,7 +360,7 @@
 <text x="44" y="1616" class="sub faint">Sales &amp; POS · Installment &amp; credit tracking</text>
 <text x="422" y="1636.5" class="mat" text-anchor="end">ACTIVE</text>
 <text x="44" y="1637" class="name">accounting-report</text>
-<text x="44" y="1653" class="sub">SQLite · Python · Tkinter</text>
+<text x="44" y="1653" class="sub">Tkinter · SQLite · Python</text>
 <text x="44" y="1668" class="sub faint">Buxgalteriya hisoboti generatori - faktura va kassa chekla…</text>
 <text x="422" y="1688.5" class="mat" text-anchor="end">ACTIVE</text>
 <text x="44" y="1689" class="name">workforce-os</text>
@@ -662,7 +665,7 @@
 <text x="322.67" y="2548" class="sub faint">Task &amp; schedule management</text>
 <text x="601.33" y="2498" class="label">AI &amp; AUTOMATION · 2 PROJECTS</text>
 <text x="601.33" y="2516" class="body">Telegram bots and API integrations with</text>
-<text x="601.33" y="2532" class="body">JavaScript and Cloudflare D1.</text>
+<text x="601.33" y="2532" class="body">Telegram Bot API and JavaScript.</text>
 <text x="601.33" y="2548" class="sub faint">Telegram bot automation · API integration</text>
 <text x="44" y="2584" class="label">GAMES · 1 PROJECT</text>
 <text x="44" y="2602" class="body">Games and interactive experiences with</text>
@@ -674,7 +677,7 @@
 <text x="322.67" y="2634" class="sub faint">Cloud synchronization</text>
 <text x="601.33" y="2584" class="label">MOBILE APPLICATIONS · 5 PROJECTS</text>
 <text x="601.33" y="2602" class="body">Cross-platform Flutter applications</text>
-<text x="601.33" y="2618" class="body">with Cloud Firestore and Firebase.</text>
+<text x="601.33" y="2618" class="body">with Provider and Flame.</text>
 <text x="601.33" y="2634" class="sub faint">Push notifications · Real-time updates</text>
 <rect x="24.5" y="2684.5" width="851" height="83" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="2720" class="pos">BUILDING SOFTWARE THAT SOLVES REAL PROBLEMS</text>
