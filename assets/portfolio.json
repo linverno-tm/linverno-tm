@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-09-30",
+ "generatedAt": "2026-10-01",
  "counts": {
   "repositories": 16,
   "projects": 14,
@@ -11,6 +11,42 @@
   "excluded": 2
  },
  "projects": [
+  {
+   "kind": "private",
+   "title": "Retail Operations Platform",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "PowerShell",
+    "SQL",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "PostgreSQL",
+    "GitHub Actions",
+    "Electron"
+   ],
+   "capabilities": [
+    "Sales & POS",
+    "Installment & credit tracking",
+    "Customer management",
+    "ERP integration",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Payments integration",
+    "Data processing",
+    "File import/export",
+    "CI/CD pipelines",
+    "Desktop packaging",
+    "Desktop UI"
+   ],
+   "maturity": "Active",
+   "rank": 8.8
+  },
   {
    "kind": "public",
    "name": "hamkor-savdo-site",
@@ -86,33 +122,35 @@
    "rank": 8.2
   },
   {
-   "kind": "private",
-   "title": "Retail Operations Platform",
-   "category": "Business Software",
-   "platform": "Web",
+   "kind": "public",
+   "name": "bulk-sms",
+   "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
+   "url": "https://github.com/linverno-tm/bulk-sms",
+   "stars": 0,
+   "forks": 0,
+   "category": "Mobile Applications",
+   "platform": "Mobile",
    "technologies": [
-    "TypeScript",
-    "SQL",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Node.js",
-    "PostgreSQL"
+    "Dart",
+    "Kotlin",
+    "Flutter",
+    "SQLite"
    ],
    "capabilities": [
-    "Sales & POS",
-    "Installment & credit tracking",
-    "Customer management",
-    "ERP integration",
+    "Push notifications",
+    "Real-time updates",
+    "Local database",
+    "Reporting & analytics",
     "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Payments integration",
     "Data processing",
+    "Background services",
+    "Native platform integration",
+    "SMS & messaging",
     "File import/export",
-    "Desktop packaging"
+    "Task & schedule management"
    ],
    "maturity": "Active",
-   "rank": 7.4
+   "rank": 6
   },
   {
    "kind": "public",
@@ -146,39 +184,8 @@
     "SMS & messaging",
     "CI/CD pipelines"
    ],
-   "maturity": "Active",
-   "rank": 6.8
-  },
-  {
-   "kind": "public",
-   "name": "bulk-sms",
-   "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
-   "url": "https://github.com/linverno-tm/bulk-sms",
-   "stars": 0,
-   "forks": 0,
-   "category": "Mobile Applications",
-   "platform": "Mobile",
-   "technologies": [
-    "Dart",
-    "Kotlin",
-    "Flutter",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Push notifications",
-    "Real-time updates",
-    "Local database",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Data processing",
-    "Background services",
-    "Native platform integration",
-    "SMS & messaging",
-    "File import/export",
-    "Task & schedule management"
-   ],
-   "maturity": "Active",
-   "rank": 6
+   "maturity": "Maintained",
+   "rank": 5.8
   },
   {
    "kind": "public",
@@ -408,18 +415,18 @@
    "technologies": [
     "Python",
     "SQLite",
+    "JavaScript",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "JavaScript"
+    "Tailwind CSS"
    ],
    "capabilities": [
     "Excel & PDF processing",
+    "CI/CD pipelines",
     "Sales & POS",
     "Accounting & invoicing",
-    "CI/CD pipelines",
     "Desktop packaging",
-    "ERP integration"
+    "Desktop UI"
    ]
   },
   {
@@ -455,8 +462,8 @@
     "Next.js",
     "React",
     "Tailwind CSS",
-    "TypeScript",
     "JavaScript",
+    "TypeScript",
     "Cloudflare D1"
    ],
    "capabilities": [
@@ -464,8 +471,8 @@
     "Reporting & analytics",
     "Sales & POS",
     "Authentication",
-    "Customer management",
-    "File import/export"
+    "CI/CD pipelines",
+    "Customer management"
    ]
   },
   {
@@ -507,11 +514,34 @@
    ],
    "capabilities": [
     "Authentication",
+    "CI/CD pipelines",
     "Reporting & analytics",
     "Sales & POS",
     "Accounting & invoicing",
-    "CI/CD pipelines",
     "Cloud synchronization"
+   ]
+  },
+  {
+   "name": "Desktop Applications",
+   "domain": false,
+   "count": 3,
+   "public": 2,
+   "private": 1,
+   "technologies": [
+    "Electron",
+    "Tkinter",
+    "Python",
+    "Next.js",
+    "PostgreSQL",
+    "React"
+   ],
+   "capabilities": [
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "Data processing"
    ]
   },
   {
@@ -535,26 +565,6 @@
     "Authentication",
     "CI/CD pipelines",
     "ERP integration"
-   ]
-  },
-  {
-   "name": "Desktop Applications",
-   "domain": false,
-   "count": 2,
-   "public": 2,
-   "private": 0,
-   "technologies": [
-    "Tkinter",
-    "Python",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Desktop UI",
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Data processing"
    ]
   },
   {
@@ -626,8 +636,8 @@
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
-   "count": 6,
-   "percent": 42.857142857142854
+   "count": 7,
+   "percent": 50
   },
   {
    "name": "Node.js",
@@ -651,18 +661,18 @@
    "percent": 35.714285714285715
   },
   {
-   "name": "Python",
-   "group": "backend",
+   "name": "JavaScript",
+   "group": "web",
    "language": true,
    "count": 5,
    "percent": 35.714285714285715
   },
   {
-   "name": "JavaScript",
-   "group": "web",
+   "name": "Python",
+   "group": "backend",
    "language": true,
-   "count": 4,
-   "percent": 28.57142857142857
+   "count": 5,
+   "percent": 35.714285714285715
   },
   {
    "name": "SQLite",
@@ -735,6 +745,13 @@
    "percent": 14.285714285714285
   },
   {
+   "name": "PowerShell",
+   "group": "tools",
+   "language": true,
+   "count": 2,
+   "percent": 14.285714285714285
+  },
+  {
    "name": "Provider",
    "group": "mobile",
    "language": false,
@@ -752,6 +769,13 @@
    "name": "CSS",
    "group": "web",
    "language": true,
+   "count": 1,
+   "percent": 7.142857142857142
+  },
+  {
+   "name": "Electron",
+   "group": "desktop",
+   "language": false,
    "count": 1,
    "percent": 7.142857142857142
   },
@@ -784,13 +808,6 @@
    "percent": 7.142857142857142
   },
   {
-   "name": "PowerShell",
-   "group": "tools",
-   "language": true,
-   "count": 1,
-   "percent": 7.142857142857142
-  },
-  {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
@@ -801,6 +818,13 @@
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
+   "count": 1,
+   "percent": 7.142857142857142
+  },
+  {
+   "name": "Shell",
+   "group": "tools",
+   "language": true,
    "count": 1,
    "percent": 7.142857142857142
   },
@@ -887,6 +911,7 @@
   {
    "area": "Desktop",
    "technologies": [
+    "Electron",
     "Tkinter"
    ]
   },
@@ -900,28 +925,25 @@
    "area": "Tools",
    "technologies": [
     "GitHub Actions",
-    "PowerShell"
+    "PowerShell",
+    "Shell"
    ]
   }
  ],
  "maturity": [
   {
    "name": "Active",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Maintained",
-   "count": 1
+   "count": 2
   }
  ],
  "activity": {
-  "windowStart": "2026-04-01",
-  "windowEnd": "2026-09-30",
+  "windowStart": "2026-04-02",
+  "windowEnd": "2026-10-01",
   "days": [
-   {
-    "date": "2026-04-01",
-    "count": 0
-   },
    {
     "date": "2026-04-02",
     "count": 0
@@ -1648,6 +1670,10 @@
    },
    {
     "date": "2026-09-30",
+    "count": 0
+   },
+   {
+    "date": "2026-10-01",
     "count": 0
    }
   ],
