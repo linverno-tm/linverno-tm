@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-01",
+ "generatedAt": "2026-10-02",
  "counts": {
   "repositories": 16,
   "projects": 14,
@@ -118,8 +118,37 @@
     "CI/CD pipelines",
     "Task & schedule management"
    ],
+   "maturity": "Maintained",
+   "rank": 7.2
+  },
+  {
+   "kind": "public",
+   "name": "accounting-report",
+   "description": "Buxgalteriya hisoboti generatori - faktura va kassa cheklaridan kameral tekshiruv hisobotini yigadi",
+   "url": "https://github.com/linverno-tm/accounting-report",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Desktop",
+   "technologies": [
+    "Python",
+    "SQLite",
+    "Tkinter"
+   ],
+   "capabilities": [
+    "Local database",
+    "Inventory management",
+    "Sales & POS",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Data processing",
+    "File import/export",
+    "Desktop packaging",
+    "Desktop UI"
+   ],
    "maturity": "Active",
-   "rank": 8.2
+   "rank": 6.6
   },
   {
    "kind": "public",
@@ -189,35 +218,6 @@
   },
   {
    "kind": "public",
-   "name": "accounting-report",
-   "description": "Buxgalteriya hisoboti generatori - faktura va kassa cheklaridan kameral tekshiruv hisobotini yigadi",
-   "url": "https://github.com/linverno-tm/accounting-report",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Desktop",
-   "technologies": [
-    "Python",
-    "SQLite",
-    "Tkinter"
-   ],
-   "capabilities": [
-    "Local database",
-    "Inventory management",
-    "Sales & POS",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Data processing",
-    "File import/export",
-    "Desktop packaging",
-    "Desktop UI"
-   ],
-   "maturity": "Active",
-   "rank": 5.6
-  },
-  {
-   "kind": "public",
    "name": "workforce-os",
    "description": "",
    "url": "https://github.com/linverno-tm/workforce-os",
@@ -241,30 +241,6 @@
     "Sales & POS",
     "Employee & HR workflows",
     "Reporting & analytics"
-   ],
-   "maturity": "Active",
-   "rank": 5.6
-  },
-  {
-   "kind": "public",
-   "name": "purple-runner",
-   "description": "Deep Purple Runner — endless runner on Flutter and Flame. Asymmetric jump gravity, all tuning constants in one GameConfig file, 24 tests covering physics, progression and persistence.",
-   "url": "https://github.com/linverno-tm/purple-runner",
-   "stars": 0,
-   "forks": 0,
-   "category": "Games",
-   "platform": "Mobile",
-   "technologies": [
-    "Dart",
-    "Flutter",
-    "Flame",
-    "GitHub Actions"
-   ],
-   "capabilities": [
-    "Native platform integration",
-    "Game mechanics",
-    "CI/CD pipelines",
-    "Static site generation"
    ],
    "maturity": "Active",
    "rank": 5.6
@@ -337,6 +313,30 @@
    ],
    "maturity": "Active",
    "rank": 5.2
+  },
+  {
+   "kind": "public",
+   "name": "purple-runner",
+   "description": "Deep Purple Runner — endless runner on Flutter and Flame. Asymmetric jump gravity, all tuning constants in one GameConfig file, 24 tests covering physics, progression and persistence.",
+   "url": "https://github.com/linverno-tm/purple-runner",
+   "stars": 0,
+   "forks": 0,
+   "category": "Games",
+   "platform": "Mobile",
+   "technologies": [
+    "Dart",
+    "Flutter",
+    "Flame",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Native platform integration",
+    "Game mechanics",
+    "CI/CD pipelines",
+    "Static site generation"
+   ],
+   "maturity": "Maintained",
+   "rank": 4.6
   },
   {
    "kind": "public",
@@ -568,6 +568,29 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 2,
+   "public": 1,
+   "private": 1,
+   "technologies": [
+    "Cloud Firestore",
+    "Electron",
+    "Firebase",
+    "Flutter",
+    "Next.js",
+    "PostgreSQL"
+   ],
+   "capabilities": [
+    "CI/CD pipelines",
+    "File import/export",
+    "Accounting & invoicing",
+    "Authentication",
+    "Cloud synchronization",
+    "Customer management"
+   ]
+  },
+  {
    "name": "Games",
    "domain": true,
    "count": 1,
@@ -605,29 +628,6 @@
     "Real-time updates",
     "Role-based access",
     "State management"
-   ]
-  },
-  {
-   "name": "Experimental",
-   "domain": true,
-   "count": 1,
-   "public": 1,
-   "private": 0,
-   "technologies": [
-    "Cloud Firestore",
-    "Firebase",
-    "Flutter",
-    "Provider",
-    "SQLite",
-    "Dart"
-   ],
-   "capabilities": [
-    "Authentication",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "File import/export",
-    "Local database",
-    "Multi-language (i18n)"
    ]
   }
  ],
@@ -933,21 +933,17 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 12
+   "count": 10
   },
   {
    "name": "Maintained",
-   "count": 2
+   "count": 4
   }
  ],
  "activity": {
-  "windowStart": "2026-04-02",
-  "windowEnd": "2026-10-01",
+  "windowStart": "2026-04-03",
+  "windowEnd": "2026-10-02",
   "days": [
-   {
-    "date": "2026-04-02",
-    "count": 0
-   },
    {
     "date": "2026-04-03",
     "count": 0
@@ -1674,6 +1670,10 @@
    },
    {
     "date": "2026-10-01",
+    "count": 0
+   },
+   {
+    "date": "2026-10-02",
     "count": 0
    }
   ],
