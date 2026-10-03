@@ -2,12 +2,12 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-02",
+ "generatedAt": "2026-10-03",
  "counts": {
-  "repositories": 16,
-  "projects": 14,
-  "public": 10,
-  "private": 4,
+  "repositories": 18,
+  "projects": 16,
+  "public": 11,
+  "private": 5,
   "excluded": 2
  },
  "projects": [
@@ -27,8 +27,7 @@
     "Tailwind CSS",
     "Node.js",
     "PostgreSQL",
-    "GitHub Actions",
-    "Electron"
+    "GitHub Actions"
    ],
    "capabilities": [
     "Sales & POS",
@@ -41,11 +40,10 @@
     "Data processing",
     "File import/export",
     "CI/CD pipelines",
-    "Desktop packaging",
-    "Desktop UI"
+    "Desktop packaging"
    ],
    "maturity": "Active",
-   "rank": 8.8
+   "rank": 8.4
   },
   {
    "kind": "public",
@@ -149,6 +147,28 @@
    ],
    "maturity": "Active",
    "rank": 6.6
+  },
+  {
+   "kind": "private",
+   "title": "Game Project",
+   "category": "Games",
+   "platform": null,
+   "technologies": [
+    "C++",
+    "C",
+    "Docker",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Reporting & analytics",
+    "Multi-language (i18n)",
+    "SMS & messaging",
+    "Game mechanics",
+    "CI/CD pipelines",
+    "Desktop packaging"
+   ],
+   "maturity": "Active",
+   "rank": 6
   },
   {
    "kind": "public",
@@ -403,15 +423,32 @@
    ],
    "maturity": "Maintained",
    "rank": 3.4000000000000004
+  },
+  {
+   "kind": "public",
+   "name": "hamkor-nasiya",
+   "description": "Ҳамкор Насия — Windows дастури (юклаб олиш)",
+   "url": "https://github.com/linverno-tm/hamkor-nasiya",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": null,
+   "technologies": [],
+   "capabilities": [
+    "Installment & credit tracking",
+    "Desktop packaging"
+   ],
+   "maturity": "Active",
+   "rank": 3.4
   }
  ],
  "categories": [
   {
    "name": "Business Software",
    "domain": true,
-   "count": 7,
-   "public": 5,
-   "private": 2,
+   "count": 9,
+   "public": 6,
+   "private": 3,
    "technologies": [
     "Python",
     "SQLite",
@@ -421,12 +458,12 @@
     "Tailwind CSS"
    ],
    "capabilities": [
-    "Excel & PDF processing",
     "CI/CD pipelines",
-    "Sales & POS",
-    "Accounting & invoicing",
     "Desktop packaging",
-    "Desktop UI"
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Sales & POS",
+    "Accounting & invoicing"
    ]
   },
   {
@@ -522,29 +559,6 @@
    ]
   },
   {
-   "name": "Desktop Applications",
-   "domain": false,
-   "count": 3,
-   "public": 2,
-   "private": 1,
-   "technologies": [
-    "Electron",
-    "Tkinter",
-    "Python",
-    "Next.js",
-    "PostgreSQL",
-    "React"
-   ],
-   "capabilities": [
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Desktop UI",
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Data processing"
-   ]
-  },
-  {
    "name": "AI & Automation",
    "domain": true,
    "count": 2,
@@ -568,6 +582,48 @@
    ]
   },
   {
+   "name": "Games",
+   "domain": true,
+   "count": 2,
+   "public": 1,
+   "private": 1,
+   "technologies": [
+    "Flame",
+    "Flutter",
+    "Dart",
+    "C",
+    "C++"
+   ],
+   "capabilities": [
+    "CI/CD pipelines",
+    "Game mechanics",
+    "Desktop packaging",
+    "Multi-language (i18n)",
+    "Native platform integration",
+    "Reporting & analytics"
+   ]
+  },
+  {
+   "name": "Desktop Applications",
+   "domain": false,
+   "count": 2,
+   "public": 2,
+   "private": 0,
+   "technologies": [
+    "Tkinter",
+    "Python",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "Data processing"
+   ]
+  },
+  {
    "name": "Experimental",
    "domain": true,
    "count": 2,
@@ -575,11 +631,11 @@
    "private": 1,
    "technologies": [
     "Cloud Firestore",
-    "Electron",
     "Firebase",
     "Flutter",
     "Next.js",
-    "PostgreSQL"
+    "PostgreSQL",
+    "Provider"
    ],
    "capabilities": [
     "CI/CD pipelines",
@@ -588,24 +644,6 @@
     "Authentication",
     "Cloud synchronization",
     "Customer management"
-   ]
-  },
-  {
-   "name": "Games",
-   "domain": true,
-   "count": 1,
-   "public": 1,
-   "private": 0,
-   "technologies": [
-    "Flame",
-    "Flutter",
-    "Dart"
-   ],
-   "capabilities": [
-    "CI/CD pipelines",
-    "Game mechanics",
-    "Native platform integration",
-    "Static site generation"
    ]
   },
   {
@@ -636,7 +674,7 @@
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
-   "count": 7,
+   "count": 8,
    "percent": 50
   },
   {
@@ -644,210 +682,224 @@
    "group": "backend",
    "language": false,
    "count": 6,
-   "percent": 42.857142857142854
+   "percent": 37.5
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 5,
-   "percent": 35.714285714285715
+   "percent": 31.25
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 5,
-   "percent": 35.714285714285715
+   "percent": 31.25
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
    "count": 5,
-   "percent": 35.714285714285715
+   "percent": 31.25
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
    "count": 5,
-   "percent": 35.714285714285715
+   "percent": 31.25
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 4,
-   "percent": 28.57142857142857
+   "percent": 25
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 4,
-   "percent": 28.57142857142857
+   "percent": 25
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 21.428571428571427
+   "percent": 18.75
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 21.428571428571427
+   "percent": 18.75
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 21.428571428571427
+   "percent": 18.75
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 21.428571428571427
+   "percent": 18.75
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 21.428571428571427
+   "percent": 18.75
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 2,
-   "percent": 14.285714285714285
+   "percent": 12.5
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 14.285714285714285
+   "percent": 12.5
   },
   {
    "name": "HTML",
    "group": "web",
    "language": true,
    "count": 2,
-   "percent": 14.285714285714285
+   "percent": 12.5
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 2,
-   "percent": 14.285714285714285
+   "percent": 12.5
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 14.285714285714285
+   "percent": 12.5
+  },
+  {
+   "name": "C",
+   "group": "backend",
+   "language": true,
+   "count": 1,
+   "percent": 6.25
+  },
+  {
+   "name": "C++",
+   "group": "backend",
+   "language": true,
+   "count": 1,
+   "percent": 6.25
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
-   "name": "Electron",
-   "group": "desktop",
+   "name": "Docker",
+   "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "PostgreSQL",
    "group": "database",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "SQL",
    "group": "database",
    "language": true,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 7.142857142857142
+   "percent": 6.25
   }
  ],
  "pairs": [
@@ -894,8 +946,8 @@
     "Node.js",
     "Python",
     "Cloudflare Workers",
-    "Cloud Functions",
-    "PHP"
+    "C",
+    "C++"
    ]
   },
   {
@@ -911,7 +963,6 @@
   {
    "area": "Desktop",
    "technologies": [
-    "Electron",
     "Tkinter"
    ]
   },
@@ -926,6 +977,7 @@
    "technologies": [
     "GitHub Actions",
     "PowerShell",
+    "Docker",
     "Shell"
    ]
   }
@@ -933,7 +985,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 10
+   "count": 12
   },
   {
    "name": "Maintained",
@@ -941,13 +993,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-03",
-  "windowEnd": "2026-10-02",
+  "windowStart": "2026-04-04",
+  "windowEnd": "2026-10-03",
   "days": [
-   {
-    "date": "2026-04-03",
-    "count": 0
-   },
    {
     "date": "2026-04-04",
     "count": 0
@@ -1674,6 +1722,10 @@
    },
    {
     "date": "2026-10-02",
+    "count": 0
+   },
+   {
+    "date": "2026-10-03",
     "count": 0
    }
   ],
