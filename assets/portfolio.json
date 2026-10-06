@@ -2,13 +2,13 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-05",
+ "generatedAt": "2026-10-06",
  "counts": {
   "repositories": 19,
-  "projects": 16,
+  "projects": 17,
   "public": 11,
-  "private": 5,
-  "excluded": 3
+  "private": 6,
+  "excluded": 2
  },
  "projects": [
   {
@@ -266,6 +266,30 @@
    "rank": 5.6
   },
   {
+   "kind": "private",
+   "title": "Retail Operations Platform II",
+   "category": "Business Software",
+   "platform": "Mobile",
+   "technologies": [
+    "TypeScript",
+    "HTML",
+    "React Native",
+    "React",
+    "Node.js"
+   ],
+   "capabilities": [
+    "Push notifications",
+    "Inventory management",
+    "Installment & credit tracking",
+    "Customer management",
+    "ERP integration",
+    "Payments integration",
+    "SMS & messaging"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
    "kind": "public",
    "name": "bank-statement-cleaner",
    "description": "",
@@ -446,39 +470,39 @@
   {
    "name": "Business Software",
    "domain": true,
-   "count": 9,
+   "count": 10,
    "public": 6,
-   "private": 3,
+   "private": 4,
    "technologies": [
     "Python",
+    "React",
     "SQLite",
     "JavaScript",
-    "Next.js",
-    "React",
-    "Tailwind CSS"
+    "TypeScript",
+    "Next.js"
    ],
    "capabilities": [
     "CI/CD pipelines",
     "Desktop packaging",
     "Excel & PDF processing",
+    "ERP integration",
     "Reporting & analytics",
-    "Sales & POS",
-    "Accounting & invoicing"
+    "Sales & POS"
    ]
   },
   {
    "name": "Mobile Applications",
    "domain": false,
-   "count": 5,
+   "count": 6,
    "public": 4,
-   "private": 1,
+   "private": 2,
    "technologies": [
     "Flutter",
     "Dart",
     "Provider",
     "Flame",
-    "Riverpod",
-    "Kotlin"
+    "React Native",
+    "Riverpod"
    ],
    "capabilities": [
     "Push notifications",
@@ -492,24 +516,24 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 5,
+   "count": 6,
    "public": 3,
-   "private": 2,
+   "private": 3,
    "technologies": [
-    "Next.js",
     "React",
+    "TypeScript",
+    "Next.js",
     "Tailwind CSS",
     "JavaScript",
-    "TypeScript",
     "Cloudflare D1"
    ],
    "capabilities": [
+    "Customer management",
     "Excel & PDF processing",
+    "Installment & credit tracking",
+    "Payments integration",
     "Reporting & analytics",
-    "Sales & POS",
-    "Authentication",
-    "CI/CD pipelines",
-    "Customer management"
+    "Sales & POS"
    ]
   },
   {
@@ -675,231 +699,238 @@
    "group": "tools",
    "language": false,
    "count": 8,
-   "percent": 50
+   "percent": 47.05882352941176
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
-   "count": 6,
-   "percent": 37.5
+   "count": 7,
+   "percent": 41.17647058823529
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 5,
-   "percent": 31.25
+   "percent": 29.411764705882355
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 5,
-   "percent": 31.25
+   "percent": 29.411764705882355
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
    "count": 5,
-   "percent": 31.25
+   "percent": 29.411764705882355
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
    "count": 5,
-   "percent": 31.25
+   "percent": 29.411764705882355
+  },
+  {
+   "name": "TypeScript",
+   "group": "web",
+   "language": true,
+   "count": 5,
+   "percent": 29.411764705882355
+  },
+  {
+   "name": "React",
+   "group": "web",
+   "language": false,
+   "count": 4,
+   "percent": 23.52941176470588
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 4,
-   "percent": 25
-  },
-  {
-   "name": "TypeScript",
-   "group": "web",
-   "language": true,
-   "count": 4,
-   "percent": 25
+   "percent": 23.52941176470588
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 18.75
+   "percent": 17.647058823529413
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 18.75
+   "percent": 17.647058823529413
+  },
+  {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 3,
+   "percent": 17.647058823529413
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 18.75
-  },
-  {
-   "name": "React",
-   "group": "web",
-   "language": false,
-   "count": 3,
-   "percent": 18.75
+   "percent": 17.647058823529413
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 18.75
+   "percent": 17.647058823529413
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 2,
-   "percent": 12.5
+   "percent": 11.76470588235294
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 12.5
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 2,
-   "percent": 12.5
+   "percent": 11.76470588235294
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 2,
-   "percent": 12.5
+   "percent": 11.76470588235294
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 12.5
+   "percent": 11.76470588235294
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "PostgreSQL",
    "group": "database",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
+  },
+  {
+   "name": "React Native",
+   "group": "mobile",
+   "language": false,
+   "count": 1,
+   "percent": 5.88235294117647
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "SQL",
    "group": "database",
    "language": true,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 6.25
+   "percent": 5.88235294117647
   }
  ],
  "pairs": [
@@ -935,9 +966,9 @@
    "technologies": [
     "JavaScript",
     "TypeScript",
-    "Next.js",
     "React",
-    "Tailwind CSS"
+    "HTML",
+    "Next.js"
    ]
   },
   {
@@ -985,7 +1016,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Maintained",
@@ -993,13 +1024,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-06",
-  "windowEnd": "2026-10-05",
+  "windowStart": "2026-04-07",
+  "windowEnd": "2026-10-06",
   "days": [
-   {
-    "date": "2026-04-06",
-    "count": 0
-   },
    {
     "date": "2026-04-07",
     "count": 0
@@ -1727,11 +1754,15 @@
    {
     "date": "2026-10-05",
     "count": 0
+   },
+   {
+    "date": "2026-10-06",
+    "count": 0
    }
   ],
   "total": 153,
   "last90": 153,
-  "activeProjects30": 5,
+  "activeProjects30": 4,
   "longestStreak": 4,
   "currentStreak": 0,
   "mostActive": {
