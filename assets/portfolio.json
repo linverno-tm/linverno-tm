@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-07",
+ "generatedAt": "2026-10-08",
  "counts": {
   "repositories": 19,
   "projects": 17,
@@ -20,7 +20,6 @@
     "TypeScript",
     "JavaScript",
     "Shell",
-    "PowerShell",
     "SQL",
     "Next.js",
     "React",
@@ -43,7 +42,7 @@
     "Desktop packaging"
    ],
    "maturity": "Active",
-   "rank": 8.4
+   "rank": 8.2
   },
   {
    "kind": "public",
@@ -807,13 +806,6 @@
    "percent": 11.76470588235294
   },
   {
-   "name": "PowerShell",
-   "group": "tools",
-   "language": true,
-   "count": 2,
-   "percent": 11.76470588235294
-  },
-  {
    "name": "Provider",
    "group": "mobile",
    "language": false,
@@ -880,6 +872,13 @@
    "name": "PostgreSQL",
    "group": "database",
    "language": false,
+   "count": 1,
+   "percent": 5.88235294117647
+  },
+  {
+   "name": "PowerShell",
+   "group": "tools",
+   "language": true,
    "count": 1,
    "percent": 5.88235294117647
   },
@@ -1007,8 +1006,8 @@
    "area": "Tools",
    "technologies": [
     "GitHub Actions",
-    "PowerShell",
     "Docker",
+    "PowerShell",
     "Shell"
    ]
   }
@@ -1024,13 +1023,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-08",
-  "windowEnd": "2026-10-07",
+  "windowStart": "2026-04-09",
+  "windowEnd": "2026-10-08",
   "days": [
-   {
-    "date": "2026-04-08",
-    "count": 0
-   },
    {
     "date": "2026-04-09",
     "count": 0
@@ -1757,6 +1752,10 @@
    },
    {
     "date": "2026-10-07",
+    "count": 0
+   },
+   {
+    "date": "2026-10-08",
     "count": 0
    }
   ],
