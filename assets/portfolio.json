@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-08",
+ "generatedAt": "2026-10-09",
  "counts": {
   "repositories": 19,
   "projects": 17,
@@ -11,39 +11,6 @@
   "excluded": 2
  },
  "projects": [
-  {
-   "kind": "private",
-   "title": "Retail Operations Platform",
-   "category": "Business Software",
-   "platform": "Web",
-   "technologies": [
-    "TypeScript",
-    "JavaScript",
-    "Shell",
-    "SQL",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Node.js",
-    "PostgreSQL",
-    "GitHub Actions"
-   ],
-   "capabilities": [
-    "Sales & POS",
-    "Installment & credit tracking",
-    "Customer management",
-    "ERP integration",
-    "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Payments integration",
-    "Data processing",
-    "File import/export",
-    "CI/CD pipelines",
-    "Desktop packaging"
-   ],
-   "maturity": "Active",
-   "rank": 8.2
-  },
   {
    "kind": "public",
    "name": "hamkor-savdo-site",
@@ -199,6 +166,32 @@
    ],
    "maturity": "Active",
    "rank": 6
+  },
+  {
+   "kind": "private",
+   "title": "Retail Operations Platform",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "Python",
+    "HTML",
+    "CSS",
+    "Flask"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Sales & POS",
+    "Customer management",
+    "ERP integration",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Bank statement processing",
+    "Accounting & invoicing",
+    "Browser automation & scraping",
+    "Scheduled jobs"
+   ],
+   "maturity": "Active",
+   "rank": 5.8
   },
   {
    "kind": "public",
@@ -474,18 +467,18 @@
    "private": 4,
    "technologies": [
     "Python",
-    "React",
     "SQLite",
+    "React",
     "JavaScript",
     "TypeScript",
-    "Next.js"
+    "Cloud Firestore"
    ],
    "capabilities": [
+    "Excel & PDF processing",
+    "Reporting & analytics",
     "CI/CD pipelines",
     "Desktop packaging",
-    "Excel & PDF processing",
     "ERP integration",
-    "Reporting & analytics",
     "Sales & POS"
    ]
   },
@@ -527,12 +520,12 @@
     "Cloudflare D1"
    ],
    "capabilities": [
+    "Reporting & analytics",
+    "Authentication",
     "Customer management",
     "Excel & PDF processing",
-    "Installment & credit tracking",
-    "Payments integration",
-    "Reporting & analytics",
-    "Sales & POS"
+    "Sales & POS",
+    "ERP integration"
    ]
   },
   {
@@ -559,6 +552,29 @@
    ]
   },
   {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 3,
+   "public": 0,
+   "private": 3,
+   "technologies": [
+    "Telegram Bot API",
+    "JavaScript",
+    "Python",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Flask"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Authentication",
+    "ERP integration",
+    "Reporting & analytics",
+    "Scheduled jobs",
+    "Telegram bot automation"
+   ]
+  },
+  {
    "name": "Backend Systems",
    "domain": false,
    "count": 3,
@@ -570,38 +586,15 @@
     "Cloudflare D1",
     "Cloudflare Workers",
     "Firebase",
-    "PostgreSQL"
+    "Flask"
    ],
    "capabilities": [
     "Authentication",
-    "CI/CD pipelines",
     "Reporting & analytics",
     "Sales & POS",
     "Accounting & invoicing",
-    "Cloud synchronization"
-   ]
-  },
-  {
-   "name": "AI & Automation",
-   "domain": true,
-   "count": 2,
-   "public": 0,
-   "private": 2,
-   "technologies": [
-    "Telegram Bot API",
-    "JavaScript",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "REST APIs",
-    "Python"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Telegram bot automation",
-    "API integration",
-    "Authentication",
-    "CI/CD pipelines",
-    "ERP integration"
+    "Bank statement processing",
+    "Browser automation & scraping"
    ]
   },
   {
@@ -647,29 +640,6 @@
    ]
   },
   {
-   "name": "Experimental",
-   "domain": true,
-   "count": 2,
-   "public": 1,
-   "private": 1,
-   "technologies": [
-    "Cloud Firestore",
-    "Firebase",
-    "Flutter",
-    "Next.js",
-    "PostgreSQL",
-    "Provider"
-   ],
-   "capabilities": [
-    "CI/CD pipelines",
-    "File import/export",
-    "Accounting & invoicing",
-    "Authentication",
-    "Cloud synchronization",
-    "Customer management"
-   ]
-  },
-  {
    "name": "Developer Tools",
    "domain": true,
    "count": 1,
@@ -690,6 +660,29 @@
     "Role-based access",
     "State management"
    ]
+  },
+  {
+   "name": "Experimental",
+   "domain": true,
+   "count": 1,
+   "public": 1,
+   "private": 0,
+   "technologies": [
+    "Cloud Firestore",
+    "Firebase",
+    "Flutter",
+    "Provider",
+    "SQLite",
+    "Dart"
+   ],
+   "capabilities": [
+    "Authentication",
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "File import/export",
+    "Local database",
+    "Multi-language (i18n)"
+   ]
   }
  ],
  "technologies": [
@@ -697,15 +690,22 @@
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
-   "count": 8,
-   "percent": 47.05882352941176
+   "count": 7,
+   "percent": 41.17647058823529
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
-   "count": 7,
-   "percent": 41.17647058823529
+   "count": 6,
+   "percent": 35.294117647058826
+  },
+  {
+   "name": "Python",
+   "group": "backend",
+   "language": true,
+   "count": 6,
+   "percent": 35.294117647058826
   },
   {
    "name": "Dart",
@@ -722,30 +722,16 @@
    "percent": 29.411764705882355
   },
   {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 4,
+   "percent": 23.52941176470588
+  },
+  {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 5,
-   "percent": 29.411764705882355
-  },
-  {
-   "name": "Python",
-   "group": "backend",
-   "language": true,
-   "count": 5,
-   "percent": 29.411764705882355
-  },
-  {
-   "name": "TypeScript",
-   "group": "web",
-   "language": true,
-   "count": 5,
-   "percent": 29.411764705882355
-  },
-  {
-   "name": "React",
-   "group": "web",
-   "language": false,
    "count": 4,
    "percent": 23.52941176470588
   },
@@ -753,6 +739,13 @@
    "name": "SQLite",
    "group": "database",
    "language": false,
+   "count": 4,
+   "percent": 23.52941176470588
+  },
+  {
+   "name": "TypeScript",
+   "group": "web",
+   "language": true,
    "count": 4,
    "percent": 23.52941176470588
   },
@@ -771,21 +764,7 @@
    "percent": 17.647058823529413
   },
   {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 3,
-   "percent": 17.647058823529413
-  },
-  {
-   "name": "Next.js",
-   "group": "web",
-   "language": false,
-   "count": 3,
-   "percent": 17.647058823529413
-  },
-  {
-   "name": "Tailwind CSS",
+   "name": "React",
    "group": "web",
    "language": false,
    "count": 3,
@@ -806,8 +785,29 @@
    "percent": 11.76470588235294
   },
   {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 2,
+   "percent": 11.76470588235294
+  },
+  {
+   "name": "Next.js",
+   "group": "web",
+   "language": false,
+   "count": 2,
+   "percent": 11.76470588235294
+  },
+  {
    "name": "Provider",
    "group": "mobile",
+   "language": false,
+   "count": 2,
+   "percent": 11.76470588235294
+  },
+  {
+   "name": "Tailwind CSS",
+   "group": "web",
    "language": false,
    "count": 2,
    "percent": 11.76470588235294
@@ -834,13 +834,6 @@
    "percent": 5.88235294117647
   },
   {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 1,
-   "percent": 5.88235294117647
-  },
-  {
    "name": "Docker",
    "group": "tools",
    "language": false,
@@ -850,6 +843,13 @@
   {
    "name": "Flame",
    "group": "mobile",
+   "language": false,
+   "count": 1,
+   "percent": 5.88235294117647
+  },
+  {
+   "name": "Flask",
+   "group": "backend",
    "language": false,
    "count": 1,
    "percent": 5.88235294117647
@@ -865,13 +865,6 @@
    "name": "PHP",
    "group": "backend",
    "language": true,
-   "count": 1,
-   "percent": 5.88235294117647
-  },
-  {
-   "name": "PostgreSQL",
-   "group": "database",
-   "language": false,
    "count": 1,
    "percent": 5.88235294117647
   },
@@ -900,20 +893,6 @@
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
-   "count": 1,
-   "percent": 5.88235294117647
-  },
-  {
-   "name": "Shell",
-   "group": "tools",
-   "language": true,
-   "count": 1,
-   "percent": 5.88235294117647
-  },
-  {
-   "name": "SQL",
-   "group": "database",
-   "language": true,
    "count": 1,
    "percent": 5.88235294117647
   },
@@ -963,11 +942,11 @@
   {
    "area": "Web",
    "technologies": [
+    "HTML",
     "JavaScript",
     "TypeScript",
     "React",
-    "HTML",
-    "Next.js"
+    "CSS"
    ]
   },
   {
@@ -986,8 +965,7 @@
     "SQLite",
     "Cloud Firestore",
     "Firebase",
-    "Cloudflare D1",
-    "PostgreSQL"
+    "Cloudflare D1"
    ]
   },
   {
@@ -1007,8 +985,7 @@
    "technologies": [
     "GitHub Actions",
     "Docker",
-    "PowerShell",
-    "Shell"
+    "PowerShell"
    ]
   }
  ],
@@ -1023,13 +1000,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-09",
-  "windowEnd": "2026-10-08",
+  "windowStart": "2026-04-10",
+  "windowEnd": "2026-10-09",
   "days": [
-   {
-    "date": "2026-04-09",
-    "count": 0
-   },
    {
     "date": "2026-04-10",
     "count": 0
@@ -1756,6 +1729,10 @@
    },
    {
     "date": "2026-10-08",
+    "count": 0
+   },
+   {
+    "date": "2026-10-09",
     "count": 0
    }
   ],
