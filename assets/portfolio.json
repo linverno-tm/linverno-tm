@@ -2,11 +2,11 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-09",
+ "generatedAt": "2026-10-10",
  "counts": {
-  "repositories": 19,
-  "projects": 17,
-  "public": 11,
+  "repositories": 20,
+  "projects": 18,
+  "public": 12,
   "private": 6,
   "excluded": 2
  },
@@ -258,6 +258,29 @@
    "rank": 5.6
   },
   {
+   "kind": "public",
+   "name": "mini-ges-site",
+   "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
+   "url": "https://github.com/linverno-tm/mini-ges-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Multi-language (i18n)",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
    "kind": "private",
    "title": "Retail Operations Platform II",
    "category": "Business Software",
@@ -483,6 +506,29 @@
    ]
   },
   {
+   "name": "Web Applications",
+   "domain": false,
+   "count": 7,
+   "public": 4,
+   "private": 3,
+   "technologies": [
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "Next.js",
+    "Tailwind CSS",
+    "Python"
+   ],
+   "capabilities": [
+    "Reporting & analytics",
+    "Authentication",
+    "Customer management",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "CI/CD pipelines"
+   ]
+  },
+  {
    "name": "Mobile Applications",
    "domain": false,
    "count": 6,
@@ -503,29 +549,6 @@
     "Cloud synchronization",
     "Native platform integration",
     "Offline-first sync"
-   ]
-  },
-  {
-   "name": "Web Applications",
-   "domain": false,
-   "count": 6,
-   "public": 3,
-   "private": 3,
-   "technologies": [
-    "React",
-    "TypeScript",
-    "Next.js",
-    "Tailwind CSS",
-    "JavaScript",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Reporting & analytics",
-    "Authentication",
-    "Customer management",
-    "Excel & PDF processing",
-    "Sales & POS",
-    "ERP integration"
    ]
   },
   {
@@ -690,225 +713,225 @@
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
+   "count": 8,
+   "percent": 44.44444444444444
+  },
+  {
+   "name": "Python",
+   "group": "backend",
+   "language": true,
    "count": 7,
-   "percent": 41.17647058823529
+   "percent": 38.88888888888889
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 6,
-   "percent": 35.294117647058826
-  },
-  {
-   "name": "Python",
-   "group": "backend",
-   "language": true,
-   "count": 6,
-   "percent": 35.294117647058826
+   "percent": 33.33333333333333
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 5,
-   "percent": 29.411764705882355
+   "percent": 27.77777777777778
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 5,
-   "percent": 29.411764705882355
+   "percent": 27.77777777777778
   },
   {
    "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 4,
-   "percent": 23.52941176470588
+   "count": 5,
+   "percent": 27.77777777777778
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 4,
-   "percent": 23.52941176470588
+   "count": 5,
+   "percent": 27.77777777777778
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 4,
-   "percent": 23.52941176470588
+   "percent": 22.22222222222222
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 4,
-   "percent": 23.52941176470588
+   "percent": 22.22222222222222
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 17.647058823529413
+   "percent": 16.666666666666664
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 3,
+   "percent": 16.666666666666664
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 17.647058823529413
+   "percent": 16.666666666666664
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 17.647058823529413
+   "percent": 16.666666666666664
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 2,
-   "percent": 11.76470588235294
+   "percent": 11.11111111111111
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 11.76470588235294
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 2,
-   "percent": 11.76470588235294
+   "percent": 11.11111111111111
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 11.76470588235294
+   "percent": 11.11111111111111
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 11.76470588235294
+   "percent": 11.11111111111111
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 11.76470588235294
+   "percent": 11.11111111111111
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 5.88235294117647
+   "percent": 5.555555555555555
   }
  ],
  "pairs": [
@@ -945,15 +968,15 @@
     "HTML",
     "JavaScript",
     "TypeScript",
-    "React",
-    "CSS"
+    "CSS",
+    "React"
    ]
   },
   {
    "area": "Backend",
    "technologies": [
-    "Node.js",
     "Python",
+    "Node.js",
     "Cloudflare Workers",
     "C",
     "C++"
@@ -992,7 +1015,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Maintained",
@@ -1000,13 +1023,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-10",
-  "windowEnd": "2026-10-09",
+  "windowStart": "2026-04-11",
+  "windowEnd": "2026-10-10",
   "days": [
-   {
-    "date": "2026-04-10",
-    "count": 0
-   },
    {
     "date": "2026-04-11",
     "count": 0
@@ -1734,11 +1753,15 @@
    {
     "date": "2026-10-09",
     "count": 0
+   },
+   {
+    "date": "2026-10-10",
+    "count": 0
    }
   ],
   "total": 153,
   "last90": 153,
-  "activeProjects30": 4,
+  "activeProjects30": 3,
   "longestStreak": 4,
   "currentStreak": 0,
   "mostActive": {
