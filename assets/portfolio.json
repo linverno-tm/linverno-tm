@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-10",
+ "generatedAt": "2026-10-11",
  "counts": {
   "repositories": 20,
   "projects": 18,
@@ -132,37 +132,6 @@
     "Game mechanics",
     "CI/CD pipelines",
     "Desktop packaging"
-   ],
-   "maturity": "Active",
-   "rank": 6
-  },
-  {
-   "kind": "public",
-   "name": "bulk-sms",
-   "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
-   "url": "https://github.com/linverno-tm/bulk-sms",
-   "stars": 0,
-   "forks": 0,
-   "category": "Mobile Applications",
-   "platform": "Mobile",
-   "technologies": [
-    "Dart",
-    "Kotlin",
-    "Flutter",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Push notifications",
-    "Real-time updates",
-    "Local database",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Data processing",
-    "Background services",
-    "Native platform integration",
-    "SMS & messaging",
-    "File import/export",
-    "Task & schedule management"
    ],
    "maturity": "Active",
    "rank": 6
@@ -372,6 +341,37 @@
    ],
    "maturity": "Active",
    "rank": 5.2
+  },
+  {
+   "kind": "public",
+   "name": "bulk-sms",
+   "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
+   "url": "https://github.com/linverno-tm/bulk-sms",
+   "stars": 0,
+   "forks": 0,
+   "category": "Mobile Applications",
+   "platform": "Mobile",
+   "technologies": [
+    "Dart",
+    "Kotlin",
+    "Flutter",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Push notifications",
+    "Real-time updates",
+    "Local database",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Data processing",
+    "Background services",
+    "Native platform integration",
+    "SMS & messaging",
+    "File import/export",
+    "Task & schedule management"
+   ],
+   "maturity": "Maintained",
+   "rank": 5
   },
   {
    "kind": "public",
@@ -1015,21 +1015,17 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Maintained",
-   "count": 4
+   "count": 5
   }
  ],
  "activity": {
-  "windowStart": "2026-04-11",
-  "windowEnd": "2026-10-10",
+  "windowStart": "2026-04-12",
+  "windowEnd": "2026-10-11",
   "days": [
-   {
-    "date": "2026-04-11",
-    "count": 0
-   },
    {
     "date": "2026-04-12",
     "count": 0
@@ -1756,6 +1752,10 @@
    },
    {
     "date": "2026-10-10",
+    "count": 0
+   },
+   {
+    "date": "2026-10-11",
     "count": 0
    }
   ],

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="2792" viewBox="0 0 900 2792" role="img" aria-labelledby="t d">
 <title id="t">Developer activity — WakaTime and GitHub</title>
-<desc id="d">Developer activity: 54h 19m of coding in the last 7 days, 6 of 7 active days, 18 projects analyzed across 32 technologies.</desc>
+<desc id="d">Developer activity: 59h 32m of coding in the last 7 days, 6 of 7 active days, 18 projects analyzed across 32 technologies.</desc>
 <style>
   text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; fill: #F0F6FC; font-variant-numeric: tabular-nums; }
   .title { font-size: 20px; font-weight: 700; letter-spacing: 0.4px; }
@@ -36,10 +36,10 @@
 <rect x="0.5" y="0.5" width="899" height="2791" rx="12" fill="none" stroke="#30363D"/>
 <text x="24" y="46" class="title">DEVELOPER ACTIVITY</text>
 <text x="24" y="68" class="label">WAKATIME + GITHUB • UPDATED DAILY</text>
-<text x="876" y="46" class="range" text-anchor="end">CODING 3 OCT — 9 OCT 2026</text>
-<text x="876" y="68" class="label" text-anchor="end">UPDATED 10 OCT 2026</text>
+<text x="876" y="46" class="range" text-anchor="end">CODING 4 OCT — 10 OCT 2026</text>
+<text x="876" y="68" class="label" text-anchor="end">UPDATED 11 OCT 2026</text>
 <rect x="24.5" y="96.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="44" y="142" class="kpi">54h 19m</text>
+<text x="44" y="142" class="kpi">59h 32m</text>
 <text x="44" y="164" class="label">CODING TIME · 7 DAYS</text>
 <rect x="241.5" y="96.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="261" y="142" class="kpi">6 / 7</text>
@@ -63,55 +63,55 @@
 <text x="72" y="309.5" class="axis" text-anchor="end">12h</text>
 <line x1="82" y1="266" x2="428" y2="266" stroke="#21262D" stroke-width="1" stroke-dasharray="2 4"/>
 <text x="72" y="270" class="axis" text-anchor="end">16h</text>
-<path d="M 92.38 424 V 353.69 Q 92.38 348.69 97.38 348.69 H 116.05 Q 121.05 348.69 121.05 353.69 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
-<text x="106.71" y="340.69" class="val" text-anchor="middle">7h 38m</text>
-<text x="106.71" y="446" class="axis" text-anchor="middle">SAT</text>
-<rect x="141.81" y="421" width="28.67" height="3" rx="1.5" fill="#21262D"/>
-<text x="156.14" y="446" class="axis" text-anchor="middle">SUN</text>
-<path d="M 191.24 424 V 343 Q 191.24 338 196.24 338 H 214.91 Q 219.91 338 219.91 343 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
-<text x="205.57" y="330" class="val" text-anchor="middle">8h 43m</text>
-<text x="205.57" y="446" class="axis" text-anchor="middle">MON</text>
-<path d="M 240.67 424 V 399.39 Q 240.67 394.39 245.67 394.39 H 264.33 Q 269.33 394.39 269.33 399.39 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
-<text x="255" y="386.39" class="val" text-anchor="middle">3h 00m</text>
-<text x="255" y="446" class="axis" text-anchor="middle">TUE</text>
-<path d="M 290.09 424 V 306.59 Q 290.09 301.59 295.09 301.59 H 313.76 Q 318.76 301.59 318.76 306.59 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
-<text x="304.43" y="293.59" class="val" text-anchor="middle">12h 24m</text>
-<text x="304.43" y="446" class="axis" text-anchor="middle">WED</text>
-<path d="M 339.52 424 V 340.25 Q 339.52 335.25 344.52 335.25 H 363.19 Q 368.19 335.25 368.19 340.25 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
-<text x="353.86" y="327.25" class="val" text-anchor="middle">8h 59m</text>
-<text x="353.86" y="446" class="axis" text-anchor="middle">THU</text>
-<path d="M 388.95 424 V 294.7 Q 388.95 289.7 393.95 289.7 H 412.62 Q 417.62 289.7 417.62 294.7 V 424 Z" fill="#8B7CF6"/>
-<text x="403.29" y="281.7" class="val-hi" text-anchor="middle">13h 36m</text>
-<text x="403.29" y="446" class="axis" text-anchor="middle">FRI</text>
+<rect x="92.38" y="421" width="28.67" height="3" rx="1.5" fill="#21262D"/>
+<text x="106.71" y="446" class="axis" text-anchor="middle">SUN</text>
+<path d="M 141.81 424 V 343 Q 141.81 338 146.81 338 H 165.48 Q 170.48 338 170.48 343 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
+<text x="156.14" y="330" class="val" text-anchor="middle">8h 43m</text>
+<text x="156.14" y="446" class="axis" text-anchor="middle">MON</text>
+<path d="M 191.24 424 V 399.39 Q 191.24 394.39 196.24 394.39 H 214.91 Q 219.91 394.39 219.91 399.39 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
+<text x="205.57" y="386.39" class="val" text-anchor="middle">3h 00m</text>
+<text x="205.57" y="446" class="axis" text-anchor="middle">TUE</text>
+<path d="M 240.67 424 V 306.59 Q 240.67 301.59 245.67 301.59 H 264.33 Q 269.33 301.59 269.33 306.59 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
+<text x="255" y="293.59" class="val" text-anchor="middle">12h 24m</text>
+<text x="255" y="446" class="axis" text-anchor="middle">WED</text>
+<path d="M 290.09 424 V 340.25 Q 290.09 335.25 295.09 335.25 H 313.76 Q 318.76 335.25 318.76 340.25 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
+<text x="304.43" y="327.25" class="val" text-anchor="middle">8h 59m</text>
+<text x="304.43" y="446" class="axis" text-anchor="middle">THU</text>
+<path d="M 339.52 424 V 294.7 Q 339.52 289.7 344.52 289.7 H 363.19 Q 368.19 289.7 368.19 294.7 V 424 Z" fill="#8B7CF6"/>
+<text x="353.86" y="281.7" class="val-hi" text-anchor="middle">13h 36m</text>
+<text x="353.86" y="446" class="axis" text-anchor="middle">FRI</text>
+<path d="M 388.95 424 V 302.1 Q 388.95 297.1 393.95 297.1 H 412.62 Q 417.62 297.1 417.62 302.1 V 424 Z" fill="#6E60D9" fill-opacity="0.85"/>
+<text x="403.29" y="289.1" class="val" text-anchor="middle">12h 51m</text>
+<text x="403.29" y="446" class="axis" text-anchor="middle">SAT</text>
 <rect x="464.5" y="200.5" width="411" height="263" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="484" y="230" class="label">LANGUAGE DISTRIBUTION</text>
 <text x="856" y="230" class="label" text-anchor="end">7 DAYS</text>
-<path d="M 549 294 A 56 56 0 0 1 603.45 336.9" fill="none" stroke="#8B7CF6" stroke-width="14"/>
-<path d="M 603.95 339.19 A 56 56 0 0 1 576.16 398.97" fill="none" stroke="#5FA8F5" stroke-width="14"/>
-<path d="M 574.09 400.07 A 56 56 0 0 1 524.09 400.16" fill="none" stroke="#4FC1B2" stroke-width="14"/>
-<path d="M 522.01 399.07 A 56 56 0 0 1 503.85 383.13" fill="none" stroke="#E0B25C" stroke-width="14"/>
-<path d="M 502.51 381.21 A 56 56 0 0 1 494.01 360.61" fill="none" stroke="#E27C9A" stroke-width="14"/>
-<path d="M 493.62 358.29 A 56 56 0 0 1 546.65 294.05" fill="none" stroke="#484F58" stroke-width="14"/>
-<text x="549" y="356" class="center" text-anchor="middle" style="font-size:19px">54h 19m</text>
+<path d="M 549 294 A 56 56 0 0 1 603.73 338.16" fill="none" stroke="#8B7CF6" stroke-width="14"/>
+<path d="M 604.18 340.46 A 56 56 0 0 1 578.25 397.76" fill="none" stroke="#5FA8F5" stroke-width="14"/>
+<path d="M 576.22 398.94 A 56 56 0 0 1 523.11 399.65" fill="none" stroke="#4FC1B2" stroke-width="14"/>
+<path d="M 521.05 398.53 A 56 56 0 0 1 503.33 382.41" fill="none" stroke="#E0B25C" stroke-width="14"/>
+<path d="M 502.02 380.47 A 56 56 0 0 1 494.07 360.91" fill="none" stroke="#E27C9A" stroke-width="14"/>
+<path d="M 493.66 358.6 A 56 56 0 0 1 546.65 294.05" fill="none" stroke="#484F58" stroke-width="14"/>
+<text x="549" y="356" class="center" text-anchor="middle" style="font-size:19px">59h 32m</text>
 <text x="549" y="372" class="center-sub" text-anchor="middle">TOTAL TIME</text>
 <circle cx="639" cy="287.5" r="4.5" fill="#8B7CF6"/>
 <text x="652" y="292" class="legend">Python</text>
-<text x="856" y="292" class="meta" text-anchor="end">12h 01m · 22.1%</text>
+<text x="856" y="292" class="meta" text-anchor="end">13h 24m · 22.5%</text>
 <circle cx="639" cy="312.5" r="4.5" fill="#5FA8F5"/>
 <text x="652" y="317" class="legend">TypeScript</text>
-<text x="856" y="317" class="meta" text-anchor="end">11h 20m · 20.9%</text>
+<text x="856" y="317" class="meta" text-anchor="end">11h 46m · 19.8%</text>
 <circle cx="639" cy="337.5" r="4.5" fill="#4FC1B2"/>
 <text x="652" y="342" class="legend">Markdown</text>
-<text x="856" y="342" class="meta" text-anchor="end">8h 20m · 15.3%</text>
+<text x="856" y="342" class="meta" text-anchor="end">9h 45m · 16.4%</text>
 <circle cx="639" cy="362.5" r="4.5" fill="#E0B25C"/>
-<text x="652" y="367" class="legend">JavaScript</text>
-<text x="856" y="367" class="meta" text-anchor="end">3h 55m · 7.2%</text>
+<text x="652" y="367" class="legend">JSON</text>
+<text x="856" y="367" class="meta" text-anchor="end">4h 15m · 7.1%</text>
 <circle cx="639" cy="387.5" r="4.5" fill="#E27C9A"/>
-<text x="652" y="392" class="legend">JSON</text>
-<text x="856" y="392" class="meta" text-anchor="end">3h 36m · 6.6%</text>
+<text x="652" y="392" class="legend">JavaScript</text>
+<text x="856" y="392" class="meta" text-anchor="end">3h 45m · 6.3%</text>
 <circle cx="639" cy="412.5" r="4.5" fill="#484F58"/>
 <text x="652" y="417" class="legend dim">Other</text>
-<text x="856" y="417" class="meta" text-anchor="end">15h 06m · 27.8%</text>
+<text x="856" y="417" class="meta" text-anchor="end">16h 37m · 27.9%</text>
 <rect x="24.5" y="480.5" width="391" height="257" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="510" class="label">CODING HOURS HEATMAP</text>
 <text x="396" y="510" class="label" text-anchor="end">HOUR OF DAY</text>
@@ -119,97 +119,97 @@
 <text x="158.5" y="534" class="heat">06</text>
 <text x="239" y="534" class="heat">12</text>
 <text x="319.5" y="534" class="heat">18</text>
-<text x="68" y="556" class="heat" text-anchor="end">SAT</text>
+<text x="68" y="556" class="heat" text-anchor="end">SUN</text>
 <rect x="78" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="158.5" y="542" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="185.33" y="542" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="212.17" y="542" width="22.83" height="20" rx="4" fill="#6f65c3"/>
-<rect x="239" y="542" width="22.83" height="20" rx="4" fill="#534d90"/>
-<rect x="265.83" y="542" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="292.67" y="542" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="158.5" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="185.33" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="212.17" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="239" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="265.83" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="292.67" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="319.5" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="346.33" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="373.17" y="542" width="22.83" height="20" rx="4" fill="#21262D"/>
-<text x="68" y="580" class="heat" text-anchor="end">SUN</text>
+<text x="68" y="580" class="heat" text-anchor="end">MON</text>
 <rect x="78" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="158.5" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="185.33" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="212.17" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="239" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="265.83" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="292.67" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="319.5" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="185.33" y="566" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="212.17" y="566" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="239" y="566" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="265.83" y="566" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="292.67" y="566" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="319.5" y="566" width="22.83" height="20" rx="4" fill="#393862"/>
 <rect x="346.33" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="373.17" y="566" width="22.83" height="20" rx="4" fill="#21262D"/>
-<text x="68" y="604" class="heat" text-anchor="end">MON</text>
+<text x="68" y="604" class="heat" text-anchor="end">TUE</text>
 <rect x="78" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="158.5" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="185.33" y="590" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="212.17" y="590" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="239" y="590" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="265.83" y="590" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="292.67" y="590" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="319.5" y="590" width="22.83" height="20" rx="4" fill="#393862"/>
+<rect x="185.33" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="212.17" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="239" y="590" width="22.83" height="20" rx="4" fill="#393862"/>
+<rect x="265.83" y="590" width="22.83" height="20" rx="4" fill="#6f65c3"/>
+<rect x="292.67" y="590" width="22.83" height="20" rx="4" fill="#393862"/>
+<rect x="319.5" y="590" width="22.83" height="20" rx="4" fill="#534d90"/>
 <rect x="346.33" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="373.17" y="590" width="22.83" height="20" rx="4" fill="#21262D"/>
-<text x="68" y="628" class="heat" text-anchor="end">TUE</text>
+<text x="68" y="628" class="heat" text-anchor="end">WED</text>
 <rect x="78" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="158.5" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="185.33" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="212.17" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="239" y="614" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="265.83" y="614" width="22.83" height="20" rx="4" fill="#6f65c3"/>
-<rect x="292.67" y="614" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="319.5" y="614" width="22.83" height="20" rx="4" fill="#534d90"/>
-<rect x="346.33" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="373.17" y="614" width="22.83" height="20" rx="4" fill="#21262D"/>
-<text x="68" y="652" class="heat" text-anchor="end">WED</text>
+<rect x="158.5" y="614" width="22.83" height="20" rx="4" fill="#393862"/>
+<rect x="185.33" y="614" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="212.17" y="614" width="22.83" height="20" rx="4" fill="#6f65c3"/>
+<rect x="239" y="614" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="265.83" y="614" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="292.67" y="614" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="319.5" y="614" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="346.33" y="614" width="22.83" height="20" rx="4" fill="#6f65c3"/>
+<rect x="373.17" y="614" width="22.83" height="20" rx="4" fill="#393862"/>
+<text x="68" y="652" class="heat" text-anchor="end">THU</text>
 <rect x="78" y="638" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="638" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="638" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="158.5" y="638" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="185.33" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="212.17" y="638" width="22.83" height="20" rx="4" fill="#6f65c3"/>
+<rect x="158.5" y="638" width="22.83" height="20" rx="4" fill="#534d90"/>
+<rect x="185.33" y="638" width="22.83" height="20" rx="4" fill="#534d90"/>
+<rect x="212.17" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
 <rect x="239" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
 <rect x="265.83" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
 <rect x="292.67" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="319.5" y="638" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="346.33" y="638" width="22.83" height="20" rx="4" fill="#6f65c3"/>
-<rect x="373.17" y="638" width="22.83" height="20" rx="4" fill="#393862"/>
-<text x="68" y="676" class="heat" text-anchor="end">THU</text>
+<rect x="319.5" y="638" width="22.83" height="20" rx="4" fill="#393862"/>
+<rect x="346.33" y="638" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="373.17" y="638" width="22.83" height="20" rx="4" fill="#21262D"/>
+<text x="68" y="676" class="heat" text-anchor="end">FRI</text>
 <rect x="78" y="662" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="104.83" y="662" width="22.83" height="20" rx="4" fill="#21262D"/>
 <rect x="131.67" y="662" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="158.5" y="662" width="22.83" height="20" rx="4" fill="#534d90"/>
+<rect x="158.5" y="662" width="22.83" height="20" rx="4" fill="#393862"/>
 <rect x="185.33" y="662" width="22.83" height="20" rx="4" fill="#534d90"/>
 <rect x="212.17" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="239" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="239" y="662" width="22.83" height="20" rx="4" fill="#6f65c3"/>
 <rect x="265.83" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
 <rect x="292.67" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="319.5" y="662" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="346.33" y="662" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="373.17" y="662" width="22.83" height="20" rx="4" fill="#21262D"/>
-<text x="68" y="700" class="heat" text-anchor="end">FRI</text>
-<rect x="78" y="686" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="104.83" y="686" width="22.83" height="20" rx="4" fill="#21262D"/>
-<rect x="131.67" y="686" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="319.5" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="346.33" y="662" width="22.83" height="20" rx="4" fill="#6f65c3"/>
+<rect x="373.17" y="662" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<text x="68" y="700" class="heat" text-anchor="end">SAT</text>
+<rect x="78" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="104.83" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="131.67" y="686" width="22.83" height="20" rx="4" fill="#393862"/>
 <rect x="158.5" y="686" width="22.83" height="20" rx="4" fill="#393862"/>
-<rect x="185.33" y="686" width="22.83" height="20" rx="4" fill="#534d90"/>
+<rect x="185.33" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
 <rect x="212.17" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="239" y="686" width="22.83" height="20" rx="4" fill="#6f65c3"/>
-<rect x="265.83" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="239" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="265.83" y="686" width="22.83" height="20" rx="4" fill="#6f65c3"/>
 <rect x="292.67" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="319.5" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
-<rect x="346.33" y="686" width="22.83" height="20" rx="4" fill="#6f65c3"/>
-<rect x="373.17" y="686" width="22.83" height="20" rx="4" fill="#8B7CF6"/>
+<rect x="319.5" y="686" width="22.83" height="20" rx="4" fill="#534d90"/>
+<rect x="346.33" y="686" width="22.83" height="20" rx="4" fill="#21262D"/>
+<rect x="373.17" y="686" width="22.83" height="20" rx="4" fill="#21262D"/>
 <text x="44" y="720" class="heat">Less</text>
 <rect x="78" y="711" width="12" height="12" rx="3" fill="#21262D"/>
 <rect x="94" y="711" width="12" height="12" rx="3" fill="#393862"/>
@@ -220,17 +220,17 @@
 <rect x="432.5" y="480.5" width="443" height="257" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="452" y="510" class="label">CODING INSIGHTS</text>
 <text x="452" y="540" class="label">MOST USED LANGUAGE</text>
-<text x="452" y="562" class="ins">Python<tspan class="ins-sub"> · 12h 01m</tspan></text>
+<text x="452" y="562" class="ins">Python<tspan class="ins-sub"> · 13h 24m</tspan></text>
 <text x="654" y="540" class="label">MOST PRODUCTIVE DAY</text>
 <text x="654" y="562" class="ins">Friday<tspan class="ins-sub"> · 13h 36m</tspan></text>
 <text x="452" y="602" class="label">DAILY AVERAGE</text>
-<text x="452" y="624" class="ins">7h 46m</text>
+<text x="452" y="624" class="ins">8h 30m</text>
 <text x="654" y="602" class="label">LONGEST SESSION</text>
 <text x="654" y="624" class="ins">8h 48m<tspan class="ins-sub"> · Wed 10:48–19:37</tspan></text>
 <text x="452" y="664" class="label">ACTIVE DAYS</text>
 <text x="452" y="686" class="ins">6 / 7<tspan class="ins-sub"> · 86% of the week</tspan></text>
 <text x="654" y="664" class="label">PEAK HOURS</text>
-<text x="654" y="686" class="ins">14:00–16:00<tspan class="ins-sub"> · 11h 16m</tspan></text>
+<text x="654" y="686" class="ins">14:00–16:00<tspan class="ins-sub"> · 10h 34m</tspan></text>
 <text x="24" y="774" class="sec">PROJECT ECOSYSTEM</text>
 <line x1="201.53" y1="770" x2="585.78" y2="770" stroke="#30363D" stroke-width="1"/>
 <text x="876" y="774" class="label" text-anchor="end">18 PROJECTS · 12 PUBLIC · 6 PRIVATE</text>
@@ -277,12 +277,12 @@
 <rect x="24.5" y="998.5" width="851" height="59" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="1033" class="label">PROJECT MATURITY</text>
 <rect x="214" y="1024" width="372.76" height="8" rx="4" fill="#21262D"/>
-<rect x="214" y="1024" width="287.92" height="8" rx="4" fill="#8B7CF6"/>
-<rect x="503.92" y="1024" width="82.84" height="8" rx="4" fill="#5f57a5"/>
+<rect x="214" y="1024" width="267.22" height="8" rx="4" fill="#8B7CF6"/>
+<rect x="483.22" y="1024" width="103.54" height="8" rx="4" fill="#5f57a5"/>
 <circle cx="618.76" cy="1028" r="4" fill="#8B7CF6"/>
-<text x="628.76" y="1032" class="label">ACTIVE 14</text>
+<text x="628.76" y="1032" class="label">ACTIVE 13</text>
 <circle cx="725.26" cy="1028" r="4" fill="#5f57a5"/>
-<text x="735.26" y="1032" class="label">MAINTAINED 4</text>
+<text x="735.26" y="1032" class="label">MAINTAINED 5</text>
 <text x="24" y="1094" class="sec">TECHNOLOGY ECOSYSTEM</text>
 <line x1="231.17" y1="1090" x2="653.32" y2="1090" stroke="#30363D" stroke-width="1"/>
 <text x="876" y="1094" class="label" text-anchor="end">32 TECHNOLOGIES DETECTED</text>
@@ -406,30 +406,30 @@
 <text x="44" y="1962" class="sub faint">Offline-first sync · Push notifications · Real-time updates</text>
 <rect x="458.5" y="1822.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="1847" r="4" fill="#E0B25C"/>
-<text x="492" y="1851" class="label">MOBILE APPLICATIONS</text>
+<text x="492" y="1851" class="label">GAMES</text>
 <text x="856" y="1851" class="label" text-anchor="end">2 PROJECTS</text>
 <text x="856" y="1878.5" class="mat" text-anchor="end">ACTIVE</text>
-<text x="478" y="1879" class="name">bulk-sms</text>
-<text x="478" y="1895" class="sub">Flutter · SQLite · Dart · Kotlin</text>
-<text x="478" y="1910" class="sub faint">Android bulk SMS tool on Flutter. Two-stage xlsx/csv parse…</text>
+<rect x="731.12" y="1868" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
+<text x="761.54" y="1878.5" class="tag" text-anchor="middle">PRIVATE</text>
+<text x="478" y="1879" class="name">Game Project</text>
+<text x="478" y="1895" class="sub">C++ · C</text>
+<text x="478" y="1910" class="sub faint">Reporting &amp; analytics · Multi-language (i18n)</text>
 <text x="856" y="1930.5" class="mat" text-anchor="end">MAINTAINED</text>
-<text x="478" y="1931" class="name">chatforge</text>
-<text x="478" y="1947" class="sub">Flutter · Riverpod · Cloud Functions · Firebase</text>
-<text x="478" y="1962" class="sub faint">ChatForge — production-oriented 1-to-1 messenger on Flutte…</text>
+<text x="478" y="1931" class="name">purple-runner</text>
+<text x="478" y="1947" class="sub">Flutter · Flame · Dart</text>
+<text x="478" y="1962" class="sub faint">Deep Purple Runner — endless runner on Flutter and Flame. A…</text>
 <rect x="24.5" y="1990.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="2015" r="4" fill="#E27C9A"/>
-<text x="58" y="2019" class="label">GAMES</text>
+<text x="58" y="2019" class="label">MOBILE APPLICATIONS</text>
 <text x="422" y="2019" class="label" text-anchor="end">2 PROJECTS</text>
-<text x="422" y="2046.5" class="mat" text-anchor="end">ACTIVE</text>
-<rect x="297.12" y="2036" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
-<text x="327.54" y="2046.5" class="tag" text-anchor="middle">PRIVATE</text>
-<text x="44" y="2047" class="name">Game Project</text>
-<text x="44" y="2063" class="sub">C++ · C</text>
-<text x="44" y="2078" class="sub faint">Reporting &amp; analytics · Multi-language (i18n)</text>
+<text x="422" y="2046.5" class="mat" text-anchor="end">MAINTAINED</text>
+<text x="44" y="2047" class="name">chatforge</text>
+<text x="44" y="2063" class="sub">Flutter · Riverpod · Cloud Functions · Firebase</text>
+<text x="44" y="2078" class="sub faint">ChatForge — production-oriented 1-to-1 messenger on Flutte…</text>
 <text x="422" y="2098.5" class="mat" text-anchor="end">MAINTAINED</text>
-<text x="44" y="2099" class="name">purple-runner</text>
-<text x="44" y="2115" class="sub">Flutter · Flame · Dart</text>
-<text x="44" y="2130" class="sub faint">Deep Purple Runner — endless runner on Flutter and Flame. A…</text>
+<text x="44" y="2099" class="name">bulk-sms</text>
+<text x="44" y="2115" class="sub">Flutter · SQLite · Dart · Kotlin</text>
+<text x="44" y="2130" class="sub faint">Android bulk SMS tool on Flutter. Two-stage xlsx/csv parse…</text>
 <rect x="458.5" y="1990.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="2015" r="4" fill="#9AA4B2"/>
 <text x="492" y="2019" class="label">AI &amp; AUTOMATION</text>
@@ -448,7 +448,7 @@
 <text x="478" y="2130" class="sub faint">ERP integration · Excel &amp; PDF processing</text>
 <text x="24" y="2178" class="sec">DEVELOPMENT ACTIVITY</text>
 <line x1="231.17" y1="2174" x2="574.8" y2="2174" stroke="#30363D" stroke-width="1"/>
-<text x="876" y="2178" class="label" text-anchor="end">GITHUB COMMITS · 11 APR — 10 OCT 2026</text>
+<text x="876" y="2178" class="label" text-anchor="end">GITHUB COMMITS · 12 APR — 11 OCT 2026</text>
 <rect x="24.5" y="2198.5" width="539" height="213" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="2228" class="label">COMMIT ACTIVITY</text>
 <text x="544" y="2228" class="label" text-anchor="end">ALL ANALYZED REPOSITORIES</text>
@@ -458,7 +458,7 @@
 <rect x="78" y="2290" width="11" height="11" rx="2.5" fill="#161B22"/>
 <rect x="78" y="2304" width="11" height="11" rx="2.5" fill="#161B22"/>
 <rect x="78" y="2318" width="11" height="11" rx="2.5" fill="#161B22"/>
-<rect x="78" y="2332" width="11" height="11" rx="2.5" fill="#21262D"/>
+<rect x="78" y="2332" width="11" height="11" rx="2.5" fill="#161B22"/>
 <rect x="78" y="2346" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="92" y="2262" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="92" y="2276" width="11" height="11" rx="2.5" fill="#21262D"/>
@@ -647,6 +647,7 @@
 <rect x="442" y="2304" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="442" y="2318" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="442" y="2332" width="11" height="11" rx="2.5" fill="#21262D"/>
+<rect x="442" y="2346" width="11" height="11" rx="2.5" fill="#21262D"/>
 <text x="68" y="2271" class="heat" text-anchor="end">MON</text>
 <text x="68" y="2299" class="heat" text-anchor="end">WED</text>
 <text x="68" y="2327" class="heat" text-anchor="end">FRI</text>
