@@ -2,12 +2,12 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-12",
+ "generatedAt": "2026-10-13",
  "counts": {
-  "repositories": 20,
-  "projects": 18,
+  "repositories": 21,
+  "projects": 19,
   "public": 12,
-  "private": 6,
+  "private": 7,
   "excluded": 2
  },
  "projects": [
@@ -113,6 +113,29 @@
    ],
    "maturity": "Active",
    "rank": 6.6
+  },
+  {
+   "kind": "private",
+   "title": "API Service",
+   "category": "Backend Systems",
+   "platform": "Backend",
+   "technologies": [
+    "Dart",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Flutter",
+    "Cloudflare Workers",
+    "REST APIs",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "API integration",
+    "Camera & QR scanning"
+   ],
+   "maturity": "Active",
+   "rank": 6.2
   },
   {
    "kind": "private",
@@ -506,6 +529,29 @@
    ]
   },
   {
+   "name": "Mobile Applications",
+   "domain": false,
+   "count": 7,
+   "public": 4,
+   "private": 3,
+   "technologies": [
+    "Flutter",
+    "Dart",
+    "Provider",
+    "Flame",
+    "React Native",
+    "Riverpod"
+   ],
+   "capabilities": [
+    "Push notifications",
+    "Real-time updates",
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "Native platform integration",
+    "Offline-first sync"
+   ]
+  },
+  {
    "name": "Web Applications",
    "domain": false,
    "count": 7,
@@ -526,29 +572,6 @@
     "Excel & PDF processing",
     "Sales & POS",
     "CI/CD pipelines"
-   ]
-  },
-  {
-   "name": "Mobile Applications",
-   "domain": false,
-   "count": 6,
-   "public": 4,
-   "private": 2,
-   "technologies": [
-    "Flutter",
-    "Dart",
-    "Provider",
-    "Flame",
-    "React Native",
-    "Riverpod"
-   ],
-   "capabilities": [
-    "Push notifications",
-    "Real-time updates",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "Native platform integration",
-    "Offline-first sync"
    ]
   },
   {
@@ -575,6 +598,29 @@
    ]
   },
   {
+   "name": "Backend Systems",
+   "domain": false,
+   "count": 4,
+   "public": 2,
+   "private": 2,
+   "technologies": [
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Python",
+    "Cloud Firestore",
+    "Cloud Functions",
+    "Firebase"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Sales & POS",
+    "Accounting & invoicing",
+    "API integration"
+   ]
+  },
+  {
    "name": "AI & Automation",
    "domain": true,
    "count": 3,
@@ -595,29 +641,6 @@
     "Reporting & analytics",
     "Scheduled jobs",
     "Telegram bot automation"
-   ]
-  },
-  {
-   "name": "Backend Systems",
-   "domain": false,
-   "count": 3,
-   "public": 2,
-   "private": 1,
-   "technologies": [
-    "Cloud Firestore",
-    "Cloud Functions",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Firebase",
-    "Flask"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Reporting & analytics",
-    "Sales & POS",
-    "Accounting & invoicing",
-    "Bank statement processing",
-    "Browser automation & scraping"
    ]
   },
   {
@@ -663,6 +686,29 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 2,
+   "public": 1,
+   "private": 1,
+   "technologies": [
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Firebase"
+   ],
+   "capabilities": [
+    "API integration",
+    "Authentication",
+    "Camera & QR scanning",
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "Excel & PDF processing"
+   ]
+  },
+  {
    "name": "Developer Tools",
    "domain": true,
    "count": 1,
@@ -683,29 +729,6 @@
     "Role-based access",
     "State management"
    ]
-  },
-  {
-   "name": "Experimental",
-   "domain": true,
-   "count": 1,
-   "public": 1,
-   "private": 0,
-   "technologies": [
-    "Cloud Firestore",
-    "Firebase",
-    "Flutter",
-    "Provider",
-    "SQLite",
-    "Dart"
-   ],
-   "capabilities": [
-    "Authentication",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "File import/export",
-    "Local database",
-    "Multi-language (i18n)"
-   ]
   }
  ],
  "technologies": [
@@ -714,224 +737,224 @@
    "group": "tools",
    "language": false,
    "count": 8,
-   "percent": 44.44444444444444
+   "percent": 42.10526315789473
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 7,
-   "percent": 38.88888888888889
+   "count": 8,
+   "percent": 42.10526315789473
+  },
+  {
+   "name": "Dart",
+   "group": "mobile",
+   "language": true,
+   "count": 6,
+   "percent": 31.57894736842105
+  },
+  {
+   "name": "Flutter",
+   "group": "mobile",
+   "language": false,
+   "count": 6,
+   "percent": 31.57894736842105
+  },
+  {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 6,
+   "percent": 31.57894736842105
+  },
+  {
+   "name": "JavaScript",
+   "group": "web",
+   "language": true,
+   "count": 6,
+   "percent": 31.57894736842105
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 6,
-   "percent": 33.33333333333333
-  },
-  {
-   "name": "Dart",
-   "group": "mobile",
-   "language": true,
-   "count": 5,
-   "percent": 27.77777777777778
-  },
-  {
-   "name": "Flutter",
-   "group": "mobile",
-   "language": false,
-   "count": 5,
-   "percent": 27.77777777777778
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 5,
-   "percent": 27.77777777777778
-  },
-  {
-   "name": "JavaScript",
-   "group": "web",
-   "language": true,
-   "count": 5,
-   "percent": 27.77777777777778
+   "percent": 31.57894736842105
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 4,
-   "percent": 22.22222222222222
+   "percent": 21.052631578947366
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 4,
-   "percent": 22.22222222222222
+   "percent": 21.052631578947366
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 16.666666666666664
+   "percent": 15.789473684210526
+  },
+  {
+   "name": "Cloudflare D1",
+   "group": "database",
+   "language": false,
+   "count": 3,
+   "percent": 15.789473684210526
+  },
+  {
+   "name": "Cloudflare Workers",
+   "group": "backend",
+   "language": false,
+   "count": 3,
+   "percent": 15.789473684210526
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 3,
-   "percent": 16.666666666666664
+   "percent": 15.789473684210526
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 16.666666666666664
+   "percent": 15.789473684210526
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 3,
-   "percent": 16.666666666666664
-  },
-  {
-   "name": "Cloudflare D1",
-   "group": "database",
-   "language": false,
-   "count": 2,
-   "percent": 11.11111111111111
-  },
-  {
-   "name": "Cloudflare Workers",
-   "group": "backend",
-   "language": false,
-   "count": 2,
-   "percent": 11.11111111111111
+   "percent": 15.789473684210526
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 11.11111111111111
+   "percent": 10.526315789473683
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 11.11111111111111
+   "percent": 10.526315789473683
+  },
+  {
+   "name": "REST APIs",
+   "group": "backend",
+   "language": false,
+   "count": 2,
+   "percent": 10.526315789473683
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 11.11111111111111
+   "percent": 10.526315789473683
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
-  },
-  {
-   "name": "REST APIs",
-   "group": "backend",
-   "language": false,
-   "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 5.555555555555555
+   "percent": 5.263157894736842
   }
  ],
  "pairs": [
@@ -978,8 +1001,8 @@
     "Python",
     "Node.js",
     "Cloudflare Workers",
-    "C",
-    "C++"
+    "REST APIs",
+    "C"
    ]
   },
   {
@@ -987,8 +1010,8 @@
    "technologies": [
     "SQLite",
     "Cloud Firestore",
-    "Firebase",
-    "Cloudflare D1"
+    "Cloudflare D1",
+    "Firebase"
    ]
   },
   {
@@ -1015,7 +1038,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Maintained",
@@ -1023,13 +1046,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-13",
-  "windowEnd": "2026-10-12",
+  "windowStart": "2026-04-14",
+  "windowEnd": "2026-10-13",
   "days": [
-   {
-    "date": "2026-04-13",
-    "count": 0
-   },
    {
     "date": "2026-04-14",
     "count": 0
@@ -1757,11 +1776,15 @@
    {
     "date": "2026-10-12",
     "count": 0
+   },
+   {
+    "date": "2026-10-13",
+    "count": 0
    }
   ],
   "total": 153,
   "last90": 153,
-  "activeProjects30": 3,
+  "activeProjects30": 2,
   "longestStreak": 4,
   "currentStreak": 0,
   "mostActive": {
