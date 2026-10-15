@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-14",
+ "generatedAt": "2026-10-15",
  "counts": {
   "repositories": 22,
   "projects": 19,
@@ -222,35 +222,6 @@
   },
   {
    "kind": "public",
-   "name": "workforce-os",
-   "description": "",
-   "url": "https://github.com/linverno-tm/workforce-os",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Web",
-   "technologies": [
-    "TypeScript",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Node.js",
-    "Cloudflare Workers",
-    "SQLite",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Local database",
-    "Sales & POS",
-    "Employee & HR workflows",
-    "Reporting & analytics"
-   ],
-   "maturity": "Active",
-   "rank": 5.6
-  },
-  {
-   "kind": "public",
    "name": "mini-ges-site",
    "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
    "url": "https://github.com/linverno-tm/mini-ges-site",
@@ -395,6 +366,35 @@
    ],
    "maturity": "Maintained",
    "rank": 5
+  },
+  {
+   "kind": "public",
+   "name": "workforce-os",
+   "description": "",
+   "url": "https://github.com/linverno-tm/workforce-os",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "Cloudflare Workers",
+    "SQLite",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Local database",
+    "Sales & POS",
+    "Employee & HR workflows",
+    "Reporting & analytics"
+   ],
+   "maturity": "Maintained",
+   "rank": 4.6
   },
   {
    "kind": "public",
@@ -1038,21 +1038,17 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Maintained",
-   "count": 5
+   "count": 6
   }
  ],
  "activity": {
-  "windowStart": "2026-04-15",
-  "windowEnd": "2026-10-14",
+  "windowStart": "2026-04-16",
+  "windowEnd": "2026-10-15",
   "days": [
-   {
-    "date": "2026-04-15",
-    "count": 0
-   },
    {
     "date": "2026-04-16",
     "count": 0
@@ -1780,11 +1776,15 @@
    {
     "date": "2026-10-14",
     "count": 0
+   },
+   {
+    "date": "2026-10-15",
+    "count": 0
    }
   ],
   "total": 153,
   "last90": 153,
-  "activeProjects30": 1,
+  "activeProjects30": 0,
   "longestStreak": 4,
   "currentStreak": 0,
   "mostActive": {
