@@ -23,6 +23,8 @@ linverno-tm@github ~ $ ls ~/projects --featured
 ### 🏬 Hamkor CRM — installment-sales platform that replaces 1C
 <img src="https://img.shields.io/badge/status-in%20production-39D353?style=flat-square&labelColor=0D1117" alt="status"> <img src="https://img.shields.io/badge/commits-1%2C300%2B%20in%20a%20month-39D353?style=flat-square&labelColor=0D1117" alt="commits"> <img src="https://img.shields.io/badge/screens-237-58A6FF?style=flat-square&labelColor=0D1117" alt="screens"> <img src="https://img.shields.io/badge/source-private-6E7681?style=flat-square&labelColor=0D1117" alt="source">
 
+<img src="assets/hamkor-crm.svg" alt="Four stores feed one Hamkor CRM with 1C sync; used from a Windows app, phones, and offline" width="100%">
+
 A retail chain of four stores ran on four separate 1C databases that couldn't see each other — a customer blacklisted in one store could get new credit in the next. I built one system for all of them: sales, installment contracts, payments, cash, warehouse, payroll and dozens of reports, with two-way sync to 1C while both run side by side.
 
 - **Works without internet** — an encrypted local copy keeps every window usable offline; actions queue up and sync back when the line returns.
@@ -40,25 +42,48 @@ Scammers in Uzbekistan send fake APKs over Telegram that steal SMS codes. Qalqon
 
 `Flutter` `Kotlin` `APK / DEX analysis` `Isolates`
 
-### 🌐 [HAMKOR SAVDO](https://github.com/linverno-tm/hamkor-savdo-site) — brand site + live competitor price watch
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🌐 [HAMKOR SAVDO](https://github.com/linverno-tm/hamkor-savdo-site) — brand site + live price watch
+
 A story page plus a page per branch for the same retail chain — Next.js 16, React 19, Tailwind v4, no animation library. Next to it runs a **price watch**: competitors' posts in Telegram groups become prices in real time, and a daily PDF per shop carries only the new or changed prices.
 
 `Next.js 16` `React 19` `Tailwind v4` `Telegram` `PDF reports`
 
-### 👷 [Workforce OS](https://github.com/linverno-tm/workforce-os) — attendance and sales-based payroll at the edge
+</td>
+<td width="50%" valign="top">
+
+#### 👷 [Workforce OS](https://github.com/linverno-tm/workforce-os) — attendance &amp; payroll at the edge
+
 Attendance, uniforms and payroll calculated from each employee's sales — running entirely on Cloudflare Workers with D1. Custom JWT sessions in HttpOnly cookies, PBKDF2-SHA256 password hashing via Web Crypto.
 
 `Next.js 16` `Cloudflare Workers` `D1` `Server Actions` `JWT`
 
-### ✨ Websites — live demos
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ✨ Websites — live demos
+
 - **[BON! Café](https://linverno-tm.github.io/bon-cafe-landing/)** — trilingual cinematic landing page pitch.
 - **[MINI GES](https://linverno-tm.github.io/mini-ges-site/)** — site for small hydro-power plants (Ulug'nor, Baliqchi).
 - **[Shuxrat o'g'li](https://linverno-tm.github.io/shuxrat-ogli-site/)** — brand site concept for a poultry producer, in Uzbek, Russian and English.
 
-### 🧾 Accounting automation
+</td>
+<td width="50%" valign="top">
+
+#### 🧾 Accounting automation
+
 - **[accounting-report](https://github.com/linverno-tm/accounting-report)** — builds the tax-audit (kameral) report from invoices and cash receipts.
 - **[invoice-to-smartpos](https://github.com/linverno-tm/invoice-to-smartpos)** — turns e-invoice `.xls` files into a SmartPOS product list.
 - **[bank-statement-cleaner](https://github.com/linverno-tm/bank-statement-cleaner)** — cleans and normalizes bank statements for the books.
+
+</td>
+</tr>
+</table>
 
 <sub>Earlier Flutter work: [ChatForge](https://github.com/linverno-tm/chatforge) · [Task Manager](https://github.com/linverno-tm/task-manager) · [Deep Purple Runner](https://github.com/linverno-tm/purple-runner) · [Bulk SMS](https://github.com/linverno-tm/bulk-sms)</sub>
 

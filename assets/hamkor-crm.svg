@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+<title id="t">Hamkor CRM architecture</title>
+<desc id="d">Four stores work in one Hamkor CRM system on PostgreSQL, with two-way 1C sync; it is used from a Windows app with silent receipt printing, from phones, and keeps working offline from an encrypted local copy.</desc>
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #E6EDF3; }
+  .h { font-size: 22px; font-weight: 700; }
+  .l { font-size: 15px; }
+  .s { font-size: 12.5px; fill: #8B949E; }
+  .g { fill: #3FB950; }
+  .box { fill: #11161D; stroke: #30363D; }
+  .flow { fill: none; stroke: #26A641; stroke-width: 2; stroke-dasharray: 6 8; animation: flow 1.2s linear infinite; }
+  .flow.slow { stroke: #58A6FF; animation-duration: 2.4s; }
+  .pulse { animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes flow { to { stroke-dashoffset: -28; } }
+  @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .flow, .pulse { animation: none; } }
+</style>
+<rect x="0.5" y="0.5" width="719" height="299" rx="12" fill="#0D1117" stroke="#30363D"/>
+
+<!-- stores -->
+<g>
+  <rect class="box" x="24.5" y="28.5" width="150" height="44" rx="8"/><text x="44" y="56" class="l">🏬 store 1</text>
+  <rect class="box" x="24.5" y="84.5" width="150" height="44" rx="8"/><text x="44" y="112" class="l">🏬 store 2</text>
+  <rect class="box" x="24.5" y="140.5" width="150" height="44" rx="8"/><text x="44" y="168" class="l">🏬 store 3</text>
+  <rect class="box" x="24.5" y="196.5" width="150" height="44" rx="8"/><text x="44" y="224" class="l">🏬 store 4</text>
+  <text x="24" y="270" class="s">were 4 separate 1C bases</text>
+</g>
+<path class="flow" d="M175 50 C 220 50, 220 134, 262 134"/>
+<path class="flow" d="M175 106 C 215 106, 225 134, 262 134"/>
+<path class="flow" d="M175 162 C 215 162, 225 134, 262 134"/>
+<path class="flow" d="M175 218 C 220 218, 220 134, 262 134"/>
+
+<!-- core -->
+<rect x="262.5" y="78.5" width="200" height="112" rx="10" fill="#0E4429" fill-opacity=".35" stroke="#26A641" class="pulse"/>
+<text x="362" y="122" class="h" text-anchor="middle">Hamkor CRM</text>
+<text x="362" y="146" class="s" text-anchor="middle">one customer history</text>
+<text x="362" y="166" class="s" text-anchor="middle">Next.js · PostgreSQL</text>
+
+<!-- 1C sync -->
+<path class="flow slow" d="M362 191 V 228"/>
+<rect class="box" x="292.5" y="228.5" width="140" height="44" rx="8"/>
+<text x="362" y="256" class="l" text-anchor="middle">⇄ 1C sync</text>
+
+<!-- clients -->
+<path class="flow" d="M463 134 C 500 134, 500 50, 538 50"/>
+<path class="flow" d="M463 134 H 538"/>
+<path class="flow" d="M463 134 C 500 134, 500 218, 538 218"/>
+<rect class="box" x="538.5" y="24.5" width="158" height="52" rx="8"/><text x="554" y="47" class="l">🖥 Windows app</text><text x="554" y="66" class="s">silent receipts</text>
+<rect class="box" x="538.5" y="108.5" width="158" height="52" rx="8"/><text x="554" y="131" class="l">📱 phone</text><text x="554" y="150" class="s">every screen fits</text>
+<rect class="box" x="538.5" y="192.5" width="158" height="52" rx="8"/><text x="554" y="215" class="l g">⚡ offline</text><text x="554" y="234" class="s">encrypted local copy</text>
+</svg>
