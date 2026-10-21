@@ -20,44 +20,47 @@ I build production-ready apps on two fronts: **Flutter** for mobile, **Next.js**
 linverno-tm@github ~ $ ls ~/projects --featured
 ```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🏬 Hamkor CRM — installment-sales platform that replaces 1C
+<img src="https://img.shields.io/badge/status-in%20production-39D353?style=flat-square&labelColor=0D1117" alt="status"> <img src="https://img.shields.io/badge/commits-1%2C300%2B%20in%20a%20month-39D353?style=flat-square&labelColor=0D1117" alt="commits"> <img src="https://img.shields.io/badge/screens-237-58A6FF?style=flat-square&labelColor=0D1117" alt="screens"> <img src="https://img.shields.io/badge/source-private-6E7681?style=flat-square&labelColor=0D1117" alt="source">
 
-**[💬 ChatForge](https://github.com/linverno-tm/chatforge)**<br>
-Production-oriented 1-to-1 messenger. Strict Firestore security rules, Cloud Functions for targeted push, transactional username uniqueness and anti-spam guards. CI runs analyze, tests and web/Android builds.
+A retail chain of four stores ran on four separate 1C databases that couldn't see each other — a customer blacklisted in one store could get new credit in the next. I built one system for all of them: sales, installment contracts, payments, cash, warehouse, payroll and dozens of reports, with two-way sync to 1C while both run side by side.
 
-`Flutter` `Riverpod` `Firestore` `Cloud Functions` `FCM`
+- **Works without internet** — an encrypted local copy keeps every window usable offline; actions queue up and sync back when the line returns.
+- **Windows app** on Tauri v2 with silent receipt printing, auto-updates through [public releases](https://github.com/linverno-tm/hamkor-nasiya/releases).
+- **Every deploy is tested end-to-end** — sales, contracts, payments and reports run on a throw-away PostgreSQL before the build goes live.
 
-</td>
-<td width="50%" valign="top">
+`Next.js` `TypeScript` `PostgreSQL 16` `Tauri v2` `Service Worker` `Web Push` `1C sync`
 
-**[✅ Task Manager](https://github.com/linverno-tm/task-manager)**<br>
-Offline-first Cupertino task manager. Firestore and SQLite behind one service layer, sync reconciles on connectivity change, connectivity confirmed by DNS rather than interface state.
+### 🛡️ [Qalqon](https://github.com/linverno-tm/qalqon-yangilanish/releases) — Android shield against SMS stealers and malicious APKs
+<img src="https://img.shields.io/badge/release-v1.0.6-39D353?style=flat-square&labelColor=0D1117" alt="release"> <img src="https://img.shields.io/badge/android-7.0%2B-58A6FF?style=flat-square&labelColor=0D1117" alt="android">
 
-`Flutter` `Firebase` `SQLite` `Notifications` `Provider`
+Scammers in Uzbekistan send fake APKs over Telegram that steal SMS codes. Qalqon checks every installed app for the stealer pattern — SMS and notification access, Accessibility, device admin, hidden icon, sideloaded installer chain — and scans an APK *before* it is installed, straight from Telegram's "Open with". Built for elderly users: large type, plain Uzbek, Latin ↔ Cyrillic switch.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- Binary manifest and DEX parsing in pure Dart, on a background isolate; APKs are streamed in chunks, so it runs on old phones.
 
-**[🎮 Deep Purple Runner](https://github.com/linverno-tm/purple-runner)**<br>
-Endless runner on Flutter + Flame. Component-based game loop, asymmetric jump gravity, hitbox collision with particle burst; 24 tests cover physics, progression and persistence.
+`Flutter` `Kotlin` `APK / DEX analysis` `Isolates`
 
-`Flutter` `Flame` `Game Loop` `Physics`
+### 🌐 [HAMKOR SAVDO](https://github.com/linverno-tm/hamkor-savdo-site) — brand site + live competitor price watch
+A story page plus a page per branch for the same retail chain — Next.js 16, React 19, Tailwind v4, no animation library. Next to it runs a **price watch**: competitors' posts in Telegram groups become prices in real time, and a daily PDF per shop carries only the new or changed prices.
 
-</td>
-<td width="50%" valign="top">
+`Next.js 16` `React 19` `Tailwind v4` `Telegram` `PDF reports`
 
-**[📲 Bulk SMS](https://github.com/linverno-tm/bulk-sms)**<br>
-Android bulk SMS tool. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.
+### 👷 [Workforce OS](https://github.com/linverno-tm/workforce-os) — attendance and sales-based payroll at the edge
+Attendance, uniforms and payroll calculated from each employee's sales — running entirely on Cloudflare Workers with D1. Custom JWT sessions in HttpOnly cookies, PBKDF2-SHA256 password hashing via Web Crypto.
 
-`Flutter` `Kotlin` `MethodChannel` `Foreground Service`
+`Next.js 16` `Cloudflare Workers` `D1` `Server Actions` `JWT`
 
-</td>
-</tr>
-</table>
+### ✨ Websites — live demos
+- **[BON! Café](https://linverno-tm.github.io/bon-cafe-landing/)** — trilingual cinematic landing page pitch.
+- **[MINI GES](https://linverno-tm.github.io/mini-ges-site/)** — site for small hydro-power plants (Ulug'nor, Baliqchi).
+- **[Shuxrat o'g'li](https://linverno-tm.github.io/shuxrat-ogli-site/)** — brand site concept for a poultry producer, in Uzbek, Russian and English.
+
+### 🧾 Accounting automation
+- **[accounting-report](https://github.com/linverno-tm/accounting-report)** — builds the tax-audit (kameral) report from invoices and cash receipts.
+- **[invoice-to-smartpos](https://github.com/linverno-tm/invoice-to-smartpos)** — turns e-invoice `.xls` files into a SmartPOS product list.
+- **[bank-statement-cleaner](https://github.com/linverno-tm/bank-statement-cleaner)** — cleans and normalizes bank statements for the books.
+
+<sub>Earlier Flutter work: [ChatForge](https://github.com/linverno-tm/chatforge) · [Task Manager](https://github.com/linverno-tm/task-manager) · [Deep Purple Runner](https://github.com/linverno-tm/purple-runner) · [Bulk SMS](https://github.com/linverno-tm/bulk-sms)</sub>
 
 ```console
 linverno-tm@github ~ $ cat principles.txt
