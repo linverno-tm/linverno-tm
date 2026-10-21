@@ -2,12 +2,12 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-16",
+ "generatedAt": "2026-10-21",
  "counts": {
-  "repositories": 23,
-  "projects": 20,
-  "public": 13,
-  "private": 7,
+  "repositories": 29,
+  "projects": 26,
+  "public": 14,
+  "private": 12,
   "excluded": 3
  },
  "projects": [
@@ -84,6 +84,31 @@
    ],
    "maturity": "Maintained",
    "rank": 7.2
+  },
+  {
+   "kind": "private",
+   "title": "Web Platform",
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "Shell",
+    "React",
+    "Node.js",
+    "Flask",
+    "REST APIs",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "API integration"
+   ],
+   "maturity": "Active",
+   "rank": 6.6
   },
   {
    "kind": "public",
@@ -247,6 +272,30 @@
    "kind": "private",
    "title": "Retail Operations Platform II",
    "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "React",
+    "Node.js"
+   ],
+   "capabilities": [
+    "Inventory management",
+    "Sales & POS",
+    "Installment & credit tracking",
+    "Customer management",
+    "Multi-branch data consolidation",
+    "Payments integration"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
+   "kind": "private",
+   "title": "Retail Operations Platform III",
+   "category": "Business Software",
    "platform": "Mobile",
    "technologies": [
     "TypeScript",
@@ -368,12 +417,8 @@
    "rank": 5
   },
   {
-   "kind": "public",
-   "name": "oltinkol-zona",
-   "description": "Oltinko'l charm-poyabzal kichik sanoat zonasi — demo sayt",
-   "url": "https://github.com/linverno-tm/oltinkol-zona",
-   "stars": 0,
-   "forks": 0,
+   "kind": "private",
+   "title": "Web Platform II",
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
@@ -463,21 +508,71 @@
    "rank": 4.4
   },
   {
+   "kind": "private",
+   "title": "Customer Management System",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js"
+   ],
+   "capabilities": [
+    "Customer management"
+   ],
+   "maturity": "Active",
+   "rank": 4
+  },
+  {
+   "kind": "private",
+   "title": "Software Project",
+   "category": null,
+   "platform": null,
+   "technologies": [
+    "Python",
+    "PowerShell"
+   ],
+   "capabilities": [
+    "Push notifications",
+    "SMS & messaging"
+   ],
+   "maturity": "Active",
+   "rank": 3.8
+  },
+  {
    "kind": "public",
-   "name": "bon-cafe-landing",
-   "description": "Trilingual cinematic landing page pitch for BON! Café (Uzbekistan)",
-   "url": "https://github.com/linverno-tm/bon-cafe-landing",
+   "name": "shuxrat-ogli-site",
+   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
    "stars": 0,
    "forks": 0,
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
-    "HTML"
+    "JavaScript",
+    "HTML",
+    "CSS"
    ],
-   "capabilities": [
-    "Multi-language (i18n)",
-    "Static site generation"
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.6
+  },
+  {
+   "kind": "public",
+   "name": "shuxrat-ogli-v2",
+   "description": "",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS"
    ],
+   "capabilities": [],
    "maturity": "Active",
    "rank": 3.6
   },
@@ -521,53 +616,72 @@
    ],
    "maturity": "Active",
    "rank": 3.4
+  },
+  {
+   "kind": "public",
+   "name": "bon-cafe-landing",
+   "description": "Trilingual cinematic landing page pitch for BON! Café (Uzbekistan)",
+   "url": "https://github.com/linverno-tm/bon-cafe-landing",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "HTML"
+   ],
+   "capabilities": [
+    "Multi-language (i18n)",
+    "Static site generation"
+   ],
+   "maturity": "Maintained",
+   "rank": 2.6
   }
  ],
  "categories": [
   {
-   "name": "Business Software",
-   "domain": true,
-   "count": 10,
-   "public": 6,
-   "private": 4,
-   "technologies": [
-    "Python",
-    "SQLite",
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "Cloud Firestore"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "CI/CD pipelines",
-    "Desktop packaging",
-    "ERP integration",
-    "Sales & POS"
-   ]
-  },
-  {
    "name": "Web Applications",
    "domain": false,
-   "count": 8,
-   "public": 5,
-   "private": 3,
+   "count": 13,
+   "public": 6,
+   "private": 7,
    "technologies": [
-    "React",
     "JavaScript",
+    "React",
     "TypeScript",
     "Next.js",
     "Tailwind CSS",
     "Python"
    ],
    "capabilities": [
-    "Reporting & analytics",
-    "Authentication",
-    "CI/CD pipelines",
     "Customer management",
     "Excel & PDF processing",
-    "Sales & POS"
+    "Reporting & analytics",
+    "Sales & POS",
+    "Authentication",
+    "CI/CD pipelines"
+   ]
+  },
+  {
+   "name": "Business Software",
+   "domain": true,
+   "count": 12,
+   "public": 6,
+   "private": 6,
+   "technologies": [
+    "Python",
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "SQLite",
+    "Cloud Firestore"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Sales & POS",
+    "CI/CD pipelines",
+    "Customer management",
+    "Desktop packaging"
    ]
   },
   {
@@ -594,6 +708,29 @@
    ]
   },
   {
+   "name": "Backend Systems",
+   "domain": false,
+   "count": 5,
+   "public": 2,
+   "private": 3,
+   "technologies": [
+    "Python",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Flask",
+    "REST APIs",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "API integration",
+    "Sales & POS",
+    "Accounting & invoicing"
+   ]
+  },
+  {
    "name": "Productivity",
    "domain": true,
    "count": 4,
@@ -614,29 +751,6 @@
     "Reporting & analytics",
     "Authentication",
     "Cloud synchronization"
-   ]
-  },
-  {
-   "name": "Backend Systems",
-   "domain": false,
-   "count": 4,
-   "public": 2,
-   "private": 2,
-   "technologies": [
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Python",
-    "Cloud Firestore",
-    "Cloud Functions",
-    "Firebase"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Sales & POS",
-    "Accounting & invoicing",
-    "API integration"
    ]
   },
   {
@@ -752,231 +866,243 @@
  ],
  "technologies": [
   {
-   "name": "GitHub Actions",
-   "group": "tools",
-   "language": false,
-   "count": 9,
-   "percent": 45
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 11,
+   "percent": 42.30769230769231
+  },
+  {
+   "name": "JavaScript",
+   "group": "web",
+   "language": true,
+   "count": 11,
+   "percent": 42.30769230769231
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 8,
-   "percent": 40
+   "count": 11,
+   "percent": 42.30769230769231
   },
   {
-   "name": "HTML",
+   "name": "GitHub Actions",
+   "group": "tools",
+   "language": false,
+   "count": 9,
+   "percent": 34.61538461538461
+  },
+  {
+   "name": "Node.js",
+   "group": "backend",
+   "language": false,
+   "count": 9,
+   "percent": 34.61538461538461
+  },
+  {
+   "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 35
+   "percent": 26.923076923076923
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 6,
+   "percent": 23.076923076923077
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 30
+   "percent": 23.076923076923077
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 30
+   "percent": 23.076923076923077
   },
   {
-   "name": "JavaScript",
+   "name": "React",
    "group": "web",
-   "language": true,
-   "count": 6,
-   "percent": 30
-  },
-  {
-   "name": "Node.js",
-   "group": "backend",
    "language": false,
    "count": 6,
-   "percent": 30
+   "percent": 23.076923076923077
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
-   "count": 4,
-   "percent": 20
-  },
-  {
-   "name": "TypeScript",
-   "group": "web",
-   "language": true,
-   "count": 4,
-   "percent": 20
+   "count": 5,
+   "percent": 19.230769230769234
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 15
+   "percent": 11.538461538461538
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 15
+   "percent": 11.538461538461538
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 15
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 3,
-   "percent": 15
+   "percent": 11.538461538461538
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 15
+   "percent": 11.538461538461538
   },
   {
-   "name": "React",
-   "group": "web",
+   "name": "REST APIs",
+   "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 15
+   "percent": 11.538461538461538
+  },
+  {
+   "name": "Flask",
+   "group": "backend",
+   "language": false,
+   "count": 2,
+   "percent": 7.6923076923076925
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 10
+   "percent": 7.6923076923076925
+  },
+  {
+   "name": "PowerShell",
+   "group": "tools",
+   "language": true,
+   "count": 2,
+   "percent": 7.6923076923076925
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 10
-  },
-  {
-   "name": "REST APIs",
-   "group": "backend",
-   "language": false,
-   "count": 2,
-   "percent": 10
+   "percent": 7.6923076923076925
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 10
+   "percent": 7.6923076923076925
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5
-  },
-  {
-   "name": "Flask",
-   "group": "backend",
-   "language": false,
-   "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 5
-  },
-  {
-   "name": "PowerShell",
-   "group": "tools",
-   "language": true,
-   "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
+  },
+  {
+   "name": "Shell",
+   "group": "tools",
+   "language": true,
+   "count": 1,
+   "percent": 3.8461538461538463
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 5
+   "percent": 3.8461538461538463
   }
  ],
  "pairs": [
+  {
+   "a": "React",
+   "b": "SQLite",
+   "count": 2
+  },
   {
    "a": "Flutter",
    "b": "SQLite",
@@ -984,11 +1110,6 @@
   },
   {
    "a": "Cloud Firestore",
-   "b": "Provider",
-   "count": 2
-  },
-  {
-   "a": "Firebase",
    "b": "Provider",
    "count": 2
   }
@@ -1021,7 +1142,7 @@
     "Node.js",
     "Cloudflare Workers",
     "REST APIs",
-    "C"
+    "Flask"
    ]
   },
   {
@@ -1049,45 +1170,26 @@
    "area": "Tools",
    "technologies": [
     "GitHub Actions",
+    "PowerShell",
     "Docker",
-    "PowerShell"
+    "Shell"
    ]
   }
  ],
  "maturity": [
   {
    "name": "Active",
-   "count": 14
+   "count": 19
   },
   {
    "name": "Maintained",
-   "count": 6
+   "count": 7
   }
  ],
  "activity": {
-  "windowStart": "2026-04-17",
-  "windowEnd": "2026-10-16",
+  "windowStart": "2026-04-22",
+  "windowEnd": "2026-10-21",
   "days": [
-   {
-    "date": "2026-04-17",
-    "count": 0
-   },
-   {
-    "date": "2026-04-18",
-    "count": 0
-   },
-   {
-    "date": "2026-04-19",
-    "count": 0
-   },
-   {
-    "date": "2026-04-20",
-    "count": 0
-   },
-   {
-    "date": "2026-04-21",
-    "count": 0
-   },
    {
     "date": "2026-04-22",
     "count": 0
@@ -1798,6 +1900,26 @@
    },
    {
     "date": "2026-10-16",
+    "count": 0
+   },
+   {
+    "date": "2026-10-17",
+    "count": 0
+   },
+   {
+    "date": "2026-10-18",
+    "count": 0
+   },
+   {
+    "date": "2026-10-19",
+    "count": 0
+   },
+   {
+    "date": "2026-10-20",
+    "count": 0
+   },
+   {
+    "date": "2026-10-21",
     "count": 0
    }
   ],
