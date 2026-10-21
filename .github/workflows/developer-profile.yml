@@ -1,7 +1,8 @@
 name: Developer Profile
 
-# Regenerates assets/profile.svg — WakaTime coding activity + GitHub repository intelligence —
-# and commits it when it changes.
+# Regenerates the profile images and commits them when they change:
+#   assets/terminal.svg  terminal card — contribution graph, streaks, weekly activity, coding time
+#   assets/profile.svg   full dashboard — WakaTime coding activity + GitHub repository intelligence
 #
 # Secrets
 #   WAKATIME_API_KEY     WakaTime API key (required).
@@ -15,6 +16,7 @@ name: Developer Profile
 on:
   schedule:
     - cron: '30 22 * * *'   # 03:30 Asia/Tashkent — previous day is complete
+    - cron: '0 4,10,16 * * *'   # 09:00, 15:00, 21:00 Tashkent — keeps the contribution graph fresh
   workflow_dispatch:
 
 permissions:
@@ -37,7 +39,18 @@ jobs:
         with:
           node-version: 20
 
+      - name: Render terminal card
+        id: terminal
+        continue-on-error: true
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_PORTFOLIO_TOKEN: ${{ secrets.GH_PORTFOLIO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate_terminal.js
+
       - name: Fetch WakaTime + GitHub data and render SVG
+        id: dashboard
+        continue-on-error: true
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_PORTFOLIO_TOKEN: ${{ secrets.GH_PORTFOLIO_TOKEN }}
@@ -45,6 +58,7 @@ jobs:
         run: node scripts/generate_profile.js
 
       - name: Commit and push if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -55,3 +69,10 @@ jobs:
           fi
           git commit -m "chore: update developer profile"
           git push
+
+      # One card failing must not block the other from being published, but the run still goes red.
+      - name: Report failed generators
+        if: steps.terminal.outcome == 'failure' || steps.dashboard.outcome == 'failure'
+        run: |
+          echo "terminal: ${{ steps.terminal.outcome }} · dashboard: ${{ steps.dashboard.outcome }}"
+          exit 1
