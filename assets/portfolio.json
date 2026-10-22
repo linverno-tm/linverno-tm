@@ -1938,14 +1938,14 @@
    },
    {
     "date": "2026-10-22",
-    "count": 0
+    "count": 16
    }
   ],
-  "total": 153,
-  "last90": 153,
-  "activeProjects30": 0,
+  "total": 169,
+  "last90": 169,
+  "activeProjects30": 1,
   "longestStreak": 4,
-  "currentStreak": 0,
+  "currentStreak": 1,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
