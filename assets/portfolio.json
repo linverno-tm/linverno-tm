@@ -4,10 +4,10 @@
  "partial": false,
  "generatedAt": "2026-10-22",
  "counts": {
-  "repositories": 29,
-  "projects": 26,
+  "repositories": 30,
+  "projects": 27,
   "public": 14,
-  "private": 12,
+  "private": 13,
   "excluded": 3
  },
  "projects": [
@@ -417,6 +417,24 @@
    "rank": 5
   },
   {
+   "kind": "public",
+   "name": "shuxrat-ogli-v2",
+   "description": "",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 4.6
+  },
+  {
    "kind": "private",
    "title": "Web Platform II",
    "category": "Web Applications",
@@ -541,28 +559,24 @@
    "rank": 3.8
   },
   {
-   "kind": "public",
-   "name": "shuxrat-ogli-site",
-   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
+   "kind": "private",
+   "title": "Experimental Project",
+   "category": "Experimental",
+   "platform": null,
    "technologies": [
     "JavaScript",
-    "HTML",
-    "CSS"
+    "Python",
+    "HTML"
    ],
    "capabilities": [],
-   "maturity": "Active",
+   "maturity": "Experimental",
    "rank": 3.6
   },
   {
    "kind": "public",
-   "name": "shuxrat-ogli-v2",
-   "description": "",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "name": "shuxrat-ogli-site",
+   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
    "stars": 0,
    "forks": 0,
    "category": "Web Applications",
@@ -777,6 +791,29 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 3,
+   "public": 1,
+   "private": 2,
+   "technologies": [
+    "Flutter",
+    "Dart",
+    "JavaScript",
+    "Python",
+    "Cloud Firestore",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "API integration",
+    "Authentication",
+    "Camera & QR scanning",
+    "CI/CD pipelines",
+    "Cloud synchronization",
+    "Excel & PDF processing"
+   ]
+  },
+  {
    "name": "Games",
    "domain": true,
    "count": 2,
@@ -819,29 +856,6 @@
    ]
   },
   {
-   "name": "Experimental",
-   "domain": true,
-   "count": 2,
-   "public": 1,
-   "private": 1,
-   "technologies": [
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Firebase"
-   ],
-   "capabilities": [
-    "API integration",
-    "Authentication",
-    "Camera & QR scanning",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "Excel & PDF processing"
-   ]
-  },
-  {
    "name": "Developer Tools",
    "domain": true,
    "count": 1,
@@ -869,232 +883,232 @@
    "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 11,
-   "percent": 42.30769230769231
+   "count": 12,
+   "percent": 44.44444444444444
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 11,
-   "percent": 42.30769230769231
+   "count": 12,
+   "percent": 44.44444444444444
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 11,
-   "percent": 42.30769230769231
+   "count": 12,
+   "percent": 44.44444444444444
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 34.61538461538461
+   "percent": 33.33333333333333
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 34.61538461538461
+   "percent": 33.33333333333333
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 26.923076923076923
+   "percent": 25.925925925925924
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 6,
-   "percent": 23.076923076923077
+   "percent": 22.22222222222222
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 23.076923076923077
+   "percent": 22.22222222222222
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 23.076923076923077
+   "percent": 22.22222222222222
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 23.076923076923077
+   "percent": 22.22222222222222
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 19.230769230769234
+   "percent": 18.51851851851852
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.538461538461538
+   "percent": 11.11111111111111
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.538461538461538
+   "percent": 11.11111111111111
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 11.538461538461538
+   "percent": 11.11111111111111
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.538461538461538
+   "percent": 11.11111111111111
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 11.538461538461538
+   "percent": 11.11111111111111
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 7.6923076923076925
+   "percent": 7.4074074074074066
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.6923076923076925
+   "percent": 7.4074074074074066
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 2,
-   "percent": 7.6923076923076925
+   "percent": 7.4074074074074066
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 7.6923076923076925
+   "percent": 7.4074074074074066
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.6923076923076925
+   "percent": 7.4074074074074066
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.8461538461538463
+   "percent": 3.7037037037037033
   }
  ],
  "pairs": [
@@ -1184,6 +1198,10 @@
   {
    "name": "Maintained",
    "count": 7
+  },
+  {
+   "name": "Experimental",
+   "count": 1
   }
  ],
  "activity": {
