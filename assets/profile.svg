@@ -233,7 +233,7 @@
 <text x="654" y="686" class="ins">16:00–18:00<tspan class="ins-sub"> · 11h 04m</tspan></text>
 <text x="24" y="774" class="sec">PROJECT ECOSYSTEM</text>
 <line x1="201.53" y1="770" x2="577.54" y2="770" stroke="#30363D" stroke-width="1"/>
-<text x="876" y="774" class="label" text-anchor="end">27 PROJECTS · 14 PUBLIC · 13 PRIVATE</text>
+<text x="876" y="774" class="label" text-anchor="end">27 PROJECTS · 15 PUBLIC · 12 PRIVATE</text>
 <rect x="24.5" y="794.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="819" r="4" fill="#8B7CF6"/>
 <text x="58" y="823" class="label">WEB</text>
@@ -357,15 +357,15 @@
 <text x="58" y="1557" class="label">BUSINESS SOFTWARE</text>
 <text x="422" y="1557" class="label" text-anchor="end">9 PROJECTS</text>
 <text x="422" y="1584.5" class="mat" text-anchor="end">ACTIVE</text>
-<text x="44" y="1585" class="name">accounting-report</text>
-<text x="44" y="1601" class="sub">Tkinter · SQLite · Python</text>
-<text x="44" y="1616" class="sub faint">Buxgalteriya hisoboti generatori - faktura va kassa chekla…</text>
+<rect x="297.12" y="1574" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
+<text x="327.54" y="1584.5" class="tag" text-anchor="middle">PRIVATE</text>
+<text x="44" y="1585" class="name">Retail Operations Platform</text>
+<text x="44" y="1601" class="sub">Flask · Python</text>
+<text x="44" y="1616" class="sub faint">Authentication · Sales &amp; POS · Customer management</text>
 <text x="422" y="1636.5" class="mat" text-anchor="end">ACTIVE</text>
-<rect x="297.12" y="1626" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
-<text x="327.54" y="1636.5" class="tag" text-anchor="middle">PRIVATE</text>
-<text x="44" y="1637" class="name">Retail Operations Platform</text>
-<text x="44" y="1653" class="sub">Flask · Python</text>
-<text x="44" y="1668" class="sub faint">Authentication · Sales &amp; POS · Customer management</text>
+<text x="44" y="1637" class="name">accounting-report</text>
+<text x="44" y="1653" class="sub">Tkinter · SQLite · Python</text>
+<text x="44" y="1668" class="sub faint">Buxgalteriya hisoboti generatori - faktura va kassa chekla…</text>
 <text x="422" y="1688.5" class="mat" text-anchor="end">ACTIVE</text>
 <rect x="297.12" y="1678" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
 <text x="327.54" y="1688.5" class="tag" text-anchor="middle">PRIVATE</text>
@@ -398,9 +398,9 @@
 <text x="478" y="1705" class="sub">JavaScript · Python</text>
 <text x="478" y="1720" class="sub faint">MINI GES — mini gidroelektrostansiyalar sayti (Ulug&#39;nor G…</text>
 <text x="856" y="1740.5" class="mat" text-anchor="end">ACTIVE</text>
-<text x="478" y="1741" class="name">shuxrat-ogli-v2</text>
-<text x="478" y="1757" class="sub">JavaScript</text>
-<text x="478" y="1772" class="sub faint">Web · Web Applications</text>
+<text x="478" y="1741" class="name">oltinkol-zona</text>
+<text x="478" y="1757" class="sub">HTML</text>
+<text x="478" y="1772" class="sub faint">Oltinko&#39;l charm-poyabzal kichik sanoat zonasi — demo sayt</text>
 <text x="478" y="1794" class="sub faint">+ 3 more projects</text>
 <rect x="24.5" y="1822.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="1847" r="4" fill="#4FC1B2"/>
@@ -656,7 +656,7 @@
 <rect x="442" y="2276" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="442" y="2290" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="442" y="2304" width="11" height="11" rx="2.5" fill="#534d90"/>
-<rect x="442" y="2318" width="11" height="11" rx="2.5" fill="#21262D"/>
+<rect x="442" y="2318" width="11" height="11" rx="2.5" fill="#393862"/>
 <text x="68" y="2271" class="heat" text-anchor="end">MON</text>
 <text x="68" y="2299" class="heat" text-anchor="end">WED</text>
 <text x="68" y="2327" class="heat" text-anchor="end">FRI</text>
@@ -669,12 +669,12 @@
 <rect x="142" y="2385" width="12" height="12" rx="3" fill="#8B7CF6"/>
 <text x="160" y="2394" class="heat">More</text>
 <rect x="580.5" y="2198.5" width="295" height="213" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="600" y="2244" class="kpi" style="font-size:26px">171<tspan class="kpi-suffix" dx="5">commits</tspan></text>
+<text x="600" y="2244" class="kpi" style="font-size:26px">174<tspan class="kpi-suffix" dx="5">commits</tspan></text>
 <text x="600" y="2264" class="label">LAST 26 WEEKS</text>
 <text x="600" y="2294" class="sub">Last 90 days</text>
-<text x="856" y="2294" class="legend" text-anchor="end">171 commits</text>
+<text x="856" y="2294" class="legend" text-anchor="end">174 commits</text>
 <text x="600" y="2322" class="sub">Active projects · 30 days</text>
-<text x="856" y="2322" class="legend" text-anchor="end">1</text>
+<text x="856" y="2322" class="legend" text-anchor="end">2</text>
 <text x="600" y="2350" class="sub">Longest streak</text>
 <text x="856" y="2350" class="legend" text-anchor="end">4 days</text>
 <text x="600" y="2378" class="sub">Most active</text>

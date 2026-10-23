@@ -6,8 +6,8 @@
  "counts": {
   "repositories": 30,
   "projects": 27,
-  "public": 14,
-  "private": 13,
+  "public": 15,
+  "private": 12,
   "excluded": 3
  },
  "projects": [
@@ -84,6 +84,32 @@
    ],
    "maturity": "Maintained",
    "rank": 7.2
+  },
+  {
+   "kind": "private",
+   "title": "Retail Operations Platform",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "Python",
+    "HTML",
+    "CSS",
+    "Flask"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Sales & POS",
+    "Customer management",
+    "ERP integration",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Bank statement processing",
+    "Accounting & invoicing",
+    "Browser automation & scraping",
+    "Scheduled jobs"
+   ],
+   "maturity": "Active",
+   "rank": 6.8
   },
   {
    "kind": "private",
@@ -183,32 +209,6 @@
    ],
    "maturity": "Active",
    "rank": 6
-  },
-  {
-   "kind": "private",
-   "title": "Retail Operations Platform",
-   "category": "Business Software",
-   "platform": "Web",
-   "technologies": [
-    "Python",
-    "HTML",
-    "CSS",
-    "Flask"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Sales & POS",
-    "Customer management",
-    "ERP integration",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Bank statement processing",
-    "Accounting & invoicing",
-    "Browser automation & scraping",
-    "Scheduled jobs"
-   ],
-   "maturity": "Active",
-   "rank": 5.8
   },
   {
    "kind": "public",
@@ -418,6 +418,25 @@
   },
   {
    "kind": "public",
+   "name": "oltinkol-zona",
+   "description": "Oltinko'l charm-poyabzal kichik sanoat zonasi — demo sayt",
+   "url": "https://github.com/linverno-tm/oltinkol-zona",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "HTML",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 4.6
+  },
+  {
+   "kind": "public",
    "name": "shuxrat-ogli-v2",
    "description": "",
    "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
@@ -431,21 +450,6 @@
     "CSS"
    ],
    "capabilities": [],
-   "maturity": "Active",
-   "rank": 4.6
-  },
-  {
-   "kind": "private",
-   "title": "Web Platform II",
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "HTML",
-    "GitHub Actions"
-   ],
-   "capabilities": [
-    "CI/CD pipelines"
-   ],
    "maturity": "Active",
    "rank": 4.6
   },
@@ -656,8 +660,8 @@
    "name": "Web Applications",
    "domain": false,
    "count": 13,
-   "public": 6,
-   "private": 7,
+   "public": 7,
+   "private": 6,
    "technologies": [
     "JavaScript",
     "React",
@@ -1938,14 +1942,14 @@
    },
    {
     "date": "2026-10-23",
-    "count": 0
+    "count": 3
    }
   ],
-  "total": 171,
-  "last90": 171,
-  "activeProjects30": 1,
+  "total": 174,
+  "last90": 174,
+  "activeProjects30": 2,
   "longestStreak": 4,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
