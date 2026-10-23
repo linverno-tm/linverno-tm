@@ -4,11 +4,11 @@
  "partial": false,
  "generatedAt": "2026-10-23",
  "counts": {
-  "repositories": 30,
+  "repositories": 31,
   "projects": 27,
   "public": 15,
   "private": 12,
-  "excluded": 3
+  "excluded": 4
  },
  "projects": [
   {
@@ -49,6 +49,34 @@
    "rank": 8.2
   },
   {
+   "kind": "private",
+   "title": "Retail Operations Platform",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "Python",
+    "HTML",
+    "CSS",
+    "PowerShell",
+    "Flask"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Sales & POS",
+    "Customer management",
+    "ERP integration",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Bank statement processing",
+    "Accounting & invoicing",
+    "AI integration",
+    "Browser automation & scraping",
+    "Scheduled jobs"
+   ],
+   "maturity": "Active",
+   "rank": 7.2
+  },
+  {
    "kind": "public",
    "name": "task-manager",
    "description": "Offline-first Cupertino task manager on Flutter. Firestore and SQLite sit behind one service layer, sync reconciles on connectivity change, connectivity confirmed by DNS rather than interface state.",
@@ -84,32 +112,6 @@
    ],
    "maturity": "Maintained",
    "rank": 7.2
-  },
-  {
-   "kind": "private",
-   "title": "Retail Operations Platform",
-   "category": "Business Software",
-   "platform": "Web",
-   "technologies": [
-    "Python",
-    "HTML",
-    "CSS",
-    "Flask"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Sales & POS",
-    "Customer management",
-    "ERP integration",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Bank statement processing",
-    "Accounting & invoicing",
-    "Browser automation & scraping",
-    "Scheduled jobs"
-   ],
-   "maturity": "Active",
-   "rank": 6.8
   },
   {
    "kind": "private",
@@ -244,6 +246,29 @@
    ],
    "maturity": "Maintained",
    "rank": 5.8
+  },
+  {
+   "kind": "public",
+   "name": "invoice-to-smartpos",
+   "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
+   "url": "https://github.com/linverno-tm/invoice-to-smartpos",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Desktop",
+   "technologies": [
+    "Python"
+   ],
+   "capabilities": [
+    "Sales & POS",
+    "ERP integration",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
   },
   {
    "kind": "public",
@@ -418,6 +443,24 @@
   },
   {
    "kind": "public",
+   "name": "shuxrat-ogli-v2",
+   "description": "",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 4.6
+  },
+  {
+   "kind": "public",
    "name": "oltinkol-zona",
    "description": "Oltinko'l charm-poyabzal kichik sanoat zonasi — demo sayt",
    "url": "https://github.com/linverno-tm/oltinkol-zona",
@@ -432,24 +475,6 @@
    "capabilities": [
     "CI/CD pipelines"
    ],
-   "maturity": "Active",
-   "rank": 4.6
-  },
-  {
-   "kind": "public",
-   "name": "shuxrat-ogli-v2",
-   "description": "",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "HTML",
-    "CSS"
-   ],
-   "capabilities": [],
    "maturity": "Active",
    "rank": 4.6
   },
@@ -505,29 +530,6 @@
    ],
    "maturity": "Maintained",
    "rank": 4.6
-  },
-  {
-   "kind": "public",
-   "name": "invoice-to-smartpos",
-   "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
-   "url": "https://github.com/linverno-tm/invoice-to-smartpos",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Desktop",
-   "technologies": [
-    "Python"
-   ],
-   "capabilities": [
-    "Sales & POS",
-    "ERP integration",
-    "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Desktop UI"
-   ],
-   "maturity": "Active",
-   "rank": 4.4
   },
   {
    "kind": "private",
@@ -772,6 +774,29 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 4,
+   "public": 1,
+   "private": 3,
+   "technologies": [
+    "Python",
+    "Flutter",
+    "Dart",
+    "JavaScript",
+    "Cloud Firestore",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Accounting & invoicing",
+    "AI integration",
+    "API integration"
+   ]
+  },
+  {
    "name": "AI & Automation",
    "domain": true,
    "count": 3,
@@ -792,29 +817,6 @@
     "Reporting & analytics",
     "Scheduled jobs",
     "Telegram bot automation"
-   ]
-  },
-  {
-   "name": "Experimental",
-   "domain": true,
-   "count": 3,
-   "public": 1,
-   "private": 2,
-   "technologies": [
-    "Flutter",
-    "Dart",
-    "JavaScript",
-    "Python",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "API integration",
-    "Authentication",
-    "Camera & QR scanning",
-    "CI/CD pipelines",
-    "Cloud synchronization",
-    "Excel & PDF processing"
    ]
   },
   {
@@ -989,6 +991,13 @@
    "percent": 11.11111111111111
   },
   {
+   "name": "PowerShell",
+   "group": "tools",
+   "language": true,
+   "count": 3,
+   "percent": 11.11111111111111
+  },
+  {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
@@ -1006,13 +1015,6 @@
    "name": "Next.js",
    "group": "web",
    "language": false,
-   "count": 2,
-   "percent": 7.4074074074074066
-  },
-  {
-   "name": "PowerShell",
-   "group": "tools",
-   "language": true,
    "count": 2,
    "percent": 7.4074074074074066
   },
@@ -1942,12 +1944,12 @@
    },
    {
     "date": "2026-10-23",
-    "count": 3
+    "count": 17
    }
   ],
-  "total": 174,
-  "last90": 174,
-  "activeProjects30": 2,
+  "total": 188,
+  "last90": 188,
+  "activeProjects30": 3,
   "longestStreak": 4,
   "currentStreak": 2,
   "mostActive": {
