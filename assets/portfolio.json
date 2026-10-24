@@ -388,29 +388,6 @@
    "rank": 5.2
   },
   {
-   "kind": "private",
-   "title": "Telegram Automation Bot II",
-   "category": "AI & Automation",
-   "platform": null,
-   "technologies": [
-    "JavaScript",
-    "Python",
-    "HTML",
-    "Node.js",
-    "REST APIs",
-    "GitHub Actions"
-   ],
-   "capabilities": [
-    "ERP integration",
-    "Excel & PDF processing",
-    "Telegram bot automation",
-    "API integration",
-    "CI/CD pipelines"
-   ],
-   "maturity": "Active",
-   "rank": 5.2
-  },
-  {
    "kind": "public",
    "name": "bulk-sms",
    "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
@@ -551,6 +528,29 @@
     "Telegram bot automation"
    ],
    "maturity": "Active",
+   "rank": 4.2
+  },
+  {
+   "kind": "private",
+   "title": "Telegram Automation Bot II",
+   "category": "AI & Automation",
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Node.js",
+    "REST APIs",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "ERP integration",
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "API integration",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Maintained",
    "rank": 4.2
   },
   {
@@ -773,29 +773,6 @@
    ]
   },
   {
-   "name": "Experimental",
-   "domain": true,
-   "count": 5,
-   "public": 2,
-   "private": 3,
-   "technologies": [
-    "Python",
-    "JavaScript",
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Customer management",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Accounting & invoicing",
-    "AI integration"
-   ]
-  },
-  {
    "name": "AI & Automation",
    "domain": true,
    "count": 4,
@@ -839,6 +816,29 @@
     "Reporting & analytics",
     "Authentication",
     "Cloud synchronization"
+   ]
+  },
+  {
+   "name": "Experimental",
+   "domain": true,
+   "count": 4,
+   "public": 1,
+   "private": 3,
+   "technologies": [
+    "Python",
+    "Flutter",
+    "Dart",
+    "JavaScript",
+    "Cloud Firestore",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Accounting & invoicing",
+    "AI integration",
+    "API integration"
    ]
   },
   {
@@ -1221,11 +1221,11 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 20
+   "count": 19
   },
   {
    "name": "Maintained",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Experimental",
@@ -1966,11 +1966,11 @@
    },
    {
     "date": "2026-10-24",
-    "count": 5
+    "count": 9
    }
   ],
-  "total": 194,
-  "last90": 194,
+  "total": 198,
+  "last90": 198,
   "activeProjects30": 4,
   "longestStreak": 4,
   "currentStreak": 3,
