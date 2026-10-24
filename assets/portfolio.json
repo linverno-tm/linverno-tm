@@ -4,9 +4,9 @@
  "partial": false,
  "generatedAt": "2026-10-24",
  "counts": {
-  "repositories": 31,
-  "projects": 27,
-  "public": 15,
+  "repositories": 32,
+  "projects": 28,
+  "public": 16,
   "private": 12,
   "excluded": 4
  },
@@ -249,29 +249,6 @@
   },
   {
    "kind": "public",
-   "name": "invoice-to-smartpos",
-   "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
-   "url": "https://github.com/linverno-tm/invoice-to-smartpos",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Desktop",
-   "technologies": [
-    "Python"
-   ],
-   "capabilities": [
-    "Sales & POS",
-    "ERP integration",
-    "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Desktop packaging",
-    "Desktop UI"
-   ],
-   "maturity": "Active",
-   "rank": 5.4
-  },
-  {
-   "kind": "public",
    "name": "mini-ges-site",
    "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
    "url": "https://github.com/linverno-tm/mini-ges-site",
@@ -289,6 +266,29 @@
    "capabilities": [
     "Multi-language (i18n)",
     "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
+   "kind": "public",
+   "name": "invoice-to-smartpos",
+   "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
+   "url": "https://github.com/linverno-tm/invoice-to-smartpos",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Desktop",
+   "technologies": [
+    "Python"
+   ],
+   "capabilities": [
+    "Sales & POS",
+    "ERP integration",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Desktop packaging",
+    "Desktop UI"
    ],
    "maturity": "Active",
    "rank": 5.4
@@ -443,24 +443,6 @@
   },
   {
    "kind": "public",
-   "name": "shuxrat-ogli-v2",
-   "description": "",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "HTML",
-    "CSS"
-   ],
-   "capabilities": [],
-   "maturity": "Active",
-   "rank": 4.6
-  },
-  {
-   "kind": "public",
    "name": "oltinkol-zona",
    "description": "Oltinko'l charm-poyabzal kichik sanoat zonasi — demo sayt",
    "url": "https://github.com/linverno-tm/oltinkol-zona",
@@ -475,6 +457,24 @@
    "capabilities": [
     "CI/CD pipelines"
    ],
+   "maturity": "Active",
+   "rank": 4.6
+  },
+  {
+   "kind": "public",
+   "name": "shuxrat-ogli-v2",
+   "description": "",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [],
    "maturity": "Active",
    "rank": 4.6
   },
@@ -530,6 +530,28 @@
    ],
    "maturity": "Maintained",
    "rank": 4.6
+  },
+  {
+   "kind": "public",
+   "name": "linverno-tm.github.io",
+   "description": "Muhammadabdulloh Tojiddinov — CRM, Telegram bot va mini app. Shaxsiy sayt.",
+   "url": "https://github.com/linverno-tm/linverno-tm.github.io",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [
+    "Customer management",
+    "Telegram bot automation"
+   ],
+   "maturity": "Active",
+   "rank": 4.2
   },
   {
    "kind": "private",
@@ -661,8 +683,8 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 13,
-   "public": 7,
+   "count": 14,
+   "public": 8,
    "private": 6,
    "technologies": [
     "JavaScript",
@@ -684,23 +706,23 @@
   {
    "name": "Business Software",
    "domain": true,
-   "count": 12,
-   "public": 6,
+   "count": 13,
+   "public": 7,
    "private": 6,
    "technologies": [
     "Python",
-    "React",
     "JavaScript",
+    "React",
     "TypeScript",
     "SQLite",
     "Cloud Firestore"
    ],
    "capabilities": [
+    "Customer management",
     "Excel & PDF processing",
     "Reporting & analytics",
     "Sales & POS",
     "CI/CD pipelines",
-    "Customer management",
     "Desktop packaging"
    ]
   },
@@ -751,6 +773,52 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 5,
+   "public": 2,
+   "private": 3,
+   "technologies": [
+    "Python",
+    "JavaScript",
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Customer management",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Accounting & invoicing",
+    "AI integration"
+   ]
+  },
+  {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 4,
+   "public": 1,
+   "private": 3,
+   "technologies": [
+    "Telegram Bot API",
+    "JavaScript",
+    "Python",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Flask"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "Authentication",
+    "Customer management",
+    "ERP integration",
+    "Reporting & analytics"
+   ]
+  },
+  {
    "name": "Productivity",
    "domain": true,
    "count": 4,
@@ -771,52 +839,6 @@
     "Reporting & analytics",
     "Authentication",
     "Cloud synchronization"
-   ]
-  },
-  {
-   "name": "Experimental",
-   "domain": true,
-   "count": 4,
-   "public": 1,
-   "private": 3,
-   "technologies": [
-    "Python",
-    "Flutter",
-    "Dart",
-    "JavaScript",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Accounting & invoicing",
-    "AI integration",
-    "API integration"
-   ]
-  },
-  {
-   "name": "AI & Automation",
-   "domain": true,
-   "count": 3,
-   "public": 0,
-   "private": 3,
-   "technologies": [
-    "Telegram Bot API",
-    "JavaScript",
-    "Python",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Flask"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Authentication",
-    "ERP integration",
-    "Reporting & analytics",
-    "Scheduled jobs",
-    "Telegram bot automation"
    ]
   },
   {
@@ -889,232 +911,232 @@
    "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 12,
-   "percent": 44.44444444444444
+   "count": 13,
+   "percent": 46.42857142857143
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 12,
-   "percent": 44.44444444444444
+   "count": 13,
+   "percent": 46.42857142857143
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 12,
-   "percent": 44.44444444444444
+   "count": 13,
+   "percent": 46.42857142857143
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 33.33333333333333
+   "percent": 32.142857142857146
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 33.33333333333333
+   "percent": 32.142857142857146
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 7,
+   "percent": 25
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 25.925925925925924
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 6,
-   "percent": 22.22222222222222
+   "percent": 25
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 22.22222222222222
+   "percent": 21.428571428571427
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 22.22222222222222
+   "percent": 21.428571428571427
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 22.22222222222222
+   "percent": 21.428571428571427
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 18.51851851851852
+   "percent": 17.857142857142858
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 11.11111111111111
+   "percent": 10.714285714285714
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 7.4074074074074066
+   "percent": 7.142857142857142
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.4074074074074066
+   "percent": 7.142857142857142
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 7.4074074074074066
+   "percent": 7.142857142857142
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.4074074074074066
+   "percent": 7.142857142857142
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.7037037037037033
+   "percent": 3.571428571428571
   }
  ],
  "pairs": [
@@ -1150,8 +1172,8 @@
    "technologies": [
     "HTML",
     "JavaScript",
-    "TypeScript",
     "CSS",
+    "TypeScript",
     "React"
    ]
   },
@@ -1199,7 +1221,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 19
+   "count": 20
   },
   {
    "name": "Maintained",
@@ -1944,14 +1966,14 @@
    },
    {
     "date": "2026-10-24",
-    "count": 0
+    "count": 5
    }
   ],
-  "total": 189,
-  "last90": 189,
-  "activeProjects30": 3,
+  "total": 194,
+  "last90": 194,
+  "activeProjects30": 4,
   "longestStreak": 4,
-  "currentStreak": 2,
+  "currentStreak": 3,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",

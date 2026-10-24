@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="2792" viewBox="0 0 900 2792" role="img" aria-labelledby="t d">
 <title id="t">Developer activity — WakaTime and GitHub</title>
-<desc id="d">Developer activity: 82h 41m of coding in the last 7 days, 6 of 7 active days, 27 projects analyzed across 33 technologies.</desc>
+<desc id="d">Developer activity: 82h 41m of coding in the last 7 days, 6 of 7 active days, 28 projects analyzed across 33 technologies.</desc>
 <style>
   text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; fill: #F0F6FC; font-variant-numeric: tabular-nums; }
   .title { font-size: 20px; font-weight: 700; letter-spacing: 0.4px; }
@@ -45,7 +45,7 @@
 <text x="261" y="142" class="kpi">6 / 7</text>
 <text x="261" y="164" class="label">ACTIVE CODING DAYS</text>
 <rect x="458.5" y="96.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="478" y="142" class="kpi">27</text>
+<text x="478" y="142" class="kpi">28</text>
 <text x="478" y="164" class="label">PROJECTS ANALYZED</text>
 <rect x="675.5" y="96.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="695" y="142" class="kpi">33</text>
@@ -86,10 +86,10 @@
 <rect x="464.5" y="200.5" width="411" height="263" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="484" y="230" class="label">LANGUAGE DISTRIBUTION</text>
 <text x="856" y="230" class="label" text-anchor="end">7 DAYS</text>
-<path d="M 549 294 A 56 56 0 0 1 600.39 372.25" fill="none" stroke="#8B7CF6" stroke-width="14"/>
+<path d="M 549 294 A 56 56 0 0 1 600.39 372.24" fill="none" stroke="#8B7CF6" stroke-width="14"/>
 <path d="M 599.42 374.38 A 56 56 0 0 1 547.38 405.98" fill="none" stroke="#5FA8F5" stroke-width="14"/>
 <path d="M 545.03 405.86 A 56 56 0 0 1 514.38 394.01" fill="none" stroke="#4FC1B2" stroke-width="14"/>
-<path d="M 512.57 392.53 A 56 56 0 0 1 498.08 373.3" fill="none" stroke="#E0B25C" stroke-width="14"/>
+<path d="M 512.56 392.53 A 56 56 0 0 1 498.08 373.3" fill="none" stroke="#E0B25C" stroke-width="14"/>
 <path d="M 497.15 371.14 A 56 56 0 0 1 493.18 354.52" fill="none" stroke="#E27C9A" stroke-width="14"/>
 <path d="M 493.04 352.18 A 56 56 0 0 1 546.65 294.05" fill="none" stroke="#484F58" stroke-width="14"/>
 <text x="549" y="356" class="center" text-anchor="middle" style="font-size:19px">82h 41m</text>
@@ -233,17 +233,17 @@
 <text x="654" y="686" class="ins">16:00–18:00<tspan class="ins-sub"> · 11h 04m</tspan></text>
 <text x="24" y="774" class="sec">PROJECT ECOSYSTEM</text>
 <line x1="201.53" y1="770" x2="577.54" y2="770" stroke="#30363D" stroke-width="1"/>
-<text x="876" y="774" class="label" text-anchor="end">27 PROJECTS · 15 PUBLIC · 12 PRIVATE</text>
+<text x="876" y="774" class="label" text-anchor="end">28 PROJECTS · 16 PUBLIC · 12 PRIVATE</text>
 <rect x="24.5" y="794.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="819" r="4" fill="#8B7CF6"/>
 <text x="58" y="823" class="label">WEB</text>
-<text x="44" y="851" class="big">13<tspan class="big-suffix" dx="5">projects</tspan></text>
+<text x="44" y="851" class="big">14<tspan class="big-suffix" dx="5">projects</tspan></text>
 <text x="44" y="869" class="sub">JavaScript · React</text>
 <rect x="241.5" y="794.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="265" cy="819" r="4" fill="#5FA8F5"/>
 <text x="275" y="823" class="label">BUSINESS SOFTWARE</text>
-<text x="261" y="851" class="big">12<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="261" y="869" class="sub">Python · React</text>
+<text x="261" y="851" class="big">13<tspan class="big-suffix" dx="5">projects</tspan></text>
+<text x="261" y="869" class="sub">Python · JavaScript</text>
 <rect x="458.5" y="794.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="819" r="4" fill="#4FC1B2"/>
 <text x="492" y="823" class="label">MOBILE</text>
@@ -256,19 +256,19 @@
 <text x="695" y="869" class="sub">Python · Cloudflare D1</text>
 <rect x="24.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="919" r="4" fill="#E27C9A"/>
-<text x="58" y="923" class="label">PRODUCTIVITY</text>
-<text x="44" y="951" class="big">4<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="44" y="969" class="sub">Flutter · Dart</text>
+<text x="58" y="923" class="label">EXPERIMENTAL</text>
+<text x="44" y="951" class="big">5<tspan class="big-suffix" dx="5">projects</tspan></text>
+<text x="44" y="969" class="sub">Python · JavaScript</text>
 <rect x="241.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="265" cy="919" r="4" fill="#9AA4B2"/>
-<text x="275" y="923" class="label">EXPERIMENTAL</text>
+<text x="275" y="923" class="label">AI &amp; AUTOMATION</text>
 <text x="261" y="951" class="big">4<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="261" y="969" class="sub">Python · Flutter · Dart</text>
+<text x="261" y="969" class="sub">Telegram Bot API</text>
 <rect x="458.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="919" r="4" fill="#8B7CF6"/>
-<text x="492" y="923" class="label">AI &amp; AUTOMATION</text>
-<text x="478" y="951" class="big">3<tspan class="big-suffix" dx="5">projects</tspan></text>
-<text x="478" y="969" class="sub">Telegram Bot API</text>
+<text x="492" y="923" class="label">PRODUCTIVITY</text>
+<text x="478" y="951" class="big">4<tspan class="big-suffix" dx="5">projects</tspan></text>
+<text x="478" y="969" class="sub">Flutter · Dart</text>
 <rect x="675.5" y="894.5" width="200" height="87" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="699" cy="919" r="4" fill="#5FA8F5"/>
 <text x="709" y="923" class="label">GAMES</text>
@@ -277,11 +277,11 @@
 <rect x="24.5" y="998.5" width="851" height="59" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="1033" class="label">PROJECT MATURITY</text>
 <rect x="214" y="1024" width="219.78" height="8" rx="4" fill="#21262D"/>
-<rect x="214" y="1024" width="152.66" height="8" rx="4" fill="#8B7CF6"/>
-<rect x="368.66" y="1024" width="54.98" height="8" rx="4" fill="#5f57a5"/>
-<rect x="425.64" y="1024" width="8.14" height="8" rx="4" fill="#424073"/>
+<rect x="214" y="1024" width="154.99" height="8" rx="4" fill="#8B7CF6"/>
+<rect x="370.99" y="1024" width="52.95" height="8" rx="4" fill="#5f57a5"/>
+<rect x="425.93" y="1024" width="7.85" height="8" rx="4" fill="#424073"/>
 <circle cx="465.78" cy="1028" r="4" fill="#8B7CF6"/>
-<text x="475.78" y="1032" class="label">ACTIVE 19</text>
+<text x="475.78" y="1032" class="label">ACTIVE 20</text>
 <circle cx="572.28" cy="1028" r="4" fill="#5f57a5"/>
 <text x="582.28" y="1032" class="label">MAINTAINED 7</text>
 <circle cx="707.02" cy="1028" r="4" fill="#424073"/>
@@ -293,37 +293,37 @@
 <text x="44" y="1144" class="label">MOST USED TECHNOLOGIES</text>
 <text x="544" y="1144" class="label" text-anchor="end">PROJECTS · SHARE</text>
 <text x="44" y="1178" class="name">JavaScript</text>
-<text x="544" y="1178" class="meta" text-anchor="end">12 projects · 44%</text>
+<text x="544" y="1178" class="meta" text-anchor="end">13 projects · 46%</text>
 <rect x="44" y="1186" width="500" height="5" rx="2.5" fill="#21262D"/>
 <rect x="44" y="1186" width="500" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1212" class="name">Python</text>
-<text x="544" y="1212" class="meta" text-anchor="end">12 projects · 44%</text>
+<text x="544" y="1212" class="meta" text-anchor="end">13 projects · 46%</text>
 <rect x="44" y="1220" width="500" height="5" rx="2.5" fill="#21262D"/>
 <rect x="44" y="1220" width="500" height="5" rx="2.5" fill="#4FC1B2"/>
 <text x="44" y="1246" class="name">Node.js</text>
-<text x="544" y="1246" class="meta" text-anchor="end">9 projects · 33%</text>
+<text x="544" y="1246" class="meta" text-anchor="end">9 projects · 32%</text>
 <rect x="44" y="1254" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1254" width="375" height="5" rx="2.5" fill="#4FC1B2"/>
+<rect x="44" y="1254" width="346.15" height="5" rx="2.5" fill="#4FC1B2"/>
 <text x="44" y="1280" class="name">TypeScript</text>
-<text x="544" y="1280" class="meta" text-anchor="end">7 projects · 26%</text>
+<text x="544" y="1280" class="meta" text-anchor="end">7 projects · 25%</text>
 <rect x="44" y="1288" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1288" width="291.67" height="5" rx="2.5" fill="#5FA8F5"/>
+<rect x="44" y="1288" width="269.23" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1314" class="name">Dart</text>
-<text x="544" y="1314" class="meta" text-anchor="end">6 projects · 22%</text>
+<text x="544" y="1314" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1322" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1322" width="250" height="5" rx="2.5" fill="#8B7CF6"/>
+<rect x="44" y="1322" width="230.77" height="5" rx="2.5" fill="#8B7CF6"/>
 <text x="44" y="1348" class="name">Flutter</text>
-<text x="544" y="1348" class="meta" text-anchor="end">6 projects · 22%</text>
+<text x="544" y="1348" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1356" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1356" width="250" height="5" rx="2.5" fill="#8B7CF6"/>
+<rect x="44" y="1356" width="230.77" height="5" rx="2.5" fill="#8B7CF6"/>
 <text x="44" y="1382" class="name">React</text>
-<text x="544" y="1382" class="meta" text-anchor="end">6 projects · 22%</text>
+<text x="544" y="1382" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1390" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1390" width="250" height="5" rx="2.5" fill="#5FA8F5"/>
+<rect x="44" y="1390" width="230.77" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1416" class="name">SQLite</text>
-<text x="544" y="1416" class="meta" text-anchor="end">5 projects · 19%</text>
+<text x="544" y="1416" class="meta" text-anchor="end">5 projects · 18%</text>
 <rect x="44" y="1424" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1424" width="208.33" height="5" rx="2.5" fill="#E0B25C"/>
+<rect x="44" y="1424" width="192.31" height="5" rx="2.5" fill="#E0B25C"/>
 <text x="44" y="1452" class="label">OFTEN COMBINED</text>
 <text x="179.86" y="1452" class="sub">React + SQLite (2)  ·  Flutter + SQLite (2)</text>
 <rect x="580.5" y="1114.5" width="295" height="357" rx="10" fill="#161B22" stroke="#30363D"/>
@@ -333,7 +333,7 @@
 <text x="600" y="1193" class="legend">Dart · Flutter · Provider · Flame</text>
 <circle cx="604" cy="1212" r="3.5" fill="#5FA8F5"/>
 <text x="614" y="1216" class="tag">WEB</text>
-<text x="600" y="1233" class="legend">HTML · JavaScript · TypeScript · CSS</text>
+<text x="600" y="1233" class="legend">HTML · JavaScript · CSS · TypeScript</text>
 <circle cx="604" cy="1252" r="3.5" fill="#4FC1B2"/>
 <text x="614" y="1256" class="tag">BACKEND</text>
 <text x="600" y="1273" class="legend">Python · Node.js · Cloudflare Workers</text>
@@ -355,7 +355,7 @@
 <rect x="24.5" y="1528.5" width="417" height="277" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="1553" r="4" fill="#8B7CF6"/>
 <text x="58" y="1557" class="label">BUSINESS SOFTWARE</text>
-<text x="422" y="1557" class="label" text-anchor="end">9 PROJECTS</text>
+<text x="422" y="1557" class="label" text-anchor="end">10 PROJECTS</text>
 <text x="422" y="1584.5" class="mat" text-anchor="end">ACTIVE</text>
 <rect x="297.12" y="1574" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
 <text x="327.54" y="1584.5" class="tag" text-anchor="middle">PRIVATE</text>
@@ -376,7 +376,7 @@
 <text x="44" y="1741" class="name">Retail Operations Platform II</text>
 <text x="44" y="1757" class="sub">React · JavaScript · Python · TypeScript</text>
 <text x="44" y="1772" class="sub faint">Inventory management · Sales &amp; POS</text>
-<text x="44" y="1794" class="sub faint">+ 5 more projects</text>
+<text x="44" y="1794" class="sub faint">+ 6 more projects</text>
 <rect x="458.5" y="1528.5" width="417" height="277" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="1553" r="4" fill="#5FA8F5"/>
 <text x="492" y="1557" class="label">WEB APPLICATIONS</text>
@@ -396,9 +396,9 @@
 <text x="478" y="1705" class="sub">JavaScript · Python</text>
 <text x="478" y="1720" class="sub faint">MINI GES — mini gidroelektrostansiyalar sayti (Ulug&#39;nor G…</text>
 <text x="856" y="1740.5" class="mat" text-anchor="end">ACTIVE</text>
-<text x="478" y="1741" class="name">shuxrat-ogli-v2</text>
-<text x="478" y="1757" class="sub">JavaScript</text>
-<text x="478" y="1772" class="sub faint">Web · Web Applications</text>
+<text x="478" y="1741" class="name">oltinkol-zona</text>
+<text x="478" y="1757" class="sub">HTML</text>
+<text x="478" y="1772" class="sub faint">Oltinko&#39;l charm-poyabzal kichik sanoat zonasi — demo sayt</text>
 <text x="478" y="1794" class="sub faint">+ 3 more projects</text>
 <rect x="24.5" y="1822.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="48" cy="1847" r="4" fill="#4FC1B2"/>
@@ -655,7 +655,7 @@
 <rect x="442" y="2290" width="11" height="11" rx="2.5" fill="#21262D"/>
 <rect x="442" y="2304" width="11" height="11" rx="2.5" fill="#534d90"/>
 <rect x="442" y="2318" width="11" height="11" rx="2.5" fill="#534d90"/>
-<rect x="442" y="2332" width="11" height="11" rx="2.5" fill="#21262D"/>
+<rect x="442" y="2332" width="11" height="11" rx="2.5" fill="#393862"/>
 <text x="68" y="2271" class="heat" text-anchor="end">MON</text>
 <text x="68" y="2299" class="heat" text-anchor="end">WED</text>
 <text x="68" y="2327" class="heat" text-anchor="end">FRI</text>
@@ -668,12 +668,12 @@
 <rect x="142" y="2385" width="12" height="12" rx="3" fill="#8B7CF6"/>
 <text x="160" y="2394" class="heat">More</text>
 <rect x="580.5" y="2198.5" width="295" height="213" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="600" y="2244" class="kpi" style="font-size:26px">189<tspan class="kpi-suffix" dx="5">commits</tspan></text>
+<text x="600" y="2244" class="kpi" style="font-size:26px">194<tspan class="kpi-suffix" dx="5">commits</tspan></text>
 <text x="600" y="2264" class="label">LAST 26 WEEKS</text>
 <text x="600" y="2294" class="sub">Last 90 days</text>
-<text x="856" y="2294" class="legend" text-anchor="end">189 commits</text>
+<text x="856" y="2294" class="legend" text-anchor="end">194 commits</text>
 <text x="600" y="2322" class="sub">Active projects · 30 days</text>
-<text x="856" y="2322" class="legend" text-anchor="end">3</text>
+<text x="856" y="2322" class="legend" text-anchor="end">4</text>
 <text x="600" y="2350" class="sub">Longest streak</text>
 <text x="856" y="2350" class="legend" text-anchor="end">4 days</text>
 <text x="600" y="2378" class="sub">Most active</text>
@@ -682,18 +682,18 @@
 <line x1="147.3" y1="2444" x2="619.7" y2="2444" stroke="#30363D" stroke-width="1"/>
 <text x="876" y="2448" class="label" text-anchor="end">DERIVED FROM REPOSITORY DATA</text>
 <rect x="24.5" y="2468.5" width="851" height="199" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="44" y="2498" class="label">BUSINESS SOFTWARE · 12 PROJECTS</text>
-<text x="44" y="2516" class="body">Custom tools for reporting, sales and</text>
-<text x="44" y="2532" class="body">customer management with Python.</text>
-<text x="44" y="2548" class="sub faint">Reporting &amp; analytics · Sales &amp; POS</text>
-<text x="322.67" y="2498" class="label">PRODUCTIVITY · 4 PROJECTS</text>
-<text x="322.67" y="2516" class="body">Personal productivity applications with</text>
-<text x="322.67" y="2532" class="body">Flutter, Cloud Firestore and Firebase.</text>
-<text x="322.67" y="2548" class="sub faint">Task &amp; schedule management</text>
-<text x="601.33" y="2498" class="label">AI &amp; AUTOMATION · 3 PROJECTS</text>
-<text x="601.33" y="2516" class="body">Scheduled jobs and Telegram bots with</text>
-<text x="601.33" y="2532" class="body">Telegram Bot API and JavaScript.</text>
-<text x="601.33" y="2548" class="sub faint">Scheduled jobs · Telegram bot automation</text>
+<text x="44" y="2498" class="label">BUSINESS SOFTWARE · 13 PROJECTS</text>
+<text x="44" y="2516" class="body">Custom tools for customer management,</text>
+<text x="44" y="2532" class="body">reporting and sales with Python.</text>
+<text x="44" y="2548" class="sub faint">Customer management</text>
+<text x="322.67" y="2498" class="label">AI &amp; AUTOMATION · 4 PROJECTS</text>
+<text x="322.67" y="2516" class="body">Telegram bots with Telegram Bot API,</text>
+<text x="322.67" y="2532" class="body">JavaScript and Python.</text>
+<text x="322.67" y="2548" class="sub faint">Telegram bot automation</text>
+<text x="601.33" y="2498" class="label">PRODUCTIVITY · 4 PROJECTS</text>
+<text x="601.33" y="2516" class="body">Personal productivity applications with</text>
+<text x="601.33" y="2532" class="body">Flutter, Cloud Firestore and Firebase.</text>
+<text x="601.33" y="2548" class="sub faint">Task &amp; schedule management</text>
 <text x="44" y="2584" class="label">GAMES · 2 PROJECTS</text>
 <text x="44" y="2602" class="body">Games and interactive experiences with</text>
 <text x="44" y="2618" class="body">Flame, Flutter and C.</text>
@@ -702,7 +702,7 @@
 <text x="322.67" y="2602" class="body">Internal utilities and developer</text>
 <text x="322.67" y="2618" class="body">tooling with Cloud Firestore.</text>
 <text x="322.67" y="2634" class="sub faint">Cloud synchronization</text>
-<text x="601.33" y="2584" class="label">WEB APPLICATIONS · 13 PROJECTS</text>
+<text x="601.33" y="2584" class="label">WEB APPLICATIONS · 14 PROJECTS</text>
 <text x="601.33" y="2602" class="body">Websites, dashboards and web</text>
 <text x="601.33" y="2618" class="body">applications with JavaScript and React.</text>
 <text x="601.33" y="2634" class="sub faint">Customer management</text>
