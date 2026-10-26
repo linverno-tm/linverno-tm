@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-10-25",
+ "generatedAt": "2026-10-26",
  "counts": {
   "repositories": 32,
   "projects": 28,
@@ -1233,13 +1233,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-04-26",
-  "windowEnd": "2026-10-25",
+  "windowStart": "2026-04-27",
+  "windowEnd": "2026-10-26",
   "days": [
-   {
-    "date": "2026-04-26",
-    "count": 0
-   },
    {
     "date": "2026-04-27",
     "count": 0
@@ -1967,13 +1963,17 @@
    {
     "date": "2026-10-25",
     "count": 0
+   },
+   {
+    "date": "2026-10-26",
+    "count": 0
    }
   ],
   "total": 198,
   "last90": 198,
   "activeProjects30": 4,
   "longestStreak": 4,
-  "currentStreak": 3,
+  "currentStreak": 0,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
