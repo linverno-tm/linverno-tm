@@ -249,6 +249,30 @@
    "rank": 5.8
   },
   {
+   "kind": "private",
+   "title": "Retail Operations Platform II",
+   "category": "Business Software",
+   "platform": "Mobile",
+   "technologies": [
+    "TypeScript",
+    "HTML",
+    "React Native",
+    "React",
+    "Node.js"
+   ],
+   "capabilities": [
+    "Push notifications",
+    "Inventory management",
+    "Installment & credit tracking",
+    "Customer management",
+    "ERP integration",
+    "Payments integration",
+    "SMS & messaging"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
    "kind": "public",
    "name": "mini-ges-site",
    "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
@@ -296,7 +320,7 @@
   },
   {
    "kind": "private",
-   "title": "Retail Operations Platform II",
+   "title": "Retail Operations Platform III",
    "category": "Business Software",
    "platform": "Web",
    "technologies": [
@@ -314,30 +338,6 @@
     "Customer management",
     "Multi-branch data consolidation",
     "Payments integration"
-   ],
-   "maturity": "Active",
-   "rank": 5.4
-  },
-  {
-   "kind": "private",
-   "title": "Retail Operations Platform III",
-   "category": "Business Software",
-   "platform": "Mobile",
-   "technologies": [
-    "TypeScript",
-    "HTML",
-    "React Native",
-    "React",
-    "Node.js"
-   ],
-   "capabilities": [
-    "Push notifications",
-    "Inventory management",
-    "Installment & credit tracking",
-    "Customer management",
-    "ERP integration",
-    "Payments integration",
-    "SMS & messaging"
    ],
    "maturity": "Active",
    "rank": 5.4
@@ -429,8 +429,8 @@
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
+    "JavaScript",
     "HTML",
-    "CSS",
     "GitHub Actions"
    ],
    "capabilities": [
@@ -938,8 +938,8 @@
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 13,
-   "percent": 44.827586206896555
+   "count": 14,
+   "percent": 48.275862068965516
   },
   {
    "name": "Python",
@@ -947,13 +947,6 @@
    "language": true,
    "count": 13,
    "percent": 44.827586206896555
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 9,
-   "percent": 31.03448275862069
   },
   {
    "name": "GitHub Actions",
@@ -968,6 +961,13 @@
    "language": false,
    "count": 9,
    "percent": 31.03448275862069
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 8,
+   "percent": 27.586206896551722
   },
   {
    "name": "TypeScript",
@@ -1986,11 +1986,11 @@
    },
    {
     "date": "2026-10-26",
-    "count": 30
+    "count": 43
    }
   ],
-  "total": 228,
-  "last90": 228,
+  "total": 241,
+  "last90": 241,
   "activeProjects30": 5,
   "longestStreak": 4,
   "currentStreak": 1,

@@ -293,37 +293,37 @@
 <text x="44" y="1144" class="label">MOST USED TECHNOLOGIES</text>
 <text x="544" y="1144" class="label" text-anchor="end">PROJECTS · SHARE</text>
 <text x="44" y="1178" class="name">JavaScript</text>
-<text x="544" y="1178" class="meta" text-anchor="end">13 projects · 45%</text>
+<text x="544" y="1178" class="meta" text-anchor="end">14 projects · 48%</text>
 <rect x="44" y="1186" width="500" height="5" rx="2.5" fill="#21262D"/>
 <rect x="44" y="1186" width="500" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1212" class="name">Python</text>
 <text x="544" y="1212" class="meta" text-anchor="end">13 projects · 45%</text>
 <rect x="44" y="1220" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1220" width="500" height="5" rx="2.5" fill="#4FC1B2"/>
+<rect x="44" y="1220" width="464.29" height="5" rx="2.5" fill="#4FC1B2"/>
 <text x="44" y="1246" class="name">Node.js</text>
 <text x="544" y="1246" class="meta" text-anchor="end">9 projects · 31%</text>
 <rect x="44" y="1254" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1254" width="346.15" height="5" rx="2.5" fill="#4FC1B2"/>
+<rect x="44" y="1254" width="321.43" height="5" rx="2.5" fill="#4FC1B2"/>
 <text x="44" y="1280" class="name">TypeScript</text>
 <text x="544" y="1280" class="meta" text-anchor="end">7 projects · 24%</text>
 <rect x="44" y="1288" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1288" width="269.23" height="5" rx="2.5" fill="#5FA8F5"/>
+<rect x="44" y="1288" width="250" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1314" class="name">Dart</text>
 <text x="544" y="1314" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1322" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1322" width="230.77" height="5" rx="2.5" fill="#8B7CF6"/>
+<rect x="44" y="1322" width="214.29" height="5" rx="2.5" fill="#8B7CF6"/>
 <text x="44" y="1348" class="name">Flutter</text>
 <text x="544" y="1348" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1356" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1356" width="230.77" height="5" rx="2.5" fill="#8B7CF6"/>
+<rect x="44" y="1356" width="214.29" height="5" rx="2.5" fill="#8B7CF6"/>
 <text x="44" y="1382" class="name">React</text>
 <text x="544" y="1382" class="meta" text-anchor="end">6 projects · 21%</text>
 <rect x="44" y="1390" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1390" width="230.77" height="5" rx="2.5" fill="#5FA8F5"/>
+<rect x="44" y="1390" width="214.29" height="5" rx="2.5" fill="#5FA8F5"/>
 <text x="44" y="1416" class="name">SQLite</text>
 <text x="544" y="1416" class="meta" text-anchor="end">5 projects · 17%</text>
 <rect x="44" y="1424" width="500" height="5" rx="2.5" fill="#21262D"/>
-<rect x="44" y="1424" width="192.31" height="5" rx="2.5" fill="#E0B25C"/>
+<rect x="44" y="1424" width="178.57" height="5" rx="2.5" fill="#E0B25C"/>
 <text x="44" y="1452" class="label">OFTEN COMBINED</text>
 <text x="179.86" y="1452" class="sub">React + SQLite (2)  ·  Flutter + SQLite (2)</text>
 <rect x="580.5" y="1114.5" width="295" height="357" rx="10" fill="#161B22" stroke="#30363D"/>
@@ -367,15 +367,15 @@
 <text x="44" y="1653" class="sub">Tkinter · SQLite · Python</text>
 <text x="44" y="1668" class="sub faint">Buxgalteriya hisoboti generatori - faktura va kassa chekla…</text>
 <text x="422" y="1688.5" class="mat" text-anchor="end">ACTIVE</text>
-<text x="44" y="1689" class="name">invoice-to-smartpos</text>
-<text x="44" y="1705" class="sub">Python</text>
-<text x="44" y="1720" class="sub faint">Hisob-faktura .xls fayllarini SmartPOS product_list Excel…</text>
+<rect x="297.12" y="1678" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
+<text x="327.54" y="1688.5" class="tag" text-anchor="middle">PRIVATE</text>
+<text x="44" y="1689" class="name">Retail Operations Platform II</text>
+<text x="44" y="1705" class="sub">React Native · React · TypeScript</text>
+<text x="44" y="1720" class="sub faint">Push notifications · Inventory management</text>
 <text x="422" y="1740.5" class="mat" text-anchor="end">ACTIVE</text>
-<rect x="297.12" y="1730" width="60.84" height="15" rx="3" fill="none" stroke="#30363D"/>
-<text x="327.54" y="1740.5" class="tag" text-anchor="middle">PRIVATE</text>
-<text x="44" y="1741" class="name">Retail Operations Platform II</text>
-<text x="44" y="1757" class="sub">React · JavaScript · Python · TypeScript</text>
-<text x="44" y="1772" class="sub faint">Inventory management · Sales &amp; POS</text>
+<text x="44" y="1741" class="name">invoice-to-smartpos</text>
+<text x="44" y="1757" class="sub">Python</text>
+<text x="44" y="1772" class="sub faint">Hisob-faktura .xls fayllarini SmartPOS product_list Excel…</text>
 <text x="44" y="1794" class="sub faint">+ 6 more projects</text>
 <rect x="458.5" y="1528.5" width="417" height="277" rx="10" fill="#161B22" stroke="#30363D"/>
 <circle cx="482" cy="1553" r="4" fill="#5FA8F5"/>
@@ -397,7 +397,7 @@
 <text x="478" y="1720" class="sub faint">MINI GES — mini gidroelektrostansiyalar sayti (Ulug&#39;nor G…</text>
 <text x="856" y="1740.5" class="mat" text-anchor="end">ACTIVE</text>
 <text x="478" y="1741" class="name">oltinkol-zona</text>
-<text x="478" y="1757" class="sub">HTML · CSS</text>
+<text x="478" y="1757" class="sub">JavaScript</text>
 <text x="478" y="1772" class="sub faint">Oltinko&#39;l charm-poyabzal kichik sanoat zonasi — demo sayt</text>
 <text x="478" y="1794" class="sub faint">+ 4 more projects</text>
 <rect x="24.5" y="1822.5" width="417" height="151" rx="10" fill="#161B22" stroke="#30363D"/>
@@ -650,7 +650,7 @@
 <rect x="428" y="2318" width="11" height="11" rx="2.5" fill="#534d90"/>
 <rect x="428" y="2332" width="11" height="11" rx="2.5" fill="#393862"/>
 <rect x="428" y="2346" width="11" height="11" rx="2.5" fill="#21262D"/>
-<rect x="442" y="2262" width="11" height="11" rx="2.5" fill="#6f65c3"/>
+<rect x="442" y="2262" width="11" height="11" rx="2.5" fill="#8B7CF6"/>
 <text x="68" y="2271" class="heat" text-anchor="end">MON</text>
 <text x="68" y="2299" class="heat" text-anchor="end">WED</text>
 <text x="68" y="2327" class="heat" text-anchor="end">FRI</text>
@@ -663,10 +663,10 @@
 <rect x="142" y="2385" width="12" height="12" rx="3" fill="#8B7CF6"/>
 <text x="160" y="2394" class="heat">More</text>
 <rect x="580.5" y="2198.5" width="295" height="213" rx="10" fill="#161B22" stroke="#30363D"/>
-<text x="600" y="2244" class="kpi" style="font-size:26px">228<tspan class="kpi-suffix" dx="5">commits</tspan></text>
+<text x="600" y="2244" class="kpi" style="font-size:26px">241<tspan class="kpi-suffix" dx="5">commits</tspan></text>
 <text x="600" y="2264" class="label">LAST 26 WEEKS</text>
 <text x="600" y="2294" class="sub">Last 90 days</text>
-<text x="856" y="2294" class="legend" text-anchor="end">228 commits</text>
+<text x="856" y="2294" class="legend" text-anchor="end">241 commits</text>
 <text x="600" y="2322" class="sub">Active projects · 30 days</text>
 <text x="856" y="2322" class="legend" text-anchor="end">5</text>
 <text x="600" y="2350" class="sub">Longest streak</text>
