@@ -4,9 +4,9 @@
  "partial": false,
  "generatedAt": "2026-10-26",
  "counts": {
-  "repositories": 32,
-  "projects": 28,
-  "public": 16,
+  "repositories": 33,
+  "projects": 29,
+  "public": 17,
   "private": 12,
   "excluded": 4
  },
@@ -42,11 +42,12 @@
     "Payments integration",
     "SMS & messaging",
     "File import/export",
+    "Game mechanics",
     "CI/CD pipelines",
     "Static site generation"
    ],
    "maturity": "Active",
-   "rank": 8.2
+   "rank": 8.4
   },
   {
    "kind": "private",
@@ -429,13 +430,14 @@
    "platform": "Web",
    "technologies": [
     "HTML",
+    "CSS",
     "GitHub Actions"
    ],
    "capabilities": [
     "CI/CD pipelines"
    ],
    "maturity": "Active",
-   "rank": 4.6
+   "rank": 4.8
   },
   {
    "kind": "public",
@@ -509,28 +511,6 @@
    "rank": 4.6
   },
   {
-   "kind": "public",
-   "name": "linverno-tm.github.io",
-   "description": "Muhammadabdulloh Tojiddinov — CRM, Telegram bot va mini app. Shaxsiy sayt.",
-   "url": "https://github.com/linverno-tm/linverno-tm.github.io",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "Python",
-    "HTML",
-    "CSS"
-   ],
-   "capabilities": [
-    "Customer management",
-    "Telegram bot automation"
-   ],
-   "maturity": "Active",
-   "rank": 4.2
-  },
-  {
    "kind": "private",
    "title": "Telegram Automation Bot II",
    "category": "AI & Automation",
@@ -552,6 +532,27 @@
    ],
    "maturity": "Maintained",
    "rank": 4.2
+  },
+  {
+   "kind": "public",
+   "name": "linverno-tm.github.io",
+   "description": "Muhammadabdulloh Tojiddinov — CRM, Telegram bot va mini app. Shaxsiy sayt.",
+   "url": "https://github.com/linverno-tm/linverno-tm.github.io",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "Python",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [
+    "Customer management",
+    "Telegram bot automation"
+   ],
+   "maturity": "Active",
+   "rank": 4
   },
   {
    "kind": "private",
@@ -585,6 +586,24 @@
    ],
    "maturity": "Active",
    "rank": 3.8
+  },
+  {
+   "kind": "public",
+   "name": "promix-uz",
+   "description": "PROMIX O'zbekiston — sayt namunasi",
+   "url": "https://github.com/linverno-tm/promix-uz",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.6
   },
   {
    "kind": "private",
@@ -683,8 +702,8 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 14,
-   "public": 8,
+   "count": 15,
+   "public": 9,
    "private": 6,
    "technologies": [
     "JavaScript",
@@ -711,8 +730,8 @@
    "private": 6,
    "technologies": [
     "Python",
-    "JavaScript",
     "React",
+    "JavaScript",
     "TypeScript",
     "SQLite",
     "Cloud Firestore"
@@ -780,8 +799,8 @@
    "private": 3,
    "technologies": [
     "Telegram Bot API",
-    "JavaScript",
     "Python",
+    "JavaScript",
     "Cloudflare D1",
     "Cloudflare Workers",
     "Flask"
@@ -844,23 +863,24 @@
   {
    "name": "Games",
    "domain": true,
-   "count": 2,
-   "public": 1,
+   "count": 3,
+   "public": 2,
    "private": 1,
    "technologies": [
     "Flame",
     "Flutter",
     "Dart",
-    "C",
-    "C++"
+    "Next.js",
+    "React",
+    "Tailwind CSS"
    ],
    "capabilities": [
     "CI/CD pipelines",
     "Game mechanics",
-    "Desktop packaging",
-    "Multi-language (i18n)",
-    "Native platform integration",
-    "Reporting & analytics"
+    "Reporting & analytics",
+    "SMS & messaging",
+    "Static site generation",
+    "Customer management"
    ]
   },
   {
@@ -911,232 +931,232 @@
    "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 13,
-   "percent": 46.42857142857143
+   "count": 14,
+   "percent": 48.275862068965516
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
    "count": 13,
-   "percent": 46.42857142857143
+   "percent": 44.827586206896555
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
    "count": 13,
-   "percent": 46.42857142857143
+   "percent": 44.827586206896555
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 9,
+   "percent": 31.03448275862069
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 32.142857142857146
+   "percent": 31.03448275862069
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 32.142857142857146
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 7,
-   "percent": 25
+   "percent": 31.03448275862069
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 25
+   "percent": 24.137931034482758
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 21.428571428571427
+   "percent": 20.689655172413794
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 21.428571428571427
+   "percent": 20.689655172413794
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 21.428571428571427
+   "percent": 20.689655172413794
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 17.857142857142858
+   "percent": 17.24137931034483
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 10.714285714285714
+   "percent": 10.344827586206897
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 7.142857142857142
+   "percent": 6.896551724137931
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.142857142857142
+   "percent": 6.896551724137931
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 7.142857142857142
+   "percent": 6.896551724137931
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 7.142857142857142
+   "percent": 6.896551724137931
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.571428571428571
+   "percent": 3.4482758620689653
   }
  ],
  "pairs": [
@@ -1221,7 +1241,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 19
+   "count": 20
   },
   {
    "name": "Maintained",
@@ -1966,14 +1986,14 @@
    },
    {
     "date": "2026-10-26",
-    "count": 0
+    "count": 30
    }
   ],
-  "total": 198,
-  "last90": 198,
-  "activeProjects30": 4,
+  "total": 228,
+  "last90": 228,
+  "activeProjects30": 5,
   "longestStreak": 4,
-  "currentStreak": 0,
+  "currentStreak": 1,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
