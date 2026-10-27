@@ -1985,12 +1985,12 @@
    },
    {
     "date": "2026-10-27",
-    "count": 8
+    "count": 11
    }
   ],
-  "total": 251,
-  "last90": 251,
-  "activeProjects30": 6,
+  "total": 254,
+  "last90": 254,
+  "activeProjects30": 7,
   "longestStreak": 4,
   "currentStreak": 2,
   "mostActive": {
