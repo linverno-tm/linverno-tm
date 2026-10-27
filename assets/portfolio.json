@@ -249,6 +249,29 @@
    "rank": 5.8
   },
   {
+   "kind": "public",
+   "name": "mini-ges-site",
+   "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
+   "url": "https://github.com/linverno-tm/mini-ges-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Multi-language (i18n)",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
    "kind": "private",
    "title": "Retail Operations Platform II",
    "category": "Business Software",
@@ -268,29 +291,6 @@
     "ERP integration",
     "Payments integration",
     "SMS & messaging"
-   ],
-   "maturity": "Active",
-   "rank": 5.4
-  },
-  {
-   "kind": "public",
-   "name": "mini-ges-site",
-   "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
-   "url": "https://github.com/linverno-tm/mini-ges-site",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "Python",
-    "HTML",
-    "CSS",
-    "GitHub Actions"
-   ],
-   "capabilities": [
-    "Multi-language (i18n)",
-    "CI/CD pipelines"
    ],
    "maturity": "Active",
    "rank": 5.4
@@ -620,24 +620,6 @@
    "rank": 3.6
   },
   {
-   "kind": "public",
-   "name": "shuxrat-ogli-site",
-   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "HTML",
-    "CSS"
-   ],
-   "capabilities": [],
-   "maturity": "Active",
-   "rank": 3.6
-  },
-  {
    "kind": "private",
    "title": "Mobile Productivity App",
    "category": "Productivity",
@@ -660,6 +642,23 @@
    ],
    "maturity": "Maintained",
    "rank": 3.4000000000000004
+  },
+  {
+   "kind": "public",
+   "name": "shuxrat-ogli-site",
+   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "CSS"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.4
   },
   {
    "kind": "public",
@@ -928,18 +927,18 @@
  ],
  "technologies": [
   {
-   "name": "HTML",
+   "name": "JavaScript",
    "group": "web",
    "language": true,
    "count": 14,
    "percent": 48.275862068965516
   },
   {
-   "name": "JavaScript",
+   "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 14,
-   "percent": 48.275862068965516
+   "count": 13,
+   "percent": 44.827586206896555
   },
   {
    "name": "Python",
@@ -1190,8 +1189,8 @@
   {
    "area": "Web",
    "technologies": [
-    "HTML",
     "JavaScript",
+    "HTML",
     "CSS",
     "TypeScript",
     "React"
@@ -1986,14 +1985,14 @@
    },
    {
     "date": "2026-10-27",
-    "count": 0
+    "count": 8
    }
   ],
-  "total": 243,
-  "last90": 243,
-  "activeProjects30": 5,
+  "total": 251,
+  "last90": 251,
+  "activeProjects30": 6,
   "longestStreak": 4,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
