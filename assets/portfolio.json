@@ -4,10 +4,10 @@
  "partial": false,
  "generatedAt": "2026-10-28",
  "counts": {
-  "repositories": 33,
-  "projects": 29,
+  "repositories": 36,
+  "projects": 32,
   "public": 17,
-  "private": 12,
+  "private": 15,
   "excluded": 4
  },
  "projects": [
@@ -366,29 +366,6 @@
    "rank": 5.4
   },
   {
-   "kind": "private",
-   "title": "Telegram Automation Bot",
-   "category": "AI & Automation",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "Node.js",
-    "Cloudflare Workers",
-    "Cloudflare D1",
-    "Telegram Bot API"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Telegram bot automation",
-    "Scheduled jobs",
-    "Task & schedule management"
-   ],
-   "maturity": "Active",
-   "rank": 5.2
-  },
-  {
    "kind": "public",
    "name": "bulk-sms",
    "description": "Android bulk SMS tool on Flutter. Two-stage xlsx/csv parser with ZIP/XML fallback, native Kotlin foreground service over MethodChannel, SQLite queue that survives a reboot.",
@@ -512,6 +489,48 @@
   },
   {
    "kind": "private",
+   "title": "Windows Desktop Tool",
+   "category": "Desktop Applications",
+   "platform": "Desktop",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "PowerShell"
+   ],
+   "capabilities": [
+    "AI integration",
+    "Desktop packaging"
+   ],
+   "maturity": "Active",
+   "rank": 4.4
+  },
+  {
+   "kind": "private",
+   "title": "Telegram Automation Bot",
+   "category": "AI & Automation",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Node.js",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Telegram Bot API"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "Scheduled jobs",
+    "Task & schedule management"
+   ],
+   "maturity": "Maintained",
+   "rank": 4.2
+  },
+  {
+   "kind": "private",
    "title": "Telegram Automation Bot II",
    "category": "AI & Automation",
    "platform": null,
@@ -584,6 +603,21 @@
     "Push notifications",
     "SMS & messaging"
    ],
+   "maturity": "Active",
+   "rank": 3.8
+  },
+  {
+   "kind": "private",
+   "title": "Software Project II",
+   "category": null,
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "CSS",
+    "PowerShell"
+   ],
+   "capabilities": [],
    "maturity": "Active",
    "rank": 3.8
   },
@@ -678,6 +712,18 @@
    "rank": 3.4
   },
   {
+   "kind": "private",
+   "title": "Software Project III",
+   "category": null,
+   "platform": null,
+   "technologies": [
+    "Python"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.2
+  },
+  {
    "kind": "public",
    "name": "bon-cafe-landing",
    "description": "Trilingual cinematic landing page pitch for BON! Café (Uzbekistan)",
@@ -701,9 +747,9 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 15,
+   "count": 16,
    "public": 9,
-   "private": 6,
+   "private": 7,
    "technologies": [
     "JavaScript",
     "React",
@@ -768,6 +814,29 @@
    ]
   },
   {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 5,
+   "public": 1,
+   "private": 4,
+   "technologies": [
+    "Telegram Bot API",
+    "Python",
+    "JavaScript",
+    "Cloudflare D1",
+    "Cloudflare Workers",
+    "Flask"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Telegram bot automation",
+    "AI integration",
+    "Authentication",
+    "Customer management",
+    "ERP integration"
+   ]
+  },
+  {
    "name": "Backend Systems",
    "domain": false,
    "count": 5,
@@ -791,26 +860,49 @@
    ]
   },
   {
-   "name": "AI & Automation",
+   "name": "Experimental",
    "domain": true,
-   "count": 4,
+   "count": 5,
    "public": 1,
-   "private": 3,
+   "private": 4,
    "technologies": [
-    "Telegram Bot API",
     "Python",
     "JavaScript",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Flask"
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Cloudflare D1"
    ],
    "capabilities": [
-    "Excel & PDF processing",
-    "Telegram bot automation",
+    "AI integration",
     "Authentication",
-    "Customer management",
-    "ERP integration",
-    "Reporting & analytics"
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Accounting & invoicing",
+    "API integration"
+   ]
+  },
+  {
+   "name": "Games",
+   "domain": true,
+   "count": 4,
+   "public": 2,
+   "private": 2,
+   "technologies": [
+    "Flame",
+    "Flutter",
+    "Dart",
+    "JavaScript",
+    "Python",
+    "Next.js"
+   ],
+   "capabilities": [
+    "CI/CD pipelines",
+    "Game mechanics",
+    "Desktop packaging",
+    "Reporting & analytics",
+    "SMS & messaging",
+    "Static site generation"
    ]
   },
   {
@@ -837,91 +929,47 @@
    ]
   },
   {
-   "name": "Experimental",
-   "domain": true,
-   "count": 4,
-   "public": 1,
-   "private": 3,
-   "technologies": [
-    "Python",
-    "Flutter",
-    "Dart",
-    "JavaScript",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Accounting & invoicing",
-    "AI integration",
-    "API integration"
-   ]
-  },
-  {
-   "name": "Games",
-   "domain": true,
+   "name": "Desktop Applications",
+   "domain": false,
    "count": 3,
    "public": 2,
    "private": 1,
    "technologies": [
-    "Flame",
-    "Flutter",
-    "Dart",
-    "Next.js",
-    "React",
-    "Tailwind CSS"
-   ],
-   "capabilities": [
-    "CI/CD pipelines",
-    "Game mechanics",
-    "Reporting & analytics",
-    "SMS & messaging",
-    "Static site generation",
-    "Customer management"
-   ]
-  },
-  {
-   "name": "Desktop Applications",
-   "domain": false,
-   "count": 2,
-   "public": 2,
-   "private": 0,
-   "technologies": [
     "Tkinter",
     "Python",
-    "SQLite"
+    "SQLite",
+    "JavaScript"
    ],
    "capabilities": [
-    "Accounting & invoicing",
     "Desktop packaging",
+    "Accounting & invoicing",
     "Desktop UI",
     "Excel & PDF processing",
     "Sales & POS",
-    "Data processing"
+    "AI integration"
    ]
   },
   {
    "name": "Developer Tools",
    "domain": true,
-   "count": 1,
+   "count": 2,
    "public": 0,
-   "private": 1,
+   "private": 2,
    "technologies": [
     "Cloud Firestore",
     "Firebase",
     "Flutter",
     "Provider",
-    "Dart"
+    "Dart",
+    "JavaScript"
    ],
    "capabilities": [
+    "AI integration",
     "Cloud synchronization",
+    "Desktop packaging",
     "Offline-first sync",
     "Push notifications",
-    "Real-time updates",
-    "Role-based access",
-    "State management"
+    "Real-time updates"
    ]
   }
  ],
@@ -930,232 +978,232 @@
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 14,
-   "percent": 48.275862068965516
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 13,
-   "percent": 44.827586206896555
+   "count": 16,
+   "percent": 50
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 13,
-   "percent": 44.827586206896555
+   "count": 16,
+   "percent": 50
+  },
+  {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 14,
+   "percent": 43.75
+  },
+  {
+   "name": "CSS",
+   "group": "web",
+   "language": true,
+   "count": 10,
+   "percent": 31.25
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 31.03448275862069
+   "percent": 28.125
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 31.03448275862069
-  },
-  {
-   "name": "CSS",
-   "group": "web",
-   "language": true,
-   "count": 8,
-   "percent": 27.586206896551722
+   "percent": 28.125
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 24.137931034482758
+   "percent": 21.875
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 20.689655172413794
+   "percent": 18.75
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 20.689655172413794
+   "percent": 18.75
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 20.689655172413794
+   "percent": 18.75
+  },
+  {
+   "name": "PowerShell",
+   "group": "tools",
+   "language": true,
+   "count": 5,
+   "percent": 15.625
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 17.24137931034483
+   "percent": 15.625
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.344827586206897
+   "percent": 9.375
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.344827586206897
+   "percent": 9.375
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 10.344827586206897
+   "percent": 9.375
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 10.344827586206897
-  },
-  {
-   "name": "PowerShell",
-   "group": "tools",
-   "language": true,
-   "count": 3,
-   "percent": 10.344827586206897
+   "percent": 9.375
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 10.344827586206897
+   "percent": 9.375
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 6.896551724137931
+   "percent": 6.25
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.896551724137931
+   "percent": 6.25
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 6.896551724137931
+   "percent": 6.25
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.896551724137931
+   "percent": 6.25
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.4482758620689653
+   "percent": 3.125
   }
  ],
  "pairs": [
@@ -1240,11 +1288,11 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 20
+   "count": 22
   },
   {
    "name": "Maintained",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Experimental",
@@ -1985,12 +2033,12 @@
    },
    {
     "date": "2026-10-28",
-    "count": 3
+    "count": 19
    }
   ],
-  "total": 264,
-  "last90": 264,
-  "activeProjects30": 8,
+  "total": 280,
+  "last90": 280,
+  "activeProjects30": 9,
   "longestStreak": 4,
   "currentStreak": 3,
   "mostActive": {
