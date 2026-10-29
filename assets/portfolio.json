@@ -399,14 +399,13 @@
   {
    "kind": "public",
    "name": "oltinkol-zona",
-   "description": "Oltinko'l charm-poyabzal kichik sanoat zonasi — demo sayt",
+   "description": "Andijon Charm-Poyabzal Markazi — Oltinko'l charm-poyabzal zonasi rasmiy sayti: https://andijoncharmpoyabzal.uz",
    "url": "https://github.com/linverno-tm/oltinkol-zona",
    "stars": 0,
    "forks": 0,
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
-    "JavaScript",
     "HTML",
     "GitHub Actions"
    ],
@@ -414,7 +413,7 @@
     "CI/CD pipelines"
    ],
    "maturity": "Active",
-   "rank": 4.8
+   "rank": 4.6
   },
   {
    "kind": "public",
@@ -975,18 +974,18 @@
  ],
  "technologies": [
   {
-   "name": "JavaScript",
-   "group": "web",
-   "language": true,
-   "count": 16,
-   "percent": 50
-  },
-  {
    "name": "Python",
    "group": "backend",
    "language": true,
    "count": 16,
    "percent": 50
+  },
+  {
+   "name": "JavaScript",
+   "group": "web",
+   "language": true,
+   "count": 15,
+   "percent": 46.875
   },
   {
    "name": "HTML",
@@ -2033,11 +2032,11 @@
    },
    {
     "date": "2026-10-29",
-    "count": 3
+    "count": 24
    }
   ],
-  "total": 290,
-  "last90": 290,
+  "total": 311,
+  "last90": 311,
   "activeProjects30": 9,
   "longestStreak": 4,
   "currentStreak": 4,
