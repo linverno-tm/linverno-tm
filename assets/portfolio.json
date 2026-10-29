@@ -4,10 +4,10 @@
  "partial": false,
  "generatedAt": "2026-10-29",
  "counts": {
-  "repositories": 36,
-  "projects": 32,
+  "repositories": 37,
+  "projects": 33,
   "public": 17,
-  "private": 15,
+  "private": 16,
   "excluded": 4
  },
  "projects": [
@@ -591,6 +591,22 @@
   },
   {
    "kind": "private",
+   "title": "Productivity Application",
+   "category": "Productivity",
+   "platform": null,
+   "technologies": [
+    "Python",
+    "HTML"
+   ],
+   "capabilities": [
+    "Desktop packaging",
+    "Task & schedule management"
+   ],
+   "maturity": "Active",
+   "rank": 3.8
+  },
+  {
+   "kind": "private",
    "title": "Software Project",
    "category": null,
    "platform": null,
@@ -813,6 +829,29 @@
    ]
   },
   {
+   "name": "Experimental",
+   "domain": true,
+   "count": 6,
+   "public": 1,
+   "private": 5,
+   "technologies": [
+    "Python",
+    "JavaScript",
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "AI integration",
+    "Authentication",
+    "Desktop packaging",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "Task & schedule management"
+   ]
+  },
+  {
    "name": "AI & Automation",
    "domain": true,
    "count": 5,
@@ -833,6 +872,29 @@
     "Authentication",
     "Customer management",
     "ERP integration"
+   ]
+  },
+  {
+   "name": "Productivity",
+   "domain": true,
+   "count": 5,
+   "public": 2,
+   "private": 3,
+   "technologies": [
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Firebase",
+    "Provider",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Task & schedule management",
+    "Push notifications",
+    "Real-time updates",
+    "Reporting & analytics",
+    "Authentication",
+    "Cloud synchronization"
    ]
   },
   {
@@ -859,29 +921,6 @@
    ]
   },
   {
-   "name": "Experimental",
-   "domain": true,
-   "count": 5,
-   "public": 1,
-   "private": 4,
-   "technologies": [
-    "Python",
-    "JavaScript",
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "AI integration",
-    "Authentication",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Accounting & invoicing",
-    "API integration"
-   ]
-  },
-  {
    "name": "Games",
    "domain": true,
    "count": 4,
@@ -902,29 +941,6 @@
     "Reporting & analytics",
     "SMS & messaging",
     "Static site generation"
-   ]
-  },
-  {
-   "name": "Productivity",
-   "domain": true,
-   "count": 4,
-   "public": 2,
-   "private": 2,
-   "technologies": [
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Firebase",
-    "Provider",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Task & schedule management",
-    "Push notifications",
-    "Real-time updates",
-    "Reporting & analytics",
-    "Authentication",
-    "Cloud synchronization"
    ]
   },
   {
@@ -977,232 +993,232 @@
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 16,
-   "percent": 50
+   "count": 17,
+   "percent": 51.515151515151516
+  },
+  {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 15,
+   "percent": 45.45454545454545
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
    "count": 15,
-   "percent": 46.875
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 14,
-   "percent": 43.75
+   "percent": 45.45454545454545
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
    "count": 10,
-   "percent": 31.25
+   "percent": 30.303030303030305
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 28.125
+   "percent": 27.27272727272727
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 28.125
+   "percent": 27.27272727272727
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 21.875
+   "percent": 21.21212121212121
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 18.75
+   "percent": 18.181818181818183
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 18.75
+   "percent": 18.181818181818183
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 18.75
+   "percent": 18.181818181818183
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 5,
-   "percent": 15.625
+   "percent": 15.151515151515152
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 15.625
+   "percent": 15.151515151515152
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.375
+   "percent": 9.090909090909092
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.375
+   "percent": 9.090909090909092
   },
   {
    "name": "Cloudflare Workers",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 9.375
+   "percent": 9.090909090909092
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.375
+   "percent": 9.090909090909092
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 9.375
+   "percent": 9.090909090909092
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 6.25
+   "percent": 6.0606060606060606
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.25
+   "percent": 6.0606060606060606
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 6.25
+   "percent": 6.0606060606060606
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.25
+   "percent": 6.0606060606060606
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.125
+   "percent": 3.0303030303030303
   }
  ],
  "pairs": [
@@ -1236,8 +1252,8 @@
   {
    "area": "Web",
    "technologies": [
-    "JavaScript",
     "HTML",
+    "JavaScript",
     "CSS",
     "TypeScript",
     "React"
@@ -1287,7 +1303,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 22
+   "count": 23
   },
   {
    "name": "Maintained",
@@ -2032,12 +2048,12 @@
    },
    {
     "date": "2026-10-29",
-    "count": 24
+    "count": 25
    }
   ],
-  "total": 311,
-  "last90": 311,
-  "activeProjects30": 9,
+  "total": 312,
+  "last90": 312,
+  "activeProjects30": 10,
   "longestStreak": 4,
   "currentStreak": 4,
   "mostActive": {
