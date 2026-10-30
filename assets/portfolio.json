@@ -694,23 +694,6 @@
   },
   {
    "kind": "public",
-   "name": "shuxrat-ogli-site",
-   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
-   "stars": 0,
-   "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
-   "technologies": [
-    "JavaScript",
-    "CSS"
-   ],
-   "capabilities": [],
-   "maturity": "Active",
-   "rank": 3.4
-  },
-  {
-   "kind": "public",
    "name": "hamkor-nasiya",
    "description": "Ҳамкор Насия — Windows дастури (юклаб олиш)",
    "url": "https://github.com/linverno-tm/hamkor-nasiya",
@@ -723,6 +706,23 @@
     "Installment & credit tracking",
     "Desktop packaging"
    ],
+   "maturity": "Active",
+   "rank": 3.4
+  },
+  {
+   "kind": "public",
+   "name": "shuxrat-ogli-site",
+   "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "CSS"
+   ],
+   "capabilities": [],
    "maturity": "Active",
    "rank": 3.4
   },
