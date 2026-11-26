@@ -34,7 +34,9 @@ function makeClient(apiKey) {
         });
         if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
         if (!res.ok) {
-          const err = new Error(`HTTP ${res.status} from ${endpoint}`);
+          // A short, sanitized hint of the body tells an auth problem from a bot wall (e.g. an HTML challenge page).
+          const body = (await res.text().catch(() => '')).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 160);
+          const err = new Error(`HTTP ${res.status} from ${endpoint}${body ? ` (${body})` : ''}`);
           err.fatal = true;
           throw err;
         }
