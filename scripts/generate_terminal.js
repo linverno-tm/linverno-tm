@@ -101,6 +101,16 @@ function computeStats(user, today) {
   };
 }
 
+// Programming since 7th grade — the GitHub account (createdAt) is much younger than that.
+const CODING_SINCE = process.env.CODING_SINCE || '2019-09-01';
+
+function codingYears(since, now) {
+  const a = new Date(since);
+  let y = now.getUTCFullYear() - a.getUTCFullYear();
+  if (now.getUTCMonth() < a.getUTCMonth() || (now.getUTCMonth() === a.getUTCMonth() && now.getUTCDate() < a.getUTCDate())) y--;
+  return y > 0 ? `${y} year${y === 1 ? '' : 's'} coding · ` : '';
+}
+
 function uptime(createdAt, now) {
   const a = new Date(createdAt);
   let months = (now.getUTCFullYear() - a.getUTCFullYear()) * 12 + (now.getUTCMonth() - a.getUTCMonth());
@@ -255,7 +265,7 @@ function neofetch(profile, waka, y0, at) {
     ['Role', role],
     ['Location', profile.location || ''],
     ['Timezone', tz ? `${tz} (${utcOffset(tz)})` : ''],
-    ['Uptime', `${uptime(profile.createdAt, new Date())} on GitHub`],
+    ['Uptime', `${codingYears(CODING_SINCE, new Date())}${uptime(profile.createdAt, new Date())} on GitHub`],
     ['Stack', stack.join(' · ')],
     ['Focus', focus],
     ['Repos', `${profile.publicRepos.totalCount} public · ${profile.allRepos.totalCount} total`],
