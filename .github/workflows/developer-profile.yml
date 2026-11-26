@@ -5,7 +5,8 @@ name: Developer Profile
 #   assets/profile.svg   full dashboard — WakaTime coding activity + GitHub repository intelligence
 #
 # Secrets
-#   WAKATIME_API_KEY     WakaTime API key (required).
+#   WAKATIME_API_KEY     WakaTime personal OAuth token, waka_tok_… from https://wakatime.com/oauth (required).
+#                        Plain API keys (waka_…) are plugin-only and get HTTP 403 from the stats API.
 #   GH_PORTFOLIO_TOKEN   Fine-grained personal access token, read-only "Contents" + "Metadata" on all
 #                        repositories. Enables private-repository analysis (output is anonymized).
 #                        Optional: without it only public repositories are analyzed.

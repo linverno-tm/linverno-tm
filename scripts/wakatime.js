@@ -21,7 +21,11 @@ const ACTIVE_DAY_MIN_SECONDS = 60;
 const HEAT_COLS = 12; // 2-hour blocks
 
 function makeClient(apiKey) {
-  const auth = `Basic ${Buffer.from(apiKey, 'utf8').toString('base64')}`;
+  // WakaTime (Nov 2026): API keys are write-only for editor plugins. Reading stats needs a personal
+  // OAuth token (https://wakatime.com/oauth, "waka_tok_…"), sent as a Bearer token.
+  const auth = /^waka_tok_/.test(apiKey)
+    ? `Bearer ${apiKey}`
+    : `Basic ${Buffer.from(apiKey, 'utf8').toString('base64')}`;
   return async function request(endpoint, params = {}) {
     const url = new URL(API_BASE + endpoint);
     for (const [k, v] of Object.entries(params)) if (v != null) url.searchParams.set(k, String(v));
