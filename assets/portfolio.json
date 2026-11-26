@@ -2,12 +2,12 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-11-01",
+ "generatedAt": "2026-11-26",
  "counts": {
-  "repositories": 37,
-  "projects": 33,
-  "public": 17,
-  "private": 16,
+  "repositories": 41,
+  "projects": 37,
+  "public": 20,
+  "private": 17,
   "excluded": 4
  },
  "projects": [
@@ -140,35 +140,6 @@
    "rank": 6.6
   },
   {
-   "kind": "public",
-   "name": "accounting-report",
-   "description": "Buxgalteriya hisoboti generatori - faktura va kassa cheklaridan kameral tekshiruv hisobotini yigadi",
-   "url": "https://github.com/linverno-tm/accounting-report",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": "Desktop",
-   "technologies": [
-    "Python",
-    "SQLite",
-    "Tkinter"
-   ],
-   "capabilities": [
-    "Local database",
-    "Inventory management",
-    "Sales & POS",
-    "Reporting & analytics",
-    "Excel & PDF processing",
-    "Accounting & invoicing",
-    "Data processing",
-    "File import/export",
-    "Desktop packaging",
-    "Desktop UI"
-   ],
-   "maturity": "Active",
-   "rank": 6.6
-  },
-  {
    "kind": "private",
    "title": "API Service",
    "category": "Backend Systems",
@@ -192,23 +163,27 @@
    "rank": 6.2
   },
   {
-   "kind": "private",
-   "title": "Game Project",
-   "category": "Games",
-   "platform": null,
+   "kind": "public",
+   "name": "mini-ges-site",
+   "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
+   "url": "https://github.com/linverno-tm/mini-ges-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
    "technologies": [
-    "C++",
-    "C",
-    "Docker",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "Cloudflare Workers",
     "GitHub Actions"
    ],
    "capabilities": [
-    "Reporting & analytics",
+    "Telegram bot automation",
     "Multi-language (i18n)",
     "SMS & messaging",
-    "Game mechanics",
-    "CI/CD pipelines",
-    "Desktop packaging"
+    "CI/CD pipelines"
    ],
    "maturity": "Active",
    "rank": 6
@@ -250,26 +225,32 @@
   },
   {
    "kind": "public",
-   "name": "mini-ges-site",
-   "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
-   "url": "https://github.com/linverno-tm/mini-ges-site",
+   "name": "accounting-report",
+   "description": "Buxgalteriya hisoboti generatori - faktura va kassa cheklaridan kameral tekshiruv hisobotini yigadi",
+   "url": "https://github.com/linverno-tm/accounting-report",
    "stars": 0,
    "forks": 0,
-   "category": "Web Applications",
-   "platform": "Web",
+   "category": "Business Software",
+   "platform": "Desktop",
    "technologies": [
-    "JavaScript",
     "Python",
-    "HTML",
-    "CSS",
-    "GitHub Actions"
+    "SQLite",
+    "Tkinter"
    ],
    "capabilities": [
-    "Multi-language (i18n)",
-    "CI/CD pipelines"
+    "Local database",
+    "Inventory management",
+    "Sales & POS",
+    "Reporting & analytics",
+    "Excel & PDF processing",
+    "Accounting & invoicing",
+    "Data processing",
+    "File import/export",
+    "Desktop packaging",
+    "Desktop UI"
    ],
-   "maturity": "Active",
-   "rank": 5.4
+   "maturity": "Maintained",
+   "rank": 5.6
   },
   {
    "kind": "private",
@@ -343,27 +324,26 @@
    "rank": 5.4
   },
   {
-   "kind": "public",
-   "name": "bank-statement-cleaner",
-   "description": "",
-   "url": "https://github.com/linverno-tm/bank-statement-cleaner",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
+   "kind": "private",
+   "title": "Game Project",
+   "category": "Games",
    "platform": null,
    "technologies": [
-    "JavaScript",
-    "Python",
-    "PowerShell",
+    "C++",
+    "C",
+    "Docker",
     "GitHub Actions"
    ],
    "capabilities": [
-    "Excel & PDF processing",
-    "Bank statement processing",
-    "CI/CD pipelines"
+    "Reporting & analytics",
+    "Multi-language (i18n)",
+    "SMS & messaging",
+    "Game mechanics",
+    "CI/CD pipelines",
+    "Desktop packaging"
    ],
-   "maturity": "Active",
-   "rank": 5.4
+   "maturity": "Maintained",
+   "rank": 5
   },
   {
    "kind": "public",
@@ -398,19 +378,20 @@
   },
   {
    "kind": "public",
-   "name": "shuxrat-ogli-v2",
-   "description": "",
-   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
+   "name": "oltinkol-zona",
+   "description": "Andijon Charm-Poyabzal Markazi — Oltinko'l charm-poyabzal zonasi rasmiy sayti: https://andijoncharmpoyabzal.uz",
+   "url": "https://github.com/linverno-tm/oltinkol-zona",
    "stars": 0,
    "forks": 0,
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
-    "JavaScript",
     "HTML",
-    "CSS"
+    "GitHub Actions"
    ],
-   "capabilities": [],
+   "capabilities": [
+    "CI/CD pipelines"
+   ],
    "maturity": "Active",
    "rank": 4.6
   },
@@ -434,20 +415,19 @@
   },
   {
    "kind": "public",
-   "name": "oltinkol-zona",
-   "description": "Andijon Charm-Poyabzal Markazi — Oltinko'l charm-poyabzal zonasi rasmiy sayti: https://andijoncharmpoyabzal.uz",
-   "url": "https://github.com/linverno-tm/oltinkol-zona",
+   "name": "shuxrat-ogli-v2",
+   "description": "",
+   "url": "https://github.com/linverno-tm/shuxrat-ogli-v2",
    "stars": 0,
    "forks": 0,
    "category": "Web Applications",
    "platform": "Web",
    "technologies": [
+    "JavaScript",
     "HTML",
-    "GitHub Actions"
+    "CSS"
    ],
-   "capabilities": [
-    "CI/CD pipelines"
-   ],
+   "capabilities": [],
    "maturity": "Active",
    "rank": 4.6
   },
@@ -521,6 +501,29 @@
     "Desktop packaging"
    ],
    "maturity": "Active",
+   "rank": 4.4
+  },
+  {
+   "kind": "public",
+   "name": "bank-statement-cleaner",
+   "description": "",
+   "url": "https://github.com/linverno-tm/bank-statement-cleaner",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "PowerShell",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "Bank statement processing",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Maintained",
    "rank": 4.4
   },
   {
@@ -711,6 +714,54 @@
   },
   {
    "kind": "public",
+   "name": "rizosavdo-sayt",
+   "description": "RIZO sovgʻa doʻkoni sayti",
+   "url": "https://github.com/linverno-tm/rizosavdo-sayt",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "HTML"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.4
+  },
+  {
+   "kind": "private",
+   "title": "Web Platform II",
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "HTML"
+   ],
+   "capabilities": [
+    "Maps & geolocation"
+   ],
+   "maturity": "Active",
+   "rank": 3.4
+  },
+  {
+   "kind": "public",
+   "name": "artqala-konsept",
+   "description": "Art Qala gallery redesign concept (not the official site)",
+   "url": "https://github.com/linverno-tm/artqala-konsept",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "HTML",
+    "CSS"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.4
+  },
+  {
+   "kind": "public",
    "name": "shuxrat-ogli-site",
    "description": "Shuxrat o'g'li (Baraka hamkor parranda XK) brend sayti — namuna",
    "url": "https://github.com/linverno-tm/shuxrat-ogli-site",
@@ -725,6 +776,22 @@
    "capabilities": [],
    "maturity": "Active",
    "rank": 3.4
+  },
+  {
+   "kind": "public",
+   "name": "starmix-site",
+   "description": "STARMIX — zargarlik asbob-uskunalari (yangi sayt)",
+   "url": "https://github.com/linverno-tm/starmix-site",
+   "stars": 0,
+   "forks": 0,
+   "category": "Web Applications",
+   "platform": "Web",
+   "technologies": [
+    "HTML"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.2
   },
   {
    "kind": "private",
@@ -762,9 +829,9 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 16,
-   "public": 9,
-   "private": 7,
+   "count": 20,
+   "public": 12,
+   "private": 8,
    "technologies": [
     "JavaScript",
     "React",
@@ -829,6 +896,52 @@
    ]
   },
   {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 6,
+   "public": 2,
+   "private": 4,
+   "technologies": [
+    "Telegram Bot API",
+    "Python",
+    "JavaScript",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Flask"
+   ],
+   "capabilities": [
+    "Telegram bot automation",
+    "Excel & PDF processing",
+    "AI integration",
+    "Authentication",
+    "CI/CD pipelines",
+    "Customer management"
+   ]
+  },
+  {
+   "name": "Backend Systems",
+   "domain": false,
+   "count": 6,
+   "public": 3,
+   "private": 3,
+   "technologies": [
+    "Python",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Flask",
+    "REST APIs",
+    "SQLite"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Excel & PDF processing",
+    "Reporting & analytics",
+    "API integration",
+    "CI/CD pipelines",
+    "Sales & POS"
+   ]
+  },
+  {
    "name": "Experimental",
    "domain": true,
    "count": 6,
@@ -852,29 +965,6 @@
    ]
   },
   {
-   "name": "AI & Automation",
-   "domain": true,
-   "count": 5,
-   "public": 1,
-   "private": 4,
-   "technologies": [
-    "Telegram Bot API",
-    "Python",
-    "JavaScript",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Flask"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "Telegram bot automation",
-    "AI integration",
-    "Authentication",
-    "Customer management",
-    "ERP integration"
-   ]
-  },
-  {
    "name": "Productivity",
    "domain": true,
    "count": 5,
@@ -895,29 +985,6 @@
     "Reporting & analytics",
     "Authentication",
     "Cloud synchronization"
-   ]
-  },
-  {
-   "name": "Backend Systems",
-   "domain": false,
-   "count": 5,
-   "public": 2,
-   "private": 3,
-   "technologies": [
-    "Python",
-    "Cloudflare D1",
-    "Cloudflare Workers",
-    "Flask",
-    "REST APIs",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Authentication",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "API integration",
-    "Sales & POS",
-    "Accounting & invoicing"
    ]
   },
   {
@@ -990,235 +1057,235 @@
  ],
  "technologies": [
   {
+   "name": "HTML",
+   "group": "web",
+   "language": true,
+   "count": 19,
+   "percent": 51.35135135135135
+  },
+  {
    "name": "Python",
    "group": "backend",
    "language": true,
    "count": 17,
-   "percent": 51.515151515151516
-  },
-  {
-   "name": "HTML",
-   "group": "web",
-   "language": true,
-   "count": 15,
-   "percent": 45.45454545454545
+   "percent": 45.94594594594595
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 15,
-   "percent": 45.45454545454545
+   "count": 16,
+   "percent": 43.24324324324324
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
-   "count": 10,
-   "percent": 30.303030303030305
+   "count": 11,
+   "percent": 29.72972972972973
   },
   {
    "name": "GitHub Actions",
    "group": "tools",
    "language": false,
    "count": 9,
-   "percent": 27.27272727272727
+   "percent": 24.324324324324326
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
    "count": 9,
-   "percent": 27.27272727272727
+   "percent": 24.324324324324326
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 21.21212121212121
+   "percent": 18.91891891891892
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 18.181818181818183
+   "percent": 16.216216216216218
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 18.181818181818183
+   "percent": 16.216216216216218
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 18.181818181818183
+   "percent": 16.216216216216218
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 5,
-   "percent": 15.151515151515152
+   "percent": 13.513513513513514
   },
   {
    "name": "SQLite",
    "group": "database",
    "language": false,
    "count": 5,
-   "percent": 15.151515151515152
+   "percent": 13.513513513513514
+  },
+  {
+   "name": "Cloudflare Workers",
+   "group": "backend",
+   "language": false,
+   "count": 4,
+   "percent": 10.81081081081081
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.090909090909092
+   "percent": 8.108108108108109
   },
   {
    "name": "Cloudflare D1",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.090909090909092
-  },
-  {
-   "name": "Cloudflare Workers",
-   "group": "backend",
-   "language": false,
-   "count": 3,
-   "percent": 9.090909090909092
+   "percent": 8.108108108108109
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 9.090909090909092
+   "percent": 8.108108108108109
   },
   {
    "name": "REST APIs",
    "group": "backend",
    "language": false,
    "count": 3,
-   "percent": 9.090909090909092
+   "percent": 8.108108108108109
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 6.0606060606060606
+   "percent": 5.405405405405405
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.0606060606060606
+   "percent": 5.405405405405405
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 6.0606060606060606
+   "percent": 5.405405405405405
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 6.0606060606060606
+   "percent": 5.405405405405405
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Telegram Bot API",
    "group": "ai",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 3.0303030303030303
+   "percent": 2.7027027027027026
   }
  ],
  "pairs": [
@@ -1303,11 +1370,11 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 23
+   "count": 24
   },
   {
    "name": "Maintained",
-   "count": 9
+   "count": 12
   },
   {
    "name": "Experimental",
@@ -1315,109 +1382,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-05-03",
-  "windowEnd": "2026-11-01",
+  "windowStart": "2026-05-28",
+  "windowEnd": "2026-11-26",
   "days": [
-   {
-    "date": "2026-05-03",
-    "count": 0
-   },
-   {
-    "date": "2026-05-04",
-    "count": 0
-   },
-   {
-    "date": "2026-05-05",
-    "count": 0
-   },
-   {
-    "date": "2026-05-06",
-    "count": 0
-   },
-   {
-    "date": "2026-05-07",
-    "count": 0
-   },
-   {
-    "date": "2026-05-08",
-    "count": 0
-   },
-   {
-    "date": "2026-05-09",
-    "count": 0
-   },
-   {
-    "date": "2026-05-10",
-    "count": 0
-   },
-   {
-    "date": "2026-05-11",
-    "count": 0
-   },
-   {
-    "date": "2026-05-12",
-    "count": 0
-   },
-   {
-    "date": "2026-05-13",
-    "count": 0
-   },
-   {
-    "date": "2026-05-14",
-    "count": 0
-   },
-   {
-    "date": "2026-05-15",
-    "count": 0
-   },
-   {
-    "date": "2026-05-16",
-    "count": 0
-   },
-   {
-    "date": "2026-05-17",
-    "count": 0
-   },
-   {
-    "date": "2026-05-18",
-    "count": 0
-   },
-   {
-    "date": "2026-05-19",
-    "count": 0
-   },
-   {
-    "date": "2026-05-20",
-    "count": 0
-   },
-   {
-    "date": "2026-05-21",
-    "count": 0
-   },
-   {
-    "date": "2026-05-22",
-    "count": 0
-   },
-   {
-    "date": "2026-05-23",
-    "count": 0
-   },
-   {
-    "date": "2026-05-24",
-    "count": 0
-   },
-   {
-    "date": "2026-05-25",
-    "count": 0
-   },
-   {
-    "date": "2026-05-26",
-    "count": 0
-   },
-   {
-    "date": "2026-05-27",
-    "count": 0
-   },
    {
     "date": "2026-05-28",
     "count": 0
@@ -2048,14 +2015,114 @@
    },
    {
     "date": "2026-11-01",
-    "count": 15
+    "count": 20
+   },
+   {
+    "date": "2026-11-02",
+    "count": 13
+   },
+   {
+    "date": "2026-11-03",
+    "count": 1
+   },
+   {
+    "date": "2026-11-04",
+    "count": 1
+   },
+   {
+    "date": "2026-11-05",
+    "count": 10
+   },
+   {
+    "date": "2026-11-06",
+    "count": 2
+   },
+   {
+    "date": "2026-11-07",
+    "count": 9
+   },
+   {
+    "date": "2026-11-08",
+    "count": 0
+   },
+   {
+    "date": "2026-11-09",
+    "count": 0
+   },
+   {
+    "date": "2026-11-10",
+    "count": 0
+   },
+   {
+    "date": "2026-11-11",
+    "count": 3
+   },
+   {
+    "date": "2026-11-12",
+    "count": 0
+   },
+   {
+    "date": "2026-11-13",
+    "count": 0
+   },
+   {
+    "date": "2026-11-14",
+    "count": 0
+   },
+   {
+    "date": "2026-11-15",
+    "count": 0
+   },
+   {
+    "date": "2026-11-16",
+    "count": 0
+   },
+   {
+    "date": "2026-11-17",
+    "count": 0
+   },
+   {
+    "date": "2026-11-18",
+    "count": 0
+   },
+   {
+    "date": "2026-11-19",
+    "count": 0
+   },
+   {
+    "date": "2026-11-20",
+    "count": 0
+   },
+   {
+    "date": "2026-11-21",
+    "count": 0
+   },
+   {
+    "date": "2026-11-22",
+    "count": 5
+   },
+   {
+    "date": "2026-11-23",
+    "count": 0
+   },
+   {
+    "date": "2026-11-24",
+    "count": 0
+   },
+   {
+    "date": "2026-11-25",
+    "count": 0
+   },
+   {
+    "date": "2026-11-26",
+    "count": 0
    }
   ],
-  "total": 334,
-  "last90": 334,
-  "activeProjects30": 10,
-  "longestStreak": 7,
-  "currentStreak": 7,
+  "total": 383,
+  "last90": 317,
+  "activeProjects30": 14,
+  "longestStreak": 13,
+  "currentStreak": 0,
   "mostActive": {
    "kind": "public",
    "name": "bank-statement-cleaner",
