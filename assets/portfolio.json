@@ -140,29 +140,6 @@
    "rank": 6.6
   },
   {
-   "kind": "private",
-   "title": "API Service",
-   "category": "Backend Systems",
-   "platform": "Backend",
-   "technologies": [
-    "Dart",
-    "JavaScript",
-    "Python",
-    "HTML",
-    "Flutter",
-    "Cloudflare Workers",
-    "REST APIs",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "Excel & PDF processing",
-    "API integration",
-    "Camera & QR scanning"
-   ],
-   "maturity": "Active",
-   "rank": 6.2
-  },
-  {
    "kind": "public",
    "name": "mini-ges-site",
    "description": "MINI GES — mini gidroelektrostansiyalar sayti (Ulug'nor GES, Baliqchi GES)",
@@ -322,6 +299,29 @@
    ],
    "maturity": "Active",
    "rank": 5.4
+  },
+  {
+   "kind": "private",
+   "title": "API Service",
+   "category": "Backend Systems",
+   "platform": "Backend",
+   "technologies": [
+    "Dart",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Flutter",
+    "Cloudflare Workers",
+    "REST APIs",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Excel & PDF processing",
+    "API integration",
+    "Camera & QR scanning"
+   ],
+   "maturity": "Maintained",
+   "rank": 5.2
   },
   {
    "kind": "private",
@@ -1370,11 +1370,11 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 24
+   "count": 23
   },
   {
    "name": "Maintained",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Experimental",

@@ -278,13 +278,13 @@
 <rect x="24.5" y="998.5" width="851" height="59" rx="10" fill="#161B22" stroke="#30363D"/>
 <text x="44" y="1033" class="label">PROJECT MATURITY</text>
 <rect x="214" y="1024" width="211.54" height="8" rx="4" fill="#21262D"/>
-<rect x="214" y="1024" width="135.22" height="8" rx="4" fill="#8B7CF6"/>
-<rect x="351.22" y="1024" width="66.61" height="8" rx="4" fill="#5f57a5"/>
+<rect x="214" y="1024" width="129.5" height="8" rx="4" fill="#8B7CF6"/>
+<rect x="345.5" y="1024" width="72.32" height="8" rx="4" fill="#5f57a5"/>
 <rect x="419.82" y="1024" width="5.72" height="8" rx="4" fill="#424073"/>
 <circle cx="457.54" cy="1028" r="4" fill="#8B7CF6"/>
-<text x="467.54" y="1032" class="label">ACTIVE 24</text>
+<text x="467.54" y="1032" class="label">ACTIVE 23</text>
 <circle cx="564.04" cy="1028" r="4" fill="#5f57a5"/>
-<text x="574.04" y="1032" class="label">MAINTAINED 12</text>
+<text x="574.04" y="1032" class="label">MAINTAINED 13</text>
 <circle cx="707.02" cy="1028" r="4" fill="#424073"/>
 <text x="717.02" y="1032" class="label">EXPERIMENTAL 1</text>
 <text x="24" y="1094" class="sec">TECHNOLOGY ECOSYSTEM</text>
