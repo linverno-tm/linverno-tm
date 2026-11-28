@@ -2,7 +2,7 @@
  "login": "linverno-tm",
  "mode": "private",
  "partial": false,
- "generatedAt": "2026-11-27",
+ "generatedAt": "2026-11-28",
  "counts": {
   "repositories": 41,
   "projects": 37,
@@ -1382,13 +1382,9 @@
   }
  ],
  "activity": {
-  "windowStart": "2026-05-29",
-  "windowEnd": "2026-11-27",
+  "windowStart": "2026-05-30",
+  "windowEnd": "2026-11-28",
   "days": [
-   {
-    "date": "2026-05-29",
-    "count": 0
-   },
    {
     "date": "2026-05-30",
     "count": 0
@@ -2115,6 +2111,10 @@
    },
    {
     "date": "2026-11-27",
+    "count": 0
+   },
+   {
+    "date": "2026-11-28",
     "count": 0
    }
   ],
