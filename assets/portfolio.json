@@ -4,10 +4,10 @@
  "partial": false,
  "generatedAt": "2026-11-28",
  "counts": {
-  "repositories": 41,
-  "projects": 37,
+  "repositories": 45,
+  "projects": 41,
   "public": 20,
-  "private": 17,
+  "private": 21,
   "excluded": 4
  },
  "projects": [
@@ -116,6 +116,31 @@
   },
   {
    "kind": "private",
+   "title": "Telegram Automation Bot",
+   "category": "AI & Automation",
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "CSS",
+    "REST APIs",
+    "SQLite",
+    "Telegram Bot API",
+    "GitHub Actions"
+   ],
+   "capabilities": [
+    "Offline-first sync",
+    "Local database",
+    "Inventory management",
+    "Telegram bot automation",
+    "API integration",
+    "CI/CD pipelines"
+   ],
+   "maturity": "Active",
+   "rank": 6.6000000000000005
+  },
+  {
+   "kind": "private",
    "title": "Web Platform",
    "category": "Web Applications",
    "platform": "Web",
@@ -164,6 +189,32 @@
    ],
    "maturity": "Active",
    "rank": 6
+  },
+  {
+   "kind": "private",
+   "title": "Telegram Automation Bot II",
+   "category": "AI & Automation",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "REST APIs",
+    "Telegram Bot API"
+   ],
+   "capabilities": [
+    "Authentication",
+    "Reporting & analytics",
+    "Telegram bot automation",
+    "Browser automation & scraping",
+    "API integration",
+    "SMS & messaging",
+    "File import/export",
+    "Task & schedule management"
+   ],
+   "maturity": "Active",
+   "rank": 5.800000000000001
   },
   {
    "kind": "public",
@@ -254,6 +305,25 @@
    "rank": 5.4
   },
   {
+   "kind": "private",
+   "title": "Retail Operations Platform III",
+   "category": "Business Software",
+   "platform": "Web",
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "Node.js"
+   ],
+   "capabilities": [
+    "Inventory management",
+    "Sales & POS"
+   ],
+   "maturity": "Active",
+   "rank": 5.4
+  },
+  {
    "kind": "public",
    "name": "invoice-to-smartpos",
    "description": "Hisob-faktura .xls fayllarini SmartPOS product_list Excel formatiga aylantiruvchi desktop dastur",
@@ -278,7 +348,7 @@
   },
   {
    "kind": "private",
-   "title": "Retail Operations Platform III",
+   "title": "Retail Operations Platform IV",
    "category": "Business Software",
    "platform": "Web",
    "technologies": [
@@ -486,6 +556,25 @@
   },
   {
    "kind": "private",
+   "title": "Telegram Automation Bot III",
+   "category": "AI & Automation",
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Node.js",
+    "Cloudflare Workers",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Telegram bot automation"
+   ],
+   "maturity": "Active",
+   "rank": 4.4
+  },
+  {
+   "kind": "private",
    "title": "Windows Desktop Tool",
    "category": "Desktop Applications",
    "platform": "Desktop",
@@ -528,7 +617,7 @@
   },
   {
    "kind": "private",
-   "title": "Telegram Automation Bot",
+   "title": "Telegram Automation Bot IV",
    "category": "AI & Automation",
    "platform": "Web",
    "technologies": [
@@ -551,7 +640,7 @@
   },
   {
    "kind": "private",
-   "title": "Telegram Automation Bot II",
+   "title": "Telegram Automation Bot V",
    "category": "AI & Automation",
    "platform": null,
    "technologies": [
@@ -612,6 +701,21 @@
   },
   {
    "kind": "private",
+   "title": "Software Project",
+   "category": null,
+   "platform": null,
+   "technologies": [
+    "JavaScript",
+    "Python",
+    "CSS",
+    "PowerShell"
+   ],
+   "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.8
+  },
+  {
+   "kind": "private",
    "title": "Productivity Application",
    "category": "Productivity",
    "platform": null,
@@ -628,7 +732,7 @@
   },
   {
    "kind": "private",
-   "title": "Software Project",
+   "title": "Software Project II",
    "category": null,
    "platform": null,
    "technologies": [
@@ -639,21 +743,6 @@
     "Push notifications",
     "SMS & messaging"
    ],
-   "maturity": "Active",
-   "rank": 3.8
-  },
-  {
-   "kind": "private",
-   "title": "Software Project II",
-   "category": null,
-   "platform": null,
-   "technologies": [
-    "JavaScript",
-    "Python",
-    "CSS",
-    "PowerShell"
-   ],
-   "capabilities": [],
    "maturity": "Active",
    "rank": 3.8
   },
@@ -697,23 +786,6 @@
   },
   {
    "kind": "public",
-   "name": "hamkor-nasiya",
-   "description": "Ҳамкор Насия — Windows дастури (юклаб олиш)",
-   "url": "https://github.com/linverno-tm/hamkor-nasiya",
-   "stars": 0,
-   "forks": 0,
-   "category": "Business Software",
-   "platform": null,
-   "technologies": [],
-   "capabilities": [
-    "Installment & credit tracking",
-    "Desktop packaging"
-   ],
-   "maturity": "Active",
-   "rank": 3.4
-  },
-  {
-   "kind": "public",
    "name": "rizosavdo-sayt",
    "description": "RIZO sovgʻa doʻkoni sayti",
    "url": "https://github.com/linverno-tm/rizosavdo-sayt",
@@ -726,6 +798,23 @@
     "HTML"
    ],
    "capabilities": [],
+   "maturity": "Active",
+   "rank": 3.4
+  },
+  {
+   "kind": "public",
+   "name": "hamkor-nasiya",
+   "description": "Ҳамкор Насия — Windows дастури (юклаб олиш)",
+   "url": "https://github.com/linverno-tm/hamkor-nasiya",
+   "stars": 0,
+   "forks": 0,
+   "category": "Business Software",
+   "platform": null,
+   "technologies": [],
+   "capabilities": [
+    "Installment & credit tracking",
+    "Desktop packaging"
+   ],
    "maturity": "Active",
    "rank": 3.4
   },
@@ -829,9 +918,9 @@
   {
    "name": "Web Applications",
    "domain": false,
-   "count": 20,
+   "count": 22,
    "public": 12,
-   "private": 8,
+   "private": 10,
    "technologies": [
     "JavaScript",
     "React",
@@ -842,34 +931,57 @@
    ],
    "capabilities": [
     "Customer management",
-    "Excel & PDF processing",
     "Reporting & analytics",
     "Sales & POS",
     "Authentication",
-    "CI/CD pipelines"
+    "Excel & PDF processing",
+    "Inventory management"
    ]
   },
   {
    "name": "Business Software",
    "domain": true,
-   "count": 13,
+   "count": 15,
    "public": 7,
-   "private": 6,
+   "private": 8,
    "technologies": [
     "Python",
-    "React",
     "JavaScript",
-    "TypeScript",
+    "React",
     "SQLite",
-    "Cloud Firestore"
+    "TypeScript",
+    "REST APIs"
    ],
    "capabilities": [
-    "Customer management",
-    "Excel & PDF processing",
-    "Reporting & analytics",
     "Sales & POS",
     "CI/CD pipelines",
-    "Desktop packaging"
+    "Customer management",
+    "Excel & PDF processing",
+    "Inventory management",
+    "Reporting & analytics"
+   ]
+  },
+  {
+   "name": "AI & Automation",
+   "domain": true,
+   "count": 9,
+   "public": 2,
+   "private": 7,
+   "technologies": [
+    "Telegram Bot API",
+    "Python",
+    "JavaScript",
+    "Cloudflare Workers",
+    "REST APIs",
+    "Cloudflare D1"
+   ],
+   "capabilities": [
+    "Telegram bot automation",
+    "API integration",
+    "Authentication",
+    "CI/CD pipelines",
+    "Excel & PDF processing",
+    "Reporting & analytics"
    ]
   },
   {
@@ -896,26 +1008,49 @@
    ]
   },
   {
-   "name": "AI & Automation",
+   "name": "Experimental",
+   "domain": true,
+   "count": 7,
+   "public": 1,
+   "private": 6,
+   "technologies": [
+    "Python",
+    "JavaScript",
+    "Flutter",
+    "REST APIs",
+    "SQLite",
+    "Dart"
+   ],
+   "capabilities": [
+    "AI integration",
+    "API integration",
+    "Authentication",
+    "CI/CD pipelines",
+    "Desktop packaging",
+    "Excel & PDF processing"
+   ]
+  },
+  {
+   "name": "Productivity",
    "domain": true,
    "count": 6,
    "public": 2,
    "private": 4,
    "technologies": [
-    "Telegram Bot API",
-    "Python",
-    "JavaScript",
-    "Cloudflare Workers",
-    "Cloudflare D1",
-    "Flask"
+    "Flutter",
+    "Dart",
+    "Cloud Firestore",
+    "Firebase",
+    "Provider",
+    "SQLite"
    ],
    "capabilities": [
-    "Telegram bot automation",
-    "Excel & PDF processing",
-    "AI integration",
+    "Task & schedule management",
+    "Reporting & analytics",
     "Authentication",
-    "CI/CD pipelines",
-    "Customer management"
+    "File import/export",
+    "Push notifications",
+    "Real-time updates"
    ]
   },
   {
@@ -939,52 +1074,6 @@
     "API integration",
     "CI/CD pipelines",
     "Sales & POS"
-   ]
-  },
-  {
-   "name": "Experimental",
-   "domain": true,
-   "count": 6,
-   "public": 1,
-   "private": 5,
-   "technologies": [
-    "Python",
-    "JavaScript",
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Cloudflare D1"
-   ],
-   "capabilities": [
-    "AI integration",
-    "Authentication",
-    "Desktop packaging",
-    "Excel & PDF processing",
-    "Reporting & analytics",
-    "Task & schedule management"
-   ]
-  },
-  {
-   "name": "Productivity",
-   "domain": true,
-   "count": 5,
-   "public": 2,
-   "private": 3,
-   "technologies": [
-    "Flutter",
-    "Dart",
-    "Cloud Firestore",
-    "Firebase",
-    "Provider",
-    "SQLite"
-   ],
-   "capabilities": [
-    "Task & schedule management",
-    "Push notifications",
-    "Real-time updates",
-    "Reporting & analytics",
-    "Authentication",
-    "Cloud synchronization"
    ]
   },
   {
@@ -1060,248 +1149,248 @@
    "name": "HTML",
    "group": "web",
    "language": true,
-   "count": 19,
-   "percent": 51.35135135135135
+   "count": 22,
+   "percent": 53.65853658536586
   },
   {
    "name": "Python",
    "group": "backend",
    "language": true,
-   "count": 17,
-   "percent": 45.94594594594595
+   "count": 21,
+   "percent": 51.21951219512195
   },
   {
    "name": "JavaScript",
    "group": "web",
    "language": true,
-   "count": 16,
-   "percent": 43.24324324324324
+   "count": 20,
+   "percent": 48.78048780487805
   },
   {
    "name": "CSS",
    "group": "web",
    "language": true,
-   "count": 11,
-   "percent": 29.72972972972973
-  },
-  {
-   "name": "GitHub Actions",
-   "group": "tools",
-   "language": false,
-   "count": 9,
-   "percent": 24.324324324324326
+   "count": 14,
+   "percent": 34.146341463414636
   },
   {
    "name": "Node.js",
    "group": "backend",
    "language": false,
-   "count": 9,
-   "percent": 24.324324324324326
+   "count": 11,
+   "percent": 26.82926829268293
+  },
+  {
+   "name": "GitHub Actions",
+   "group": "tools",
+   "language": false,
+   "count": 10,
+   "percent": 24.390243902439025
   },
   {
    "name": "TypeScript",
    "group": "web",
    "language": true,
    "count": 7,
-   "percent": 18.91891891891892
+   "percent": 17.073170731707318
   },
   {
    "name": "Dart",
    "group": "mobile",
    "language": true,
    "count": 6,
-   "percent": 16.216216216216218
+   "percent": 14.634146341463413
   },
   {
    "name": "Flutter",
    "group": "mobile",
    "language": false,
    "count": 6,
-   "percent": 16.216216216216218
+   "percent": 14.634146341463413
   },
   {
    "name": "React",
    "group": "web",
    "language": false,
    "count": 6,
-   "percent": 16.216216216216218
+   "percent": 14.634146341463413
+  },
+  {
+   "name": "SQLite",
+   "group": "database",
+   "language": false,
+   "count": 6,
+   "percent": 14.634146341463413
+  },
+  {
+   "name": "Cloudflare Workers",
+   "group": "backend",
+   "language": false,
+   "count": 5,
+   "percent": 12.195121951219512
   },
   {
    "name": "PowerShell",
    "group": "tools",
    "language": true,
    "count": 5,
-   "percent": 13.513513513513514
+   "percent": 12.195121951219512
   },
   {
-   "name": "SQLite",
-   "group": "database",
-   "language": false,
-   "count": 5,
-   "percent": 13.513513513513514
-  },
-  {
-   "name": "Cloudflare Workers",
+   "name": "REST APIs",
    "group": "backend",
    "language": false,
+   "count": 5,
+   "percent": 12.195121951219512
+  },
+  {
+   "name": "Cloudflare D1",
+   "group": "database",
+   "language": false,
    "count": 4,
-   "percent": 10.81081081081081
+   "percent": 9.75609756097561
   },
   {
    "name": "Cloud Firestore",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 8.108108108108109
-  },
-  {
-   "name": "Cloudflare D1",
-   "group": "database",
-   "language": false,
-   "count": 3,
-   "percent": 8.108108108108109
+   "percent": 7.317073170731707
   },
   {
    "name": "Firebase",
    "group": "database",
    "language": false,
    "count": 3,
-   "percent": 8.108108108108109
+   "percent": 7.317073170731707
   },
   {
-   "name": "REST APIs",
-   "group": "backend",
+   "name": "Telegram Bot API",
+   "group": "ai",
    "language": false,
    "count": 3,
-   "percent": 8.108108108108109
+   "percent": 7.317073170731707
   },
   {
    "name": "Flask",
    "group": "backend",
    "language": false,
    "count": 2,
-   "percent": 5.405405405405405
+   "percent": 4.878048780487805
   },
   {
    "name": "Next.js",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 5.405405405405405
+   "percent": 4.878048780487805
   },
   {
    "name": "Provider",
    "group": "mobile",
    "language": false,
    "count": 2,
-   "percent": 5.405405405405405
+   "percent": 4.878048780487805
   },
   {
    "name": "Tailwind CSS",
    "group": "web",
    "language": false,
    "count": 2,
-   "percent": 5.405405405405405
+   "percent": 4.878048780487805
   },
   {
    "name": "C",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "C++",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Cloud Functions",
    "group": "backend",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Docker",
    "group": "tools",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Flame",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Kotlin",
    "group": "mobile",
    "language": true,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "PHP",
    "group": "backend",
    "language": true,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "React Native",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Riverpod",
    "group": "mobile",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Shell",
    "group": "tools",
    "language": true,
    "count": 1,
-   "percent": 2.7027027027027026
-  },
-  {
-   "name": "Telegram Bot API",
-   "group": "ai",
-   "language": false,
-   "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   },
   {
    "name": "Tkinter",
    "group": "desktop",
    "language": false,
    "count": 1,
-   "percent": 2.7027027027027026
+   "percent": 2.4390243902439024
   }
  ],
  "pairs": [
   {
+   "a": "REST APIs",
+   "b": "Telegram Bot API",
+   "count": 2
+  },
+  {
+   "a": "REST APIs",
+   "b": "SQLite",
+   "count": 2
+  },
+  {
    "a": "React",
    "b": "SQLite",
-   "count": 2
-  },
-  {
-   "a": "Flutter",
-   "b": "SQLite",
-   "count": 2
-  },
-  {
-   "a": "Cloud Firestore",
-   "b": "Provider",
    "count": 2
   }
  ],
@@ -1340,8 +1429,8 @@
    "area": "Database",
    "technologies": [
     "SQLite",
-    "Cloud Firestore",
     "Cloudflare D1",
+    "Cloud Firestore",
     "Firebase"
    ]
   },
@@ -1370,7 +1459,7 @@
  "maturity": [
   {
    "name": "Active",
-   "count": 23
+   "count": 27
   },
   {
    "name": "Maintained",
@@ -1983,19 +2072,19 @@
    },
    {
     "date": "2026-10-26",
-    "count": 45
+    "count": 60
    },
    {
     "date": "2026-10-27",
-    "count": 18
-   },
-   {
-    "date": "2026-10-28",
     "count": 26
    },
    {
+    "date": "2026-10-28",
+    "count": 29
+   },
+   {
     "date": "2026-10-29",
-    "count": 25
+    "count": 30
    },
    {
     "date": "2026-10-30",
@@ -2007,11 +2096,11 @@
    },
    {
     "date": "2026-11-01",
-    "count": 20
+    "count": 25
    },
    {
     "date": "2026-11-02",
-    "count": 13
+    "count": 15
    },
    {
     "date": "2026-11-03",
@@ -2039,7 +2128,7 @@
    },
    {
     "date": "2026-11-09",
-    "count": 0
+    "count": 1
    },
    {
     "date": "2026-11-10",
@@ -2118,9 +2207,9 @@
     "count": 0
    }
   ],
-  "total": 383,
-  "last90": 317,
-  "activeProjects30": 13,
+  "total": 422,
+  "last90": 356,
+  "activeProjects30": 17,
   "longestStreak": 13,
   "currentStreak": 0,
   "mostActive": {
